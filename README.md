@@ -17,15 +17,15 @@ You can provide a search term and the endpoint will normalize your request and s
 
 You can provide sort query params for score, bottler, distiller, price, and title (this is default). You can separate your sort type and sort direction by an underscore. If you do not provide a sort direction, the default behavior is ascending direction. A few examples:
 
-1. /bourbons?sort=bottler*desc \_this will sort bourbons by bottler name in descending alphabetical order*
-2. /bourbouns?sort=price_asc \_this will sort bourbons by price - lowest to highest\*
+1. /bourbons?sort=bottler\_desc _this will sort bourbons by bottler name in descending alphabetical order_
+2. /bourbouns?sort=price\_asc _this will sort bourbons by price - lowest to highest_
 3. /bourbons?sort=score _note no direction is provided - this will sort bourbons by score (rating) and will default to ascending order lowest score to highest score_
 
 It is also possible to combine these query parameters. You may include both a search term and a sort. Some examples would look like:
 
-- /bourbons?search=barton&sort=score*desc \_this request should return bourbons bottled, distilled, or with barton (case insensitive) in the title and will sort them by bourbon score highest to lowest*
+- /bourbons?search=barton&sort=score\_desc _this request should return bourbons bottled, distilled, or with barton (case insensitive) in the title and will sort them by bourbon score highest to lowest_
 
-- /bourbons?search=turkey&sort=price*asc \_this request should return bourbons bottled, distilled, or with turkey (case insensitive) in the title and wil sort them by price lowest to highest*
+- /bourbons?search=turkey&sort=price\_asc _this request should return bourbons bottled, distilled, or with turkey (case insensitive) in the title and wil sort them by price lowest to highest_
 
 ### More endpoints are coming soon and will be documented as they are created. It should be noted that this is a personal project and is hosted via free resources and as such cannot be expected to the most performant API. Please don't expext to be able to field 1000's of responses per second 😂
 
