@@ -31,6 +31,6 @@ It is also possible to combine these query parameters. You may include both a se
 
 Coming soon...
 
-*[ ] GET request to receive a totally random bourbon (like a Bourbon of the Day!)
-*[ ] modifying the server response of the GET request to include the total number of records
-*[ ] integration into a frontend project that will allow for the building of digital bourbon collections and wishlists
+* [ ] GET request to receive a totally random bourbon (like a Bourbon of the Day!)
+* [ ] modifying the server response of the GET request to include the total number of records
+* [ ] integration into a frontend project that will allow for the building of digital bourbon collections and wishlists
