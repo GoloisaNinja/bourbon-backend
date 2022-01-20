@@ -7,7 +7,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by Barton for the 1792 product line, this particular release is a Bottled in Bond designation. While there isn't a discrete age statement on the label, we know it's at least 4 years old, along with the other qualifications that come with Bonded releases.",
@@ -30,7 +31,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '61.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is Bartons 1792 line of bourbons and this is their 2016 "maybe sorta a little limited but we hope people go full LE fever over this release" bourbon.',
@@ -53,7 +55,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '62.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"1792 Full Proof is typically a small batch, proofed release from Barton in Kentucky. Bottled at 125pf, it is hard to tell what the original barrel proof was for these releases, but all the same, 62.5% ABV isn't a bad number to run with. This is very similar to Knob Creeks Single Barrel Reserve, which is a release consistently diluted to 60% ABV and I like those all the way from fine to amazing. In this series, I'm comparing a variety of Single Barrel releases from the Full Proof lineup, selected by various stores, vendors and societies in the USA.",
@@ -76,7 +79,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '62.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"1792 Full Proof is typically a small batch, proofed release from Barton in Kentucky. Bottled at 125pf, it is hard to tell what the original barrel proof was for these releases, but all the same, 62.5% ABV isn't a bad number to run with. This is very similar to Knob Creeks Single Barrel Reserve, which is a release consistently diluted to 60% ABV and I like those all the way from fine to amazing. In this series, I'm comparing a variety of Single Barrel releases from the Full Proof lineup, selected by various stores, vendors and societies in the USA.",
@@ -99,7 +103,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '62.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"1792 Full Proof is typically a small batch, proofed release from Barton in Kentucky. Bottled at 125pf, it is hard to tell what the original barrel proof was for these releases, but all the same, 62.5% ABV isn't a bad number to run with. This is very similar to Knob Creeks Single Barrel Reserve, which is a release consistently diluted to 60% ABV and I like those all the way from fine to amazing. In this series, I'm comparing a variety of Single Barrel releases from the Full Proof lineup, selected by various stores, vendors and societies in the USA.",
@@ -122,7 +127,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '62.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"1792 Full Proof is typically a small batch, proofed release from Barton in Kentucky. Bottled at 125pf, it is hard to tell what the original barrel proof was for these releases, but all the same, 62.5% ABV isn't a bad number to run with. This is very similar to Knob Creeks Single Barrel Reserve, which is a release consistently diluted to 60% ABV and I like those all the way from fine to amazing. In this series, I'm comparing a variety of Single Barrel releases from the Full Proof lineup, selected by various stores, vendors and societies in the USA.",
@@ -145,7 +151,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '62.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"1792 Full Proof is typically a small batch, proofed release from Barton in Kentucky. Bottled at 125pf, it is hard to tell what the original barrel proof was for these releases, but all the same, 62.5% ABV isn't a bad number to run with. This is very similar to Knob Creeks Single Barrel Reserve, which is a release consistently diluted to 60% ABV and I like those all the way from fine to amazing. In this series, I'm comparing a variety of Single Barrel releases from the Full Proof lineup, selected by various stores, vendors and societies in the USA.",
@@ -168,7 +175,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '62.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"1792 Full Proof is typically a small batch, proofed release from Barton in Kentucky. Bottled at 125pf, it is hard to tell what the original barrel proof was for these releases, but all the same, 62.5% ABV isn't a bad number to run with. This is very similar to Knob Creeks Single Barrel Reserve, which is a release consistently diluted to 60% ABV and I like those all the way from fine to amazing. In this series, I'm comparing a variety of Single Barrel releases from the Full Proof lineup, selected by various stores, vendors and societies in the USA.",
@@ -191,7 +199,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '44.45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: 'This is a port finished bourbon produced by Barton.',
 			nose: 'Sweet jam, stewed fruits. Vanilla, honey, caramel. Faint cocoa. Its mostly all sweet.',
@@ -213,7 +222,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '45.6%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Banana candies (runts), cream, root beer, fruity sweet',
@@ -234,7 +244,8 @@ const bourbonSeeder = [
 		bottler: 'Ezra Brooks',
 		abv: '45%',
 		age: '12 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is an especially old "dusty" release of Ezra Brooks bourbon. It is 12 years old and was bottled in 1968.',
@@ -257,7 +268,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: 'Funky cornbread, sweet confectioners sugar. Pine and some light oak and ethanol. Butterscotch.',
@@ -279,7 +291,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '3 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a mashbill #2 product from Buffalo Trace. It is on their lower tier of product offerings, as can be spectacled from the plastic handle presentation they choose to bottle it in. This originally started as a 10yr product, then became "10 Stars" because ambiguity in this industry is often met with out cry and strict regulation. Wait a second.',
@@ -302,7 +315,8 @@ const bourbonSeeder = [
 		bottler: "Angel's Envy",
 		abv: '43.3%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Angels Envy is a port finished bourbon whiskey distilled by an undisclosed producer and bottled by Angels Envy.',
@@ -325,7 +339,8 @@ const bourbonSeeder = [
 		bottler: 'Undisclosed',
 		abv: '53.85%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Another single cask from Angel's Envy - this comes from barrel #3176 and was bottled at a notable 53% ABV.",
@@ -348,7 +363,8 @@ const bourbonSeeder = [
 		bottler: "Angel's Envy",
 		abv: '54.8%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Today’s review comes from a particularly interesting bottling - the first of many Angel’s Envy Single Cask releases hitting Kentucky. Bottled at an elevated proof - assuming barrel proof, but without any real evidence of such - this 54.8% ABV monster carries some real intriguing color and a price tag of $100. Image thanks to Colton West - I neglected to get a good picture when I tried this, so I appreciate him supplying this one.',
@@ -371,7 +387,8 @@ const bourbonSeeder = [
 		bottler: 'Backbone',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled by MGP and bottled by Backbone, this special release celebrates the brands 10th year in business: a true decade down.',
@@ -394,7 +411,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '53.5%',
 		age: '7 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is the fancy new re-release from Beam in the form of a product re-design. Coming in at 8.5 years old, this should be a pretty solid age for this release. Let's get to it.",
@@ -417,7 +435,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '53.5%',
 		age: '7 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: 'This is a 7yr Beam product released at 107pf.',
 			nose: 'Cinnamon, leather and some weird oak funk. Not as much Beam peanut butter funk as I expected.',
@@ -439,7 +458,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '53.5%',
 		age: '13 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Bakers 13yr is a new, Limited Release from Beam/Suntory as part of their Bakers Bourbon rebrand. It's bottled at the same ABV as Bakers (the original) and the new Bakers 7, so this should be an educational comparison to see how those extra 6(ish) years of aging impact things.",
@@ -462,7 +482,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '53.5%',
 		age: '11 Years 8 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"The first Bakers Private Selection to hit our desk, this is a single barrel for the program selected by Costco in San Diego, California. Bottled after 11 years and 8 months of aging, the addition of a single barrel program for Baker's is a bit of a red herring, but we'll welcome it all the same. Between regular Bakers, Bookers, Knob Creek, Knob Creek Selections and the addition of products like Little Book; it's tough to keep the Beam portfolio straight (or determine what product is aimed at who) - but if the result is tasty bourbon....I can't say no to that. Let's dive in.",
@@ -485,7 +506,8 @@ const bourbonSeeder = [
 		bottler: 'Balcones',
 		abv: '62.9%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"I tried this dram blind, and was given the reveal after submitting notes. This is Balcones Brujeria - an American Single Malt that is finished in Oloroso and PX sherry casks and bottled at cask strength. Let's see how I did.",
@@ -508,7 +530,8 @@ const bourbonSeeder = [
 		bottler: 'Bardstown Bourbon Company',
 		abv: '61.1%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Produced from a blend of KY bourbon, this mysterious combination comes to us from the Bardstown Bourbon Company in the form of their Discovery Series.',
@@ -531,7 +554,8 @@ const bourbonSeeder = [
 		bottler: 'Bardstown Bourbon Company',
 		abv: '47.45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"A blend of 11yr Kentucky Bourbon, and Bardstown's own 4yr and 3yr whiskey, Fusion Series 5 seeks to display the growth of Bardstown's own distillate in coming to parity with well aged distillate from sourced contracts. The blend is comprised of 30% Undisclosed KY Bourbon, 56% of Bardstown's own 4yr 70% corn mash and 14% of Bardstown's own 60% corn mash.",
@@ -554,7 +578,8 @@ const bourbonSeeder = [
 		bottler: 'Bardstown Bourbon Company',
 		abv: '53.5%',
 		age: '9 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Finished for 19 months in Phifer Pavitt Reserve Cabernet Sauvignon barrels, Bardstown Bourbon Company's Phifer Pavitt Reserve is a Dickel sourced whiskey with a wine maturation.",
@@ -577,7 +602,8 @@ const bourbonSeeder = [
 		bottler: 'Bardstown Bourbon Company',
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This straight bourbon whiskey from Bardstown Bourbon Company is finished in red wine barrels in a Collaboration Series release with the Prisoner Wine company. Bottled at 50% ABV.',
@@ -600,7 +626,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '52.55%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				'Old and expensive, Barrell Bourbon 15yr is a crown jewel in the companies barrel stock portfolio.',
@@ -623,7 +650,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '61.25%',
 		age: '7 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a sourced bourbon that is finished in rum casks, released under the Barrell line. This is sourced from an undisclosed Tennessee distiller and is barreled at cask strength. This was sent to me as a blind sample. I reviewed it live on the official Whiskey Network Discord server and got the reveal so that I could type up this review.',
@@ -646,7 +674,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '62.35%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Distilled in Tennessee, this 8yr Bourbon is bottled at barrel proof and produced from a mashbill of 70% corn, 26% rye and 4% malted barley.',
@@ -669,7 +698,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '66.4%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is batch 8 released by Barrell Bourbon. This is sourced from an undisclosed Tennessee distiller and is barreled at cask strength. At the time of its release, it was the highest proof release from Barrell.',
@@ -692,7 +722,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '56.05%',
 		age: '13 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is batch 9 released by Barrell Bourbon. This is sourced from an undisclosed Tennessee distiller and is barreled at cask strength. At the time of its release, it was the oldest, and also lowest proof Barrell expression to be sold.',
@@ -715,7 +746,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '57.4%',
 		age: '6 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is batch 11 released by Barrell Bourbon. This is sourced from an undisclosed Tennessee distiller and is barreled at cask strength.',
@@ -738,7 +770,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '56.95%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Barrell Bourbon Batch 024 is a blend of age statements all over the place - from 9 years to 15 years old. Bottled at a pleasant 113.9 proof, this is certain to have plenty of flavor.',
@@ -761,7 +794,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '56.32%',
 		age: '9 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'A wild blend of 9-15yr bourbon from Indiana, Tennessee and Kentucky, this fall 2020 release in Barrells portfolio comes to consumers at barrel proof - 56.32% ABV',
@@ -784,7 +818,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '57.85%',
 		age: '5 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Comprised of a blend of Tennessee, Kentucky and Indiana bourbons, this blend of straight bourbons carries 5,6,8,9,13 and 15yr components. Bottled by Barrell Craft Spirits at cask strength, Barrell Bourbon Batch 27 should be another interesting entry in the brands portfolio.',
@@ -807,7 +842,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '54.43%',
 		age: '10 Years 4 Months',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Produced in the states of Kentucky, Indiana and Tennessee, Batch 028 from Barrell Craft Spirits is age stated at 10 years old and bottled at barrel proof.',
@@ -830,7 +866,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '58.5%',
 		age: '5 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a blend of 5, 7, 8, 9, and 13 year old spirit that is sourced by Barrell from distilleries in Tennessee, Kentucky and Indiana. This batch was released as a year end limited edition. It is barreled at the blended cask strength (no dilution of one or any of the constituents).',
@@ -853,7 +890,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '73.06%',
 		age: '14 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a pretty interesting release. This is a single cask of rye picked by Bourbon Street Wine and Spirits from Barrell. It's 14 years old, the provenance is unknown (to us) and it's a bruiser at 73.06% ABV. Let's dive in.",
@@ -875,7 +913,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '52.55%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"This is an independent bottling of Dickel spirit, bottled by Barrell spirits in their new line of premium sourced bottlings. Clocking in at 15 years old with an ABV of 52.55, this is the oldest Barrel release I've had to date. Let's dive in.",
@@ -898,7 +937,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell Craft Spirits',
 		abv: '55.05%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Perhaps the wildest whiskey of 2020, Armida comes to us from Barrell Craft Spirits and is comprised of three straight bourbon whiskeys that have all seen vastly different finishing casks. Pear Brandy, Jamaican Rum and Sicilian Amaro Casks make up the three finishing periods here, and their dumped content are blended together. With roughly 3,500 bottles released, this is a true limited edition.',
@@ -921,7 +961,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell Craft Spirits',
 		abv: '56.77%',
 		age: '16 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"Distilled in Indiana, Kentucky and Tennessee and bottled in Kentucky, this release features a portion of the blend seeing a toasted barrel finish. With a 16 year age statement and the contents containing 16 and 17 year old distillate, Barrell is releasing this at cask strength, but with a price tag of $500. Worth the hefty msrp? Let's find out.",
@@ -944,7 +985,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell Craft Spirits',
 		abv: '56.95%',
 		age: '5 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Enter 2021's entry into the Barrell Bourbon Limited Edition catalogue: New Year 2021. Yielding just 2,570 bottles, this release is bottled at 59.65% ABV.",
@@ -967,7 +1009,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell',
 		abv: '59.2%',
 		age: '9 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a sourced American whiskey that is coming to us from Indiana, Tennessee and Kentucky. It is aged in American oak and finished in bourbon, brandy, Amaro and Cognac casks. It is bottled at cask strength.',
@@ -990,7 +1033,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '40%',
 		age: '8 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is an old release of the modern Basil Haydens expression from Beam/Suntory. It carries an 8yr age statement and it is bottled at 40% ABV',
@@ -1013,7 +1057,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -1032,7 +1077,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '40%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: null,
@@ -1051,7 +1097,8 @@ const bourbonSeeder = [
 		bottler: 'Nelsons Green Brier',
 		abv: '51.4%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a 10 year old single barrel from Belle Meade. It was a pick done through Craft Brewed. Belle Meade is bourbon sourced from MGP by the Green Brier distillery in Nashville, TN. This is bottled at cask strength.',
@@ -1073,7 +1120,8 @@ const bourbonSeeder = [
 		bottler: 'Nelsons Green Brier',
 		abv: '47.5%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is the 3rd release of Belle Meade Black Belle - a bourbon whiskey that is finished in imperial stout casks and bottled at cask strength, low as it may be. Last time I had this was at the tail end of a tasting when my palate was bonkers shot, so I'm looking forward to giving this a proper review. Let's dive in.",
@@ -1096,7 +1144,8 @@ const bourbonSeeder = [
 		bottler: 'Nelsons Green Brier',
 		abv: '57.9%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is a cask strength release of MGP bourbon by Nelson's Greenbrier under the name Belle Meade. Let's see how it is.",
@@ -1118,7 +1167,8 @@ const bourbonSeeder = [
 		bottler: 'Nelsons Greenbrier',
 		abv: '62.85%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a group pick Belle Meade bottling. It is bottled at cask strength and the base is sourced from MGP in Indiana.',
@@ -1141,7 +1191,8 @@ const bourbonSeeder = [
 		bottler: 'Nelsons Green Brier',
 		abv: '53.35%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a 9yr single barrel MGP cask picked and bottled at cask strength by Nelson Greenbrier Distillery in Nashville, TN under the Belle Meade label.',
@@ -1164,7 +1215,8 @@ const bourbonSeeder = [
 		bottler: 'Nelsons Greenbrier',
 		abv: '45.2%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Clove, cinnamon, odd raisen notes, oak, and a good bit of MGP bourbon baking spices and honey. As hard as the finish may try, it cant hide that this is MGP bourbon.',
@@ -1185,7 +1237,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: null,
@@ -1204,7 +1257,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '45%',
 		age: '7 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: 'Sweet mellow fruit (strawberry, faint banana) - vanilla, molasses and honey. Very light, mildly floral and fruity.',
@@ -1226,7 +1280,8 @@ const bourbonSeeder = [
 		bottler: 'Deutsch Family Wine and Spirits',
 		abv: '46%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: null,
@@ -1245,7 +1300,8 @@ const bourbonSeeder = [
 		bottler: 'Deutsch Family Wine and Spirits',
 		abv: null,
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: null,
@@ -1264,7 +1320,8 @@ const bourbonSeeder = [
 		bottler: 'Deutsch Family Wine and Spirits',
 		abv: '46%',
 		age: '6 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -1283,7 +1340,8 @@ const bourbonSeeder = [
 		bottler: 'Big Bottom',
 		abv: '45.5%',
 		age: '3 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a bourbon that is contract distilled and bottled by Big Bottom in Oregon. It is listed as a straight bourbon, is 3 years old and is bottled at 45.5% ABV. It features a 36% rye mashbill.',
@@ -1304,7 +1362,8 @@ const bourbonSeeder = [
 		bottler: 'Underdog Wine and Spirits',
 		abv: '45%',
 		age: '6 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a 6 year old bourbon that is bottled at 45% ABV. This is a sourced 60/35/5 mashbill from MGP and is bottled by Underdog Wine and Spirits from Livermore, California.',
@@ -1325,7 +1384,8 @@ const bourbonSeeder = [
 		bottler: 'Diageo',
 		abv: '45.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a product from Diageo that has some tiny component of Stitzel Weller. They make sure to tell you that, over and over, since its printed on the bottle just shy of 20 times. Since the price tag is "only" $49.99, there cant be much SW distillate inside. That leaves the rest to be distillate of unknown provenance. That being said, lets see how the liquid inside is.',
@@ -1348,7 +1408,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '51.5%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is an international only release of Blantons, a popular single barrel bourbon released by Buffalo Trace in the USA. The major selling point behind Blantons Gold, apart from its exclusivity of markets, is that it is bottled at a higher proof than regular Blantons. Lets see how it is.',
@@ -1371,7 +1432,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '46.5%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by Buffalo Trace for the Blanton's product line of expressions, this single barrel selection by Bourbon Street comes from barrel #11, in Warehouse H. Matured in Rick #31, this is bottle #35 from the barrel, dumped 4-11-2017. For those unaware, the Blantons product line is distilled by Buffalo Trace using Mashbill #2 for Age International Brands. Let's dive in.",
@@ -1394,7 +1456,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '66.65%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: 'Malty and sweet. Cereal grains, caramel, sugar and cream. Mild cinnamon and clove but the nose is all about sweet on this fella.',
@@ -1416,7 +1479,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '65.35%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a Mashbill #2 release from Buffalo Trace that is international only. It is bottled at cask strength.',
@@ -1439,7 +1503,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '65.3%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a Mashbill #2 release from Buffalo Trace that is international only. It is bottled at cask strength.',
@@ -1461,7 +1526,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '62.8%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a Mashbill #2 release from Buffalo Trace that is international only. It is bottled at cask strength.',
@@ -1483,7 +1549,8 @@ const bourbonSeeder = [
 		bottler: 'Blaum Bros',
 		abv: '58.6%',
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is another bottling of MGP spirit under a private label. I tasted this dram blind and then got the reveal at a later time, so keep that in mind as you read through these notes.',
@@ -1506,7 +1573,8 @@ const bourbonSeeder = [
 		bottler: 'Lux Row',
 		abv: '49.3%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Distilled by Heaven Hill, matured and bottled by Lux Row, this is the rare and limited release of their 7th chapter in the Blood Oath series. This release sees finishing in Sauternes casks - a sweet wine typically considered a dessert wine. There's no word on the provenance of the wine, as Sauternes can range from inexpensive and lesser pedigree all the way up to first growth Bordeaux levels of fame, but without an indication, it's up in the air here.",
@@ -1529,7 +1597,8 @@ const bourbonSeeder = [
 		bottler: 'Big River Distilling',
 		abv: '50.95%',
 		age: '17 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Distilled by an Undisclosed TN distiller 17 years ago (wink) - we all know who that has to be - this bottling comes to us after bottling by the folks at Big River Distilling. If you're familiar with Blue Note, Blue Note Juke Joint Whiskey and Riverset Rye, this is another piece of handiwork for the brand. It's bottled at 50.95% ABV, a welcome moderate proof for something this old. Let's see how it is.",
@@ -1552,7 +1621,8 @@ const bourbonSeeder = [
 		bottler: 'B.R. Distilling',
 		abv: '46.5%',
 		age: '3 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This bourbon whiskey comes to us from Tennessee, distilled at B.R. Distilling. Produced using a mashbill of 70/21/9, this 20 barrel batch of bourbon is at least 3 years old. It is bottled at 46.5% ABV and is not filtered. Let's get to it.",
@@ -1574,7 +1644,8 @@ const bourbonSeeder = [
 		bottler: 'Blue Run Spirits',
 		abv: '56.5%',
 		age: '13 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: null,
@@ -1593,7 +1664,8 @@ const bourbonSeeder = [
 		bottler: 'Campari',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Like Old Ripy, but different. Its been beat to death by now, for sure. This is batch 1 of the "Whiskey Barons" Bond and Lillard product. Charcoal filtered WT distillate, bottled at a respectable 50%. Its also bottled in 375 ml offerings but priced like expensive 750s. The word "Limited Edition" is also tossed around a fair bit, even though there are 100 of these on every shelf near me. Good ol, Campari.',
@@ -1616,7 +1688,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '63.85%',
 		age: '7 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Bookers is a Beam/Suntory product that is released unfiltered and at casks strength.',
@@ -1638,7 +1711,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '63.95%%',
 		age: '6 Years 5 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"The second release of 2021, this is Booker's Tagalong Batch. Aged for 6 years and 5 months, it's released at 127.9pf and can typically be found around the $100 mark.",
@@ -1661,7 +1735,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '62.9%',
 		age: '9 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				'This is a limited edition release from Beam/Suntory celebrating the 30th year of Bookers expressioons in their product line. While it cannot legally carry an age statement to represent the age of the oldest constituent, it is listed as a blend of 30% 16 year old bourbon and 70% 9 year old bourbon.',
@@ -1684,7 +1759,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '64.35%',
 		age: '7 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Bookers is a Beam/Suntory product that is released unfiltered and at casks strength.',
@@ -1707,7 +1783,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '63.25%',
 		age: '6 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Aged for 6 years, 3 months and 10 days and bottled at 63.25% ABV, this is the second release from Beam as an entry into the Booker’s portfolio, titled “Boston Batch”.',
@@ -1730,7 +1807,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '50.8%',
 		age: '8 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is an older batch of Bookers from before the days of namin batches.',
@@ -1753,7 +1831,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '63.6%',
 		age: '7 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'Bookers is a Beam/Suntory product that is released unfiltered and at casks strength.',
@@ -1776,7 +1855,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '64%',
 		age: '6 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Bookers is a Beam/Suntory product that is released unfiltered and at cask strength.',
@@ -1799,7 +1879,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '64.05%',
 		age: '6 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Bookers is a Beam/Suntory product that is released unfiltered and at cask strength.',
@@ -1821,7 +1902,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '63.5%',
 		age: '6 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Bookers is a Beam/Suntory product that is released unfiltered and at casks strength.',
@@ -1844,7 +1926,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '63.65%',
 		age: '6 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Aged for 6 years, 7 months and 7 days and bottled at 63.65% ABV, this is the third release from Beam as an entry into the Booker’s portfolio, titled “Pigskin Batch”.',
@@ -1867,7 +1950,8 @@ const bourbonSeeder = [
 		bottler: 'Bourbon Street Wine and Spirits',
 		abv: '55%',
 		age: '4 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is an independently bottled release of 4.5 year MGP distillate. Bottled for Bourbon Street Wine and Spirits, this barrel proof bourbon is batch 1, with plenty more to come as part of their house brand line. Let's dive in.",
@@ -1890,7 +1974,8 @@ const bourbonSeeder = [
 		bottler: 'Silver Screen Bottling Company',
 		abv: '51.9%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: null,
@@ -1909,7 +1994,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This core release from Buffalo Trace utilizes Mashbill 1 to deliver a 45% ABV Kentucky Straight Bourbon Whiskey with a cult like following.',
@@ -1932,7 +2018,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '17 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is the Fall 2012 Release of Buffalo Traces coveted Antique Collection member: Eagle Rare 17yr.',
@@ -1955,7 +2042,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50.5%',
 		age: '17 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"A bird of a different feather compared to previous releases, 2020's Eagle Rare 17yr sports an extra year of aging and a bit of a proof bump (first seen in 2019) when we inspect the fact",
@@ -1978,7 +2066,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '69.1%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is one of the bottles in each years lauded Buffalo Trace Antique Collection releases. Its barrel proof, well aged at ~15 years, mashbill 1 BT distillate.',
@@ -2001,7 +2090,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '64.6%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a well aged, cask strength bourbon that exists as part of the exclusive set of Antique Collection releases that drop from Buffalo Trace every fall. This is a 15 year old bourbon, released as a marriage of 309 barrels that were hand picked by Buffalo Trace staff. As we draw upon the fall hunt season, I found myself finishing this bottle from last years release and figured that Bourbon review #500 made for a good case to finish off the bottle, and my note taking.',
@@ -2024,7 +2114,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '62.45%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a widely anticipated annual release from Buffalo Trace. It is one of five bottles in their Antique Collection, and represents their take on a straight bourbon at cask strength. This was distilled in the spring of 2003 and bottled in 2018. There were still many, many bottles of this produced, clocking in around 37,000 - although that number is down compared to last year. Lets dive in and see how it is.',
@@ -2047,7 +2138,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '65.2%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a well aged, barrel strength bourbon that exists as part of the exclusive set of Antique Collection releases that drop from Buffalo Trace every fall. This is a 15 year old bourbon, historically released as a marriage of some 300 barrels that were hand picked by Buffalo Trace staff. In recent years, Buffalo Trace has stopped publishing bottle counts, leading drinkers to wonder just how many more of these are being released.',
@@ -2070,7 +2162,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '64.4%',
 		age: '6 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Thomas H Handy Sazerac Rye is a 6yr barrel proof rye that sits neatly in Buffalo Trace's Antique Collection - an annual release of extremely hyped bottlings.",
@@ -2093,7 +2186,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '67.3%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"William Larue Weller is the 12yr, barrel proof, wheated entry in Buffalo Trace's extremely rare annual release.",
@@ -2116,7 +2210,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '67.7%',
 		age: '13 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'William Larue Weller is the well aged, barrel proof, wheated expression in the annual Buffalo Trace Antique Collection release line.',
@@ -2138,7 +2233,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '67.25%',
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"William Larue Weller is the 12yr, barrel proof, wheated entry in Buffalo Trace's extremely rare annual release known as the Buffalo Trace Antique Collection",
@@ -2161,7 +2257,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Buffalo Trace is the name of a distiller and also a standardized, batched product released by that same distillery. This is a store selection, done by the Booze Boys, of a single barrel of Buffalo Trace, which is a BT Mashbill 1 spirit.',
@@ -2184,7 +2281,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '62.5%',
 		age: 'NA',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is Buffalo Traces Mashbill #1 Distillate bottled before aging.',
@@ -2207,7 +2305,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"This is a single barrel of bourbon selected by a local wine merchant, Rileys Wines of the World, from Buffalo Trace. It comes in at 45% ABV and features mashbill 1. I've had some real winners from this shop in the past, so I'm curious to see how it is. Let's dive in.",
@@ -2230,7 +2329,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: 'Sweet vanilla, corn, some oak and clove. Very nicely balanced. Mild earthiness, maybe a hint of cocoa',
@@ -2252,7 +2352,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '57.5%',
 		age: 'NA',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is distillate right off of Buffalo Trace's still, using their wheated recipe. Bottled at still proof as well, this proves to be a fun an interesting look at the base of some of the worlds most hyped whiskeys, before it meets a barrel. Lets see how it is.",
@@ -2275,7 +2376,8 @@ const bourbonSeeder = [
 		bottler: 'Bull Run',
 		abv: '62.8%',
 		age: '14 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Distilled on June 22nd of 2006, this MGP sourced bottling was contracted to Bull Run and finished for an undisclosed period of time in a Cognac cask. Bottled at cask strength, they make no mistake to imply the rarity of such a thing. Let's dive in.",
@@ -2298,7 +2400,8 @@ const bourbonSeeder = [
 		bottler: 'Bull Run',
 		abv: '62.67%',
 		age: '13 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a single barrel bourbon with an interesting setup - 11 years aged MGP that is then finished for 2.5 years in Oregon Pinot Noir casks. This selection was picked by B&B and was bottled at barrel proof.',
@@ -2321,7 +2424,8 @@ const bourbonSeeder = [
 		bottler: 'Bulleit',
 		abv: null,
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is the sixth release from Bulleit in the Barrel Strength line of NAS, barrel proof, offerings. Each release features no age statement, though with a fairly hefty ABV. I'm looking forward to comparing this to the previous releases, so let's get to it.",
@@ -2343,7 +2447,8 @@ const bourbonSeeder = [
 		bottler: 'Bulleit',
 		abv: '55%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'At the time of this writing (March 2017) - this product was a KY exclusive. It has since been re-released with CONUS wide availability.',
@@ -2366,7 +2471,8 @@ const bourbonSeeder = [
 		bottler: 'Bulleit',
 		abv: '50%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"The first release of this new line of expressions, Bulleit Blender's Select is a new, blended line coming from the handiwork and blendng expertise of Eboni Major on behalf of Bulleit Bourbon.",
@@ -2389,7 +2495,8 @@ const bourbonSeeder = [
 		bottler: 'Bulleit',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a Diageo product line that used to be contract distilled by Four Roses in KY. The new producer is undisclosed.',
@@ -2411,7 +2518,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '40%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'Cabin Still is a bottom shelf mashbill #2 bourbon produced by Buffalo Trace. Other notable mashbill 2 products from Buffalo Trace are Blantons, Rock Hill Farms and Elmer T. Lee. ',
@@ -2434,7 +2542,8 @@ const bourbonSeeder = [
 		bottler: 'Calumet',
 		abv: '47%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a bottling of a run if 19 barrels of Kentucky bourbon. According to Calumet: "All barrels used are aged in a single, center cut rack from the ideal maturation location and conditions inside the rick house. This expression of the Calumet Farm Bourbon family is a true convergence of craftsmanship and flavor."',
@@ -2457,7 +2566,8 @@ const bourbonSeeder = [
 		bottler: 'Charbay',
 		abv: '66.2%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				'Another insane product from Charbay, Small batch, huge price, yadda yadda...you know the drill.',
@@ -2479,7 +2589,8 @@ const bourbonSeeder = [
 		bottler: 'Charbay',
 		abv: '49.5%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a whiskey being made from hopped beer, coming from Charbay in California.',
@@ -2502,7 +2613,8 @@ const bourbonSeeder = [
 		bottler: 'Charbay',
 		abv: '73.5%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Huge hoppy, oily, almost vegetal nose with lots of grain and hop characteristics. Sweet, toffee, some ethanol (dont blame it for 147pf)',
@@ -2524,7 +2636,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '45.5%',
 		age: '2 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"The first of its kind, Chattanooga 91 is Tennessee's first high malt whiskey, and pulled from a solera vat to add even more complexity. Aged at least two years and bottled at 45.5% ABV, Chattanooga 91 promises plenty of flavor.",
@@ -2547,7 +2660,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '58.59%',
 		age: '35 Months',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This was one of three samples we selected a barrel from for the first ever Chattanooga Single Barrel selection for Seelbachs. I tasted alongside Breaking Bourbon, Dads Drinking Bourbon and Bourbonr for this inaugural selection. This sample was just shy of 3 years old at the time of sampling and was aged in a char #2 barrel with no additional toasting. Since this was a selection, I will be leaving it unranked, but I was impressed with the quality of Chattanooga's work so far, and wanted to get my full tasting notes out for those that may be interested in learning more about each barrel that went into this selection (and more about the winner, too).",
@@ -2570,7 +2684,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '59.095%',
 		age: '35 Months',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This was one of three samples we selected a barrel from for the first ever Chattanooga Single Barrel selection for Seelbachs. I tasted alongside Breaking Bourbon, Dads Drinking Bourbon and Bourbonr for this inaugural selection. This sample was just shy of 3 years old at the time of sampling and was aged in a char #3 barrel with an additional toasting component, toasted to profile #37. Since this was a selection, I will be leaving it unranked, but I was impressed with the quality of Chattanooga's work so far, and wanted to get my full tasting notes out for those that may be interested in learning more about each barrel that went into this selection (and more about the winner, too). Given this is an unranked sample, because it was involved in a selection I participated in, I'll have another bourbon posted today which may be of quite a bit of interest as well.",
@@ -2593,7 +2708,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '59.405%',
 		age: '3 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This was one of three samples we selected a barrel from for the first ever Chattanooga Single Barrel selection for Seelbachs. I tasted alongside Breaking Bourbon, Dads Drinking Bourbon and Bourbonr for this inaugural selection. This sample was just a hair over 3 years old at the time of sampling and was aged in a char #4 barrel with no additional toasting. Since this was a selection, I will be leaving it unranked, but I was impressed with the quality of Chattanooga's work so far, and wanted to get my full tasting notes out for those that may be interested in learning more about each barrel that went into this selection (and more about the winner, too).",
@@ -2616,7 +2732,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '47.5%',
 		age: '3 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled by Chattanooga Whiskey and finished in Tawny Port Casks, this wine finished expression from the Tennessee craft producer should be a treat. Aged for at least 3 years and finished for at least 6 months, we should see quite a bit of wine influence here.',
@@ -2640,7 +2757,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga Whiskey',
 		abv: '50%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled in the Spring of 20217 and bottled in 2021, Chattanooga has released its first Bottled In Bond whiskey, as a part of the Vintage Series. Each successor release will denote the Season and Year and the distillery plans to release this widely with each release, always keeping some on hand at the distillery.',
@@ -2662,7 +2780,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '55.5%',
 		age: '2 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Chattanooga 111 is a 55.5% ABV barrel strength release from Chattanooga Whiskey in Tennessee. Aged at least 2 years, this malt heavy whiskey certainly promises to be interesting. It's also funny that this review falls on today, as the Chattanooga Barrel I helped select for Seelbach's launched today as well. Let's dive in.",
@@ -2685,7 +2804,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga Whiskey',
 		abv: '56.8%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a single barrel selection by McScrooges of a bottling of whiskey distilled by MGP and bottled by Chattanooga',
@@ -2707,7 +2827,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '51%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Distilled by Chattanooga Whiskey, this experimental batch is finished in mead barrels, both 53 and 25 gallons formats, and is bottled at 102 proof. This is distilled twice in 100g batches on the Chattanooga Pot Still. The mead barrels come courtesy of Moonlight Meadery, where they produce heather honey mead. This is finished for up to 8 months. Let's give it a go.",
@@ -2730,7 +2851,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '51%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Distilled by Chattanooga Whiskey, this single barrel is finished in rum barrels before being bottled at 102 proof. Let's dive in.",
@@ -2754,7 +2876,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '60.85%',
 		age: '4 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Distilled by Chattanooga Whiskey, this experimental batch is from a single barrel that is at least 4 years old and bottled at barrel proof. This was barreled on 3/30/2016 and bottled on 4/9/2020. Selected by LZ. Let's get to it.",
@@ -2777,7 +2900,8 @@ const bourbonSeeder = [
 		bottler: 'Chattanooga',
 		abv: '57.5%',
 		age: 'NA',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is an unusual sort of review for me, but I've done a couple new makes before. Recently, I sat with Bourbonr, Breaking Bourbon and Dads Drinking Bourbon to select Chattanooga Whiskey's first ever single barrel select. In the tasting kit they sent us, they sent along some new make. I wanted to take a few minutes to give it a review. Expect reviews of the Single Barrels we tried soon. In the meantime, let's dive in.",
@@ -2800,7 +2924,8 @@ const bourbonSeeder = [
 		bottler: 'Chicken Cock Whiskey',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Resurrected from a historical brand of old, Chicken Cock Whiskey is back and under the guidance of Master Distiller and Blender Gregg Snyder. This particular expression is their bourbon whiskey, bottled without age statement, at 45% ABV, in a bottle that pays homage to the historical roots of the brand.',
@@ -2823,7 +2948,8 @@ const bourbonSeeder = [
 		bottler: 'Chicken Cock',
 		abv: '57%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"Distilled by an Undisclosed distiller, this hyper limited release of 1,300 bottles comes to us from Chicken Cock Whiskey. Aged for 15 years and distilled in Kentucky, Chicken Cock Whiskey's 15yr Limited Edition is bottled at 57% ABV and carries a hefty $300 pricetag. Snag or pass? Let's find out.",
@@ -2846,7 +2972,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is an interesting entry in the Limited Edition release line of E.H.Taylor bourbon. Replacing rye with amaranth in the mashbill one formula, this promises to be, at the very least, interesting. Let's dive in.",
@@ -2868,7 +2995,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: '18 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Bearing an 18yr age statement, along with the bottled in bond designation, we know a lot about 2020's entry in the Colonel E.H. Taylor catalogue of limited editions.",
@@ -2891,7 +3019,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '63.75%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Maple and nutmeg with a whole lot of sweet brown sugar',
@@ -2913,7 +3042,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '63.5%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a bonded barrel proof from the CEHT line from Buffalo Trace. CEHT uses Buffalo Traces Mashbill #1 (low rye).',
@@ -2935,7 +3065,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: '17 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Using staves cured for an unusually long period of time, Colonel E.H. Taylor's Cured Oak expression demonstrates a fun experiment between Buffalo Trace and Independent Stave.",
@@ -2958,7 +3089,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Adding an extra grain into the mix, Colonel E.H Taylor Four Grain bourbon incorporates corn, wheat, rye and malted barley to produce a four grain mashbill for the annual release to the series. Said to be 12 years old, but not labeled on bottle with such an age statement, this release is still bottled in bond.',
@@ -2981,7 +3113,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Harnessing a whole lot of either voodo, or science, based on your preferred view on the world of bourbon, Colonel EH Taylor Seasoned Wood comes to bourbon drinkers as the next chapter of the Colonel E.H. Taylor limited edition catalogue. Produced from staves that undergo a unique seasoning process involving enzymatic baths and specific kiln drying, this bottling is sure to be interesting.',
@@ -3004,7 +3137,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a single barrel offering from the same line as the Colonel E.H.Taylor Small Batch. It is also bottled in bond. It is important to note that, like Eagle Rare 10, no real barrel information is given.',
@@ -3026,7 +3160,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a Mashbill 1 product from Buffalo Trace. Like all of their CEHT products, this is bottled in bond, bottled at 50% and additionally features their low rye mashbill (mashbill is not always consistent across the EHT line).',
@@ -3049,7 +3184,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"When a Tornado tore through Buffalo Trace's campus, a handful of warehouses lost their roof and some wall material. As a result, a handful of barrels were left to bake in the sun and brave the elements while the buildings were repaired, no doubt influencing their contents.",
@@ -3073,7 +3209,8 @@ const bourbonSeeder = [
 		bottler: 'Compass Box',
 		abv: '49%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a collaboration selection done by a store and a society of a Compass Box marrying cask release. These are releases that take a Great King Street vatting and further mature it in another cask of one type or another. This was a sherried cask.',
@@ -3096,7 +3233,8 @@ const bourbonSeeder = [
 		bottler: 'Copper & Kings',
 		abv: null,
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a copper pot distilled, NCF, NCA distillate produced by distilling an imperial stout, made from cherry wood smoked grain, that is aged in bourbon barrels from the notoriously solid Against The Grain fellas. This beer is Bo and Luke, and this resulting distillate is known as Bo & Luke Brewsky, distilled at Copper & Kings, in Kentucky USA.',
@@ -3119,7 +3257,8 @@ const bourbonSeeder = [
 		bottler: 'Corner Creek',
 		abv: '44%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: 'Mmmm, craft whiskey.',
 			nose: 'Very sweet, lots of vanilla and cream. Some mild cinnamon and pepper.',
@@ -3140,7 +3279,8 @@ const bourbonSeeder = [
 		bottler: 'Corsair',
 		abv: '40%',
 		age: '8 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a frankenwhiskey produced from a variety of smoked grains. The bottle sports a poor attempt at replicating a Reservoir Dogs theme.',
@@ -3162,7 +3302,8 @@ const bourbonSeeder = [
 		bottler: 'Crown Royal',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a release from Crown Royal up in the great, white north (talking weather, not demographics) and this release features a "bourbon mash bill". It\'s still made up in Canada, and is a NAS release, though, so the mash is about where the similarities to bourbon end. Let\'s see how it is.',
@@ -3185,7 +3326,8 @@ const bourbonSeeder = [
 		bottler: 'Luxco',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a wheated bourbon released by Luxco. It is Heaven Hill distillate, similar to the Larceny and Old Fitz mashbill.',
@@ -3207,7 +3349,8 @@ const bourbonSeeder = [
 		bottler: 'Lux Row',
 		abv: '48%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a combination of mashbills from an undisclosed distiller (though not hard to guess) containing a wheated mashbill and a high rye mashbill. This combination is then finished for 6 months in cabernet sauvignon barrels. No age statement here, but this expression is bottled at 48% ABV. Let's get to it.",
@@ -3230,7 +3373,8 @@ const bourbonSeeder = [
 		bottler: 'Lux Row',
 		abv: '48%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a combination of mashbills from an undisclosed distiller containing a wheated mashbill and a high rye mashbill. This combination is then finished for 6 months in French oak barrels. No age statement here, but this expression is bottled at 48% ABV. Let's get to it.",
@@ -3253,7 +3397,8 @@ const bourbonSeeder = [
 		bottler: 'Lux Row',
 		abv: '48%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a combination of mashbills from an undisclosed distiller containing a wheated mashbill and a high rye mashbill. This combination is bottled at 48% ABV. Let's dive on in.",
@@ -3276,7 +3421,8 @@ const bourbonSeeder = [
 		bottler: 'Driftless Glen',
 		abv: '55%',
 		age: '4 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled at Driftless Glen in Baraboo, WI, this bourbon release is a limited edition bottling that is then finished in port barrels. This carries a 4yr age statement and is bottled at 55% ABV.',
@@ -3300,7 +3446,8 @@ const bourbonSeeder = [
 		bottler: 'Driftless Glen',
 		abv: '59.3%',
 		age: '3 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a single barrel of rye distilled at Driftless Glen and selected by the Colorado Bourbon & Rye Collectors. Taking this picture, I realize now that perhaps my 5+yr old glencairns need to be put to rest in favor of newer, much less scarred ones. Anyways, this comes from barrel #1558 and was bottled at barrel proof with no filtering. Let's get to it.",
@@ -3323,7 +3470,8 @@ const bourbonSeeder = [
 		bottler: 'Droptine',
 		abv: '46%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled at an undisclosed distillery in “America’s Heartland” and finished in brandy barrels in California, Droptine 12 Point is a really interesting bourbon experiment. Bottled at 46% ABV with no age statement, or word on filtering. There aren’t a lot of words at all, on this label.',
@@ -3346,7 +3494,8 @@ const bourbonSeeder = [
 		bottler: 'Dry Fly Distilling',
 		abv: '60%',
 		age: '3 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'As the name may suggest, this is a cask strength wheated whiskey from Dry Fly in Washington.',
@@ -3369,7 +3518,8 @@ const bourbonSeeder = [
 		bottler: 'Dry Fly Distilling',
 		abv: '43%',
 		age: '3 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a wheated whiskey produced by a craft distiller, finished in port.',
@@ -3392,7 +3542,8 @@ const bourbonSeeder = [
 		bottler: 'O.Z. Tyler Distillery',
 		abv: '44%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -3411,7 +3562,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a product coming from Buffalo Trace and features their mashbill #1 blend - a low-rye recipe for distillation. It is aged 10 years and although it used to feature a single barrel statement, it does this no longer. Though the neck tag proclaiming the age is gone, the age statement still lives on in the back label. Someday, this age statement will likely go away, but for now it is here to stay.',
@@ -3434,7 +3586,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a selection of an Eagle Rare single barrel by Bourbon Street Wine and Spirits. Eagle Rare is typically bottled at 10 years, features the BT #1 Mashbill and sees growing scarcity across the country. Let's dive in.",
@@ -3457,7 +3610,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'oak and maple, theres a hint of fruity texture, caramel and butterscotch and vanilla. A little cinnamon trails in the background',
@@ -3479,7 +3633,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a local store pick, from Discount Liquors in Wisconsin. Eagle Rare 10 year is often a well priced, well aged, solid product. Its one of my go tos and trying store picks is always an activity of interest to me.',
@@ -3501,7 +3656,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '10 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'Buffalo Trace. Mashbill 1. 10yrs Aging. 45% ABV. Generally plentiful and inexpensive. What is not to love?',
@@ -3524,7 +3680,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Sweet Vanilla, molasses, tropical fruits ( this has been popping up for me lately very heavily in ER10). Oaky clove. Its hitting all the delicious ER10 notes that Im used to and love',
@@ -3546,7 +3703,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Sweet toffee, vanilla, fruity passion fruit and strawberry. Hint of oak and some nice clove. ER10 has always been fruity for me but this brings a',
@@ -3568,7 +3726,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a small format bottle of a WB Liquors selection of Eagle Rare 10. Eagle Rare 10 uses Buffalo Traces Mashbill 1 mashbill and is aged for 10 years.',
@@ -3591,7 +3750,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is an anniversary bottling of Early Times American whiskey. It is quite vocally noted to be distilled at DSP-354 (Brown Forman) and it is bottled at 50% ABV.',
@@ -3614,7 +3774,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '50%',
 		age: '4 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a Brown-Forman product with a 79/11/10 mashbill. It is aged for 4 years and bottled under the Early Times label.',
@@ -3637,7 +3798,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '67.1%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"The first entry in Elijah Craig's newest portfolio series: Elijah Craig Barrel Proof is a 12yr expression comprised of barrels dumped and blended at barrel proof.",
@@ -3660,7 +3822,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '69.4%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a moderately elusive release from Elijah Craig, which is Heaven Hill distillate bottled at cask strength.',
@@ -3683,7 +3846,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '69.7%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a moderately elusive release from Elijah Craig, which is Heaven Hill distillate bottled at cask strength. This is one of the final "old label" batches that features the old bottle design, old label design and no batch number, back when batches had to be noted by the ABV of the bottling run. Let\'s dive in.',
@@ -3706,7 +3870,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '68%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Elijah Craig Barrel Proof is a 12 year old, cask strength, release from Heaven Hill in Kentucky. Batches were originally denoted by proof alone, but in recent times, since the bottle re-design, batches now get additional designation to help with tracking releases.',
@@ -3729,7 +3894,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '68.5%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"The second entry in Elijah Craig's newest portfolio series: Elijah Craig Barrel Proof is a 12yr expression comprised of barrels dumped and blended at barrel proof.",
@@ -3752,7 +3918,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '66.6%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"The third entry in Elijah Craig's newest portfolio series: Elijah Craig Barrel Proof is a 12yr expression comprised of barrels dumped and blended at barrel proof.",
@@ -3775,7 +3942,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '66.2%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a moderately elusive release from Elijah Craig, which is Heaven Hill distillate bottled at cask strength.',
@@ -3798,7 +3966,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '67.4%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a moderately elusive release from Elijah Craig, which is Heaven Hill distillate bottled at cask strength.',
@@ -3821,7 +3990,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '70.1%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a moderately elusive release from Elijah Craig, which is Heaven Hill distillate bottled at cask strength.',
@@ -3844,7 +4014,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '64%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a moderately elusive release from Elijah Craig, which is Heaven Hill distillate bottled at cask strength.',
@@ -3867,7 +4038,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '69.9%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a moderately elusive release from Elijah Craig, which is Heaven Hill distillate bottled at cask strength.',
@@ -3890,7 +4062,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '62.8%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a moderately elusive release from Elijah Craig, which is Heaven Hill distillate bottled at cask strength.',
@@ -3913,7 +4086,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '63.5%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Elijah Craig Barrel Proof is a 12yr product distilled at Heaven Hill and bottled at barrel proof. Recently, theyve moved from no batch codes to including a letter followed by numerals, so this is the second of the new batch system, A117.',
@@ -3935,7 +4109,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '65.3%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Elijah Craig Barrel Proof is a 12 year old, cask strength, release from Heaven Hill in Kentucky. Batches were originally denoted by proof alone, but in recent times, since the bottle re-design, batches now get additional designation to help with tracking releases.',
@@ -3958,7 +4133,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '67.6%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Elijah Craig Barrel Proof is a 12 year old, cask strength, release from Heaven Hill in Kentucky. Batches were originally denoted by proof alone, but in recent times, since the bottle re-design, batches now get additional designation to help with tracking releases. I tasted this dram blind and then got the reveal at a later time, so keep that in mind as you read through these notes.',
@@ -3978,7 +4154,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '68.3%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: null,
@@ -3997,7 +4174,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '61.8%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"The first release in 2021's Limited Edition calendar, Elijah Craig Barrel Proof A121 is released at a historically low ABV, 61.8%. ECBP carries a consistent 12yr age statement.",
@@ -4020,7 +4198,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '62.1%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Elijah Craig Barrel Proof is a 12yr product distilled at Heaven Hill and bottled at barrel proof. Recently, theyve moved from no batch codes to including a letter followed by numerals, so this is the second of the new batch system, B517.',
@@ -4043,7 +4222,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '66.7%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: null,
@@ -4062,7 +4242,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '61.6%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Elijah Craig Barrel Proof is a 12 year old, cask strength, release from Heaven Hill in Kentucky. Batches were originally denoted by proof alone, but in recent times, since the bottle re-design, batches now get additional designation to help with tracking releases.',
@@ -4085,7 +4266,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '63.6%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: null,
@@ -4104,7 +4286,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '59.1%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"The second release in 2021's Limited Edition calendar, Elijah Craig Barrel Proof B521 is released at a historically low ABV, the second this year,at 59.1%. ECBP carries a consistent 12yr age statement.",
@@ -4127,7 +4310,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '65.5%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Elijah Craig Barrel Proof is a 12 year old, cask strength, release from Heaven Hill in Kentucky. Batches were originally denoted by proof alone, but in recent times, since the bottle re-design, batches now get additional designation to help with tracking releases.',
@@ -4150,7 +4334,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '65.7%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: null,
@@ -4169,7 +4354,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '68.4%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Elijah Craig Barrel Proof is a 12 year old, cask strength, release from Heaven Hill in Kentucky. Batches were originally denoted by proof alone, but in recent times, since the bottle re-design, batches now get additional designation to help with tracking releases. This is Batch C919.',
@@ -4192,7 +4378,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '66.4%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Another entry in Heaven Hill's portfolio, batch C920 of Elijah Craig Barrel proof is was released in September of 2020 and marks the release of another 12yr Barrel Proof bourbon.",
@@ -4215,7 +4402,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '60.1%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"The third, and final, release in 2021's Limited Edition calendar, Elijah Craig Barrel Proof C921 is released at a moderately low ABV compared to historical bottlings. The third of this year weight in at 60.1%. ECBP carries a consistent 12yr age statement.",
@@ -4238,7 +4426,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '62.5%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is a gift shop release of older Heaven Hill spirit. It doesn't carry an age statment, and the proof is always 125, but it is generally believed to contain older ECBP spirit. I'm looking forward to giving this a go, so let's dive in.",
@@ -4261,7 +4450,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '47%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a local selection of a NAS Elijah Craig pick. It is distilled at Heaven Hill and bottled under the EC label.',
@@ -4284,7 +4474,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '47%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Heaven Hill recently removed the 12 year age statement from this product. This is the NAS release.',
@@ -4307,7 +4498,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '47%',
 		age: '12 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Heaven Hill recently removed the 12 year age statement from this product. This is the original 12 year age stated release.',
@@ -4330,7 +4522,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '47%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a single barrel selection from Heaven Hill by a store/society electing to pick something from the Elijah Craig line of bottlings. Let's dive in.",
@@ -4352,7 +4545,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '47%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a single barrel selection from Heaven Hill by a store/society electing to pick something from the Elijah Craig line of bottlings. Let's dive in.",
@@ -4374,7 +4568,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '47%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a single barrel selection from Heaven Hill by a store/society electing to pick something from the Elijah Craig line of bottlings. This one comes to us from Tippins in Ann Arbor. Let's dive in.",
@@ -4397,7 +4592,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '47%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Elijah Craig Toasted barrel is a new entry in Heaven Hill's catalogue, bringing them to parity with other brands like Michter's and Old Forester who also supply toasted releases. After primary maturation, the Elijah Craig bourbon is further matured in a barrel that has been toasted, rather than charred. This is bottled at Elijah Craig's standard 47% ABV and I've been working through this bottle for a month or two now. Let's get to it.",
@@ -4420,7 +4616,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'I scoff pretty heavily at ETL these days. Thin, earthy, rutabaga juice. This pick comes from over a decade ago - was Elmer much different then?',
@@ -4443,7 +4640,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a Mashbill #2 product from Buffalo Trace with a fair amount of acclaim, as it's become quite difficult to find over the years due to its rise in popularity.",
@@ -4466,7 +4664,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"1783 has been a cornerstone of the Evan Williams profile for many years, although it often flew under the radar. Distilled by Heaven Hill and bottled for the Evan Williams line, this 1783 bottling comes from the recent brand overhaul and re-design. Let's see if they overhauled the contents as well.",
@@ -4489,7 +4688,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '43%',
 		age: '7 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: 'Doughy and sweet. Faint corn and vanilla. Good caramel and light clove.',
@@ -4511,7 +4711,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a standard bottled in bond product produced by Heaven Hill',
@@ -4534,7 +4735,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '43.3%',
 		age: '7 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"This is a sample of a single barrel from Evan Williams, a Heaven Hill expression. Barreled on August 8th, 2011 and bottled on June 15th 2018, from dumped barrel #889. I tasted this initially while comparing some other Evan Williams expressions on a stream with a friend, then circled back for a full review the following day. It's been a while since I've had some of these, but they've always been an excellent value, so I'm looking forward to trying a few more soon. Let's dive in.",
@@ -4557,7 +4759,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '43.3%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Sweet corn, caramel and a lot of vanilla. Light on the oak for 10 years old. Its very sweet and vanilla forward.',
@@ -4579,7 +4782,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '43.3%',
 		age: '9 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: 'This is a single barrel offering from Evan Williams.',
 			nose: 'Light sweetness and vanilla, some peanut which is much stronger here than in the Bookers I recently reviewed. Some earthy notes followed by a little maple.',
@@ -4601,7 +4805,8 @@ const bourbonSeeder = [
 		bottler: 'Luxco',
 		abv: '50.5%',
 		age: '7 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a release from Exra Brooks, sourced from Heaven Hill. Its a bourbon bottled after 7 years of aging at an abv of 50.5% ABV (or 101 proof). It comfortably occupies shelves in the $22-$29 space, and is generally available.',
@@ -4624,7 +4829,8 @@ const bourbonSeeder = [
 		bottler: 'Lux Row Distillers',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Produced by an Undisclosed distiller for Lux Row, this bourbon is a release under their brand umbrella, sporting no age statement and a 45% ABV bottling strength.',
@@ -4647,7 +4853,8 @@ const bourbonSeeder = [
 		bottler: 'The Edrington Group',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: null,
@@ -4666,7 +4873,8 @@ const bourbonSeeder = [
 		bottler: 'FEW Spirits',
 		abv: '46.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -4685,7 +4893,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '51.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'(Note: this review is for the 6 year age stated bottling. As of 2015, the age statement has been removed)',
@@ -4708,7 +4917,8 @@ const bourbonSeeder = [
 		bottler: 'William Grant and Sons',
 		abv: '45%',
 		age: '2 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"Today we have the pleasure of trying out Fistful of Bourbon - a bottle seen in the paws of bloggers and influences the internet across. This is a 2 year blend of straight bourbons by William Grant and Sons, and I snagged a bottle for about $23. Let's see how it is.",
@@ -4730,7 +4940,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled by Heaven Hill, and limited to Kentucky retailers and the distillery shops, Five Brothers is a new bottling from the brand that features their bourbon mashbill, and content that are at least 5 years old (and up to 9 years old). The release is supposed to spotlight the efforts and achievements of the 5 Shapira brothers, who started and have helmed Heaven Hill since 1935.',
@@ -4753,7 +4964,8 @@ const bourbonSeeder = [
 		bottler: 'Four Gate',
 		abv: '62.3%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"Distilled by an undisclosed producer, this batch features 6yr, 9yr and 12yr Kentucky bourbon's blended and then finished in a variety of casks. This is chapter 1, and features finishing in Tawny Port and Dark Rum casks.",
@@ -4776,7 +4988,8 @@ const bourbonSeeder = [
 		bottler: 'Four Gate',
 		abv: '62.35%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Distilled by an undisclosed producer, this batch features 6yr, 9yr and 12yr Kentucky bourbon's blended and then finished in a variety of casks. This is chapter 3, and features finishing in Apera Sherry, Tawny Port and Dark Rum casks.",
@@ -4799,7 +5012,8 @@ const bourbonSeeder = [
 		bottler: 'Four Gate',
 		abv: '59.7%',
 		age: '9 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"This is batch 3 of Four Gate's Foundation series. A blend of 9yr9mo whiskey and 11y4mo whiskey with a little in between, this 9yr age stated bourbon at barrel proof should be interesting. It's worth noting the distiller is officially undisclosed, but there has been some gobbling over the who and what of where this was distilled. Non chill filtered, mashbill of 75% corn, 13% rye, and 12% malted barley. Let's dive in.",
@@ -4822,7 +5036,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '55.1%',
 		age: '16 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Recently, a monster storm rolled in. I took off early from work in the afternoon to be home and enjoy the falling snow and decided it was the perfect afternoon to uncork some of the bigger guns I've been meaning to review. Snowed in, nowhere to have to go...it was the perfect recipe. Lets dive in!",
@@ -4844,7 +5059,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '53.65%',
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is an annual Limited Edition release from Four Roses. It usually features a blend of several mashbills of significantly older provenance compared to both the original Small Batch and a variety of Private Selection bottlings. The 2017 vintage features a combination of 15yr OESK, 13yr OESK and 12yr OESV.',
@@ -4866,7 +5082,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '54.46%',
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a hyped Four Roses release commemorating Al Youngs 50 years as brand ambassador for Four Roses. It is a blend of 5% 23yr OBSV, 25% 15yr OBSK, 50% 13yr OESV and 20% 12yr OBSF.',
@@ -4889,7 +5106,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '58.6%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program. This is one of the best values in cask strength bourbon that heralds quality and availability, in my personal opinion.',
@@ -4912,7 +5130,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '59%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program.',
@@ -4935,7 +5154,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '54.8%',
 		age: '9 Years 2 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is an OBSF recipe single barrel Private Selection from Four Roses, but like one or two I've done so far recently, I'm unaware of who selected this, which is unfortunate but not the end of the world. Poured for me by a friend, I don't always find OBSF to cater to my fancy, but I'm looking forward to giving it a go all the same. Some of the biggest fun of my annual 40 Roses endeavour is finding those sleeper recipes to keep an eye on. Let's dive in.",
@@ -4958,7 +5178,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '55.5%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program.',
@@ -4979,7 +5200,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '60%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program. This is one of the best values in cask strength bourbon that heralds quality and availability, in my personal opinion. This particular barrel was selected by Michael of Bounty Hunter Wines in Napa Valley, California. The OBSK recipe denotes a mashbill of 60% Corn, 35% Rye and 5% Malted Barley.',
@@ -5003,7 +5225,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '58%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses Private Selects are arguably the best value in bourbon. Producing 10 different recipes regularly bottles at cask strength, plenty of variety is available to even the average consumer.',
@@ -5026,7 +5249,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '59%',
 		age: '8 Years 9 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is a weird one. A good friend gave me some Four Roses Private Selections some time back, but the selection information is missing from this bottle. I know the agve, ABV, and the recipe, which is enough for me to give it a review. Let's dive in.",
@@ -5049,7 +5273,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '55.6%',
 		age: 'Unknown',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is a single barrel from Four Roses using the OBSO Recipe. This is another fun one - I have the recipe, and the proof, and the tier. This is from Tier 2. But that's it. We're flying blind here, which has become sort of fun. Let's give it a go.",
@@ -5072,7 +5297,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '58.6%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program. This is one of the best values in cask strength bourbon that heralds quality and availability, in my personal opinion. This particular barrel was selected in West Lakeview Liquors and features the OBSO mashbill which uses 60% Corn, 35% Rye and 5% Malted Barley.',
@@ -5095,7 +5321,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '58.4%',
 		age: '9 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Muted floral honey, cocoa, toffee and some confectioners sugar.',
@@ -5116,7 +5343,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '57.5%',
 		age: '11 Years 5 Months',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This OBSQ recipe single barrel is a gift shop exclusive from Four Roses. I picked this up when I was on premise, since it's a favorite recipe of mine and had some good age to it. Let's dive in. ",
@@ -5139,7 +5367,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '57.1%',
 		age: '8 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Floral honey, butterscotch, caramel, pepper, buttery toffee',
@@ -5162,7 +5391,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '62.3%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a single recipe from Four Roses bottled at cask strength.',
@@ -5184,7 +5414,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '57.7%',
 		age: '8 Years 7 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is an OBSQ recipe single barrel Private Selection from Four Roses selected by Twin Liquors. OBSQ is historically a big favorite of mine, so I've been looking forward to this one. Let's give it a go.",
@@ -5207,7 +5438,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '62.8%',
 		age: '8 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a cask strength, single barrel release from Four Roses, featuring their OBSV recipe.',
@@ -5230,7 +5462,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '62.6%',
 		age: '8 Years 7 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is an OBSV recipe single barrel Private Selection from Four Roses that was selected by Carothers. At just over 8.5 years old and at barrel proof, this one should be a fun tasting. Let's dive in.",
@@ -5253,7 +5486,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '60%',
 		age: '8 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses offers the ability for stores and societies to pick barrels from their specific recipes and have them bottled at cask strength.',
@@ -5276,7 +5510,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '55.5%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a cask strength, single barrel release from Four Roses, featuring their OESF recipe.',
@@ -5300,7 +5535,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '60.3%',
 		age: '8 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases bottles of one of their 10 recipes at cask strength. This was picked by Liquor Barn.',
@@ -5322,7 +5558,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '58.8%',
 		age: '8 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a cask strength, single barrel release from Four Roses, featuring their OESF recipe.',
@@ -5346,7 +5583,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '55.2%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program. This is one of the best values in cask strength bourbon that heralds quality and availability, in my personal opinion. This particular barrel was selected in a collaboration by Tippins Market and the Greater Detroit American Whiskey Society in Michigan and features the OESF mashbill which uses 20% rye.',
@@ -5369,7 +5607,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '52.4%',
 		age: '9 Years 8 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is an OESF recipe of Four Roses Private Selection line of bottles. Selected by Twin Liquors in 2015, this OESF is 9 years and 8 months old and bottled at barrel proof. Let's dive in.",
@@ -5392,7 +5631,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '53.9%',
 		age: '11 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is an annual release from Four Roses that showcases a single recipe. It is bottled at cask strength.',
@@ -5415,7 +5655,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '56.1%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses Private Selects are some of the best quality and value in bourbon today. This is an OESK pick from Chucks retailer and is just a hair under 10 years old.',
@@ -5438,7 +5679,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '54.7%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program.',
@@ -5460,7 +5702,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '59.7%',
 		age: '10 Years 4 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is an OESK recipe single barrel Private Selection from Four Roses that was selected by Gordon's, a well known liquor retailer. At 10 years and 4 months old, this one has some decent age on it, so I'm looking forward to this one. Let's dive in.",
@@ -5483,7 +5726,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '58.1%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'floral spicy brown sugar, molasses, nice spicy clove note, some ethanol, big toffee and vanilla',
@@ -5505,7 +5749,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '57.1%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program.',
@@ -5528,7 +5773,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '56%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program. This is one of the best values in cask strength bourbon that heralds quality and availability, in my personal opinion.',
@@ -5550,7 +5796,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '57.3%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Sweet, fruity, sticky toffee, some all spice and cocoa. Rich vanilla',
@@ -5571,7 +5818,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '55.8%',
 		age: '11 Years 8 Months',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a cask strength, single barrel release from Four Roses, featuring their OESK recipe. This barrel was selected by a local retailer, Steve's Liquor in Madison, WI. Some time ago, another local retailer, Rileys Wines of the World, picked an amazing OESK that lives as a favorite of mine to this day. Let's see how it stacks up. ",
@@ -5594,7 +5842,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '58.3%',
 		age: '8 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses Private Selects are arguably the best value in bourbon. Producing 10 different recipes regularly bottles at cask strength, plenty of variety is available to even the average consumer.',
@@ -5617,7 +5866,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '57.2%',
 		age: 'Unknown',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is another weird one. A good friend gave me some Four Roses Private Selections some time back, but the selection information is missing from this bottle. I know the ABV, and the recipe, which is enough for me to give it a review. Let's dive in. If you can put up with a couple more of these unknowns I promise you'll be rewarded with, shall we say, 40 Roses. Give or take. Let's do it.",
@@ -5640,7 +5890,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '52.1%',
 		age: '9 Years 2 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is an OESO recipe Private Selection from Four Roses. I'm unaware of who selected it, but I know the age, the proof and the recipe, which is good enough for me. Let's get to it.",
@@ -5663,7 +5914,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '59%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Four Roses releases single barrels of a specific recipe at cask strength as their private pick program.',
@@ -5686,7 +5938,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '61.1%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Graham crackers, toffee, coffee, honey, dough and some nice clove notes. Mmmmm.',
@@ -5708,7 +5961,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '52.5%',
 		age: '10 Years 3 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is a 10 year 3 month bottling of OESQ recipe bourbon from Four Roses. Selected by Twin Liquors, this is bottled at cask strength and should be a real treat as I find myself typically a fan of the Q yeast profile. Let's dive in.",
@@ -5731,7 +5985,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '56.1%',
 		age: '10 Years 3 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is an OESV recipe single barrel Private Selection from Four Roses that was selected by 107 Liquors. At 10 years and 3 months old, this one is on the older side, so I'm looking forward to this one. Let's dive in.",
@@ -5754,7 +6009,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '59.5%',
 		age: '10 Years 5 Months',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Brown sugar, vanilla, cream, cinnamon. Its like cinnamon sugar toast almost. Some minor spice, but in a dessert manner. Not really too floral or too fruity.',
@@ -5776,7 +6032,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '62.9%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'I tasted this blind, and was given the review after supplying notes.',
@@ -5800,7 +6057,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '58.3%',
 		age: '9 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a Private Selection from Four Roses. Bearing the OESV recipe and an age statement of 9 years and 7 months, this falls on the younger side of things, but far from the youngest. Let's see how it is.",
@@ -5823,7 +6081,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a 100pf OBSV recipe release that sits on shelves next to Four Roses Small Batch and Yellow Label. Here in Wisconsin, it can be had for around $35-$40.',
@@ -5846,7 +6105,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '50%',
 		age: '8 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a rare, but growing ever increasingly less so, single barrel Four Roses bottling for a local Wisconsin liquor chain. As time progresses, we are seeing more and more 7-9 year, 50% ABV OBSV picks being doled out to stores and this is one of them. Lets see how it stacks up.',
@@ -5869,7 +6129,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '58.1%',
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Typically, Four Roses releases two limited edition products each year - a single barrel and a small batch. This is the single barrel release from 2013 which is an OBSK cask.',
@@ -5891,7 +6152,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Inexpensive and ubiquitous, Four Roses Small Batch provides a step up from Four Roses' well option and a gap closer between the more expensive Single Barrel. A blend of recipes and ages, this NAS small batch promises a lot with a sub $30 sticker.",
@@ -5914,7 +6176,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '54.2%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"A blend of 10yr OBSV, 13yr OBSF, 14yr OESV and 16yr OESK, this years limited edition falls on Four Roses 130th anniversary. Bottled at cask strength from a small lot of barrels, this bottle always goes fast at release, often commanding impressive secondary prices. Let's see how it is.",
@@ -5938,7 +6201,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '51.6%',
 		age: '13 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is Four Roses 2013 Small Batch Limited Edition release - it is a blend of 18yr OBSV, 13yr OBSK and 13yr OESK and bottled at cask strength.',
@@ -5961,7 +6225,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '55.9%',
 		age: '9 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Produced using a blend of 9yr OBSK, 11yr OBSF, 12yr OESV and 13yr OBSV, this year's small batch limited edition release from Four Roses is a barrel proof blend of straight bourbons - some that are favored recipes for many.",
@@ -5984,7 +6249,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '55.6%',
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: 'Sweet and spicy. Yeasty like bakery sweets. Frosting, faint butter caramel. Not a lot of floral or fruity here, just sweet, dry and spicy.',
@@ -6005,7 +6271,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '56.3%',
 		age: '11 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"This years Four Roses Small Batch Limited Edition is a blend of 11,15, and 21 year old bourbons from the OBSV, OESK and OESV recipes. This is bottled at cask strength, with NAS, despite the TTB violations on the label. This release is pretty hyped, year to year, so I'm looking forward to trying another entry in the FR SmBLE lineage. Let's dive in.",
@@ -6028,7 +6295,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '55.65%',
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"2020's entry into Four Roses annual Small Batch Limited Edition portfolio comes to us as a blend of 12yr OBSV recipe, 12yr OESV recipe, 19yr OBSK recipe and 16yr OESK recipe",
@@ -6051,7 +6319,8 @@ const bourbonSeeder = [
 		bottler: 'Four Roses',
 		abv: '52%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'"Master Distiller Brent Elliott selected and mingled six of Four Roses’ 10 Bourbon recipes, each aged a minimum of 6 years, to handcraft Small Batch Select. Non-chill filtered and 104 proof, our newest permanent product-line extension" - Four Roses. So, this is a well proofed, NCF batched offering from Four Roses. Let\'s see how it is.',
@@ -6074,7 +6343,8 @@ const bourbonSeeder = [
 		bottler: 'Garrison Brothers',
 		abv: '47%',
 		age: '3 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a craft product being released from Garrison Brothers in Texas. It is made from #1 Panhandle White Corn and aged for 3 years.',
@@ -6097,7 +6367,8 @@ const bourbonSeeder = [
 		bottler: 'Dickel',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: null,
@@ -6116,7 +6387,8 @@ const bourbonSeeder = [
 		bottler: 'Dickel',
 		abv: '50.2%',
 		age: '15 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by Dickel and released at an extremely lucrative price point - it's hard for whiskey drinkers not to assimilate this bottling with a gem of the past - old bottlings of Knob Creek Single Barrel with teenage age statements and $55 price points. Weighing in at 15 years old, this particular batch is bottled at 50.4% ABV and procured locally for $62.99.",
@@ -6139,7 +6411,8 @@ const bourbonSeeder = [
 		bottler: 'Dickel',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Distilled by Dickel, this ambiguous bottling sports no real age statement, and this release from George Dickel doesn’t sport Bourbon on the label which is curious.',
@@ -6162,7 +6435,8 @@ const bourbonSeeder = [
 		bottler: 'Dickel',
 		abv: '45%',
 		age: '8 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by Dickel in Tennessee, this 8 year age stated release also features the designation of 'bourbon' on the label in a bold, and new, marketing move from the brand.",
@@ -6185,7 +6459,8 @@ const bourbonSeeder = [
 		bottler: 'Dickel',
 		abv: '50%',
 		age: '11 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"A follow up to previous vintage releases from Dickel, the follow up to the 2005/13yr is this year's 11yr Bottled in Bond. Offered at the same low price as the first release, I'm curious to see if this batch can overcome some of my mild criticisms with the first.",
@@ -6208,7 +6483,8 @@ const bourbonSeeder = [
 		bottler: 'Dickel',
 		abv: '50%',
 		age: '13 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled in the Fall season of 2005, this bottling is 13 years old and carries the enviable bottled in bond designation. Produced by Dickel in Tennessee, this affordable limited edition was a surprise to see pop up, and a welcome sight to many whiskey fans.',
@@ -6231,7 +6507,8 @@ const bourbonSeeder = [
 		bottler: 'Dickel',
 		abv: '35%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"Distilled by Dickel in Cascade Hollow, Tennessee this bottling represents possibly the strangest fusion of American Whiskey and American Cuisine in a whiskey that's finished in Tobasco hot sauce barrels.",
@@ -6254,7 +6531,8 @@ const bourbonSeeder = [
 		bottler: 'Glenfiddich',
 		abv: '43%',
 		age: '14 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: 'This is an ex-bourbon matured Glenfiddich.',
 			nose: 'Creamy apples and pears, theres a good deal of vanilla and molasses also. Minor cinnamon spice, but nothing too heavy.',
@@ -6276,7 +6554,8 @@ const bourbonSeeder = [
 		bottler: 'Great Lakes Distillery',
 		abv: '45%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a Limited Edition release of GLDs Kinnickinnic blended American whiskey that is finished in Cab Franc casks.',
@@ -6299,7 +6578,8 @@ const bourbonSeeder = [
 		bottler: 'TerrePURE',
 		abv: '45%',
 		age: '<1 Year',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a Total Wine house brand that is sourced from TerraPURE in the Carolinas - a company that "hyper ages" distills products by attempting to age them faster than conventionally possible using a proprietary method. They claim that this process will revolutionize the industry by providing producers with products that are comparable to well aged bourbons and ryes, in just a fraction of that time. Let\'s see how it is.',
@@ -6320,7 +6600,8 @@ const bourbonSeeder = [
 		bottler: 'Mystic',
 		abv: '58.2%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a review of a sample I did blind, poured courtesty of a friend. I took down my notes, and he revealed what I had been drinking to me after wards. This is a stock image.',
@@ -6343,7 +6624,8 @@ const bourbonSeeder = [
 		bottler: 'Single Cask Nation',
 		abv: '47.4%',
 		age: '24 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Distilled by Heaven Hill in 1994, this release spent 12 years maturing in the USA, and 12 years maturing in Scotland. Most notably, this distillation took place before Heaven Hill's great fire, and thusly provides a historic look at how their distillate has changed. Bottled by Single Cask Nation, this release is one of their more notably (andinteresting releases) of late. Bottled at barrel proof with no coloring or filtering.",
@@ -6366,7 +6648,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '6 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is an age stated, bottled in bond, value bourbon from Heaven Hill.',
@@ -6389,7 +6672,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '7 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'A reintroduction of a once cult favorite KY only product, Heaven Hill 7yr Bottled in Bond replaces the old 6yr Bottled in Bond, complete with an extra year of aging and new packaging.',
@@ -6412,7 +6696,8 @@ const bourbonSeeder = [
 		bottler: "Heaven's Door",
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: null,
@@ -6431,7 +6716,8 @@ const bourbonSeeder = [
 		bottler: "Heaven's Door",
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Heaven's Door is a familiar whiskey to many drinkers, but their newest bottling incorporates something that should certainly look new to many bourbon fans. Master Blenders' Edition incorporates finishing in Redbreast Irish Whiskey casks - one of our favorite Irish producers, known for their love of sherry casks. Heaven's Door Master Blenders' Edition carries a 10 year age statement.",
@@ -6454,7 +6740,8 @@ const bourbonSeeder = [
 		bottler: "Heaven's Door",
 		abv: '45%',
 		age: '8 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by an Undisclosed Tennessee producer, this 8 year bourbon comes to us from Bob Dylan's brand Heavens Door. It's bottled at 45% ABV, with no word on filtering.",
@@ -6477,7 +6764,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Peanuts and maple. Brown sugar and caramel with a healthy dose of oak. Sweet and woody without astringency or acetone like Elijah Craig Small Batch, which I dont love.',
@@ -6499,7 +6787,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is an older release of a commonly very popular product, released by Heaven Hill',
@@ -6523,7 +6812,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Oaky vanilla, clove, maple. Very oaky, mildly bitter nose but in a good way.',
@@ -6545,7 +6835,8 @@ const bourbonSeeder = [
 		bottler: 'High West',
 		abv: '46%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'High West American Prairie is a really interesting dram. The brainchild of our friends in Utah, America Prairie is a cornucopia of 9yr+ whiskeys:',
@@ -6568,7 +6859,8 @@ const bourbonSeeder = [
 		bottler: 'High West',
 		abv: '49.9%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Vanilla, clove, some candied fruit. Heavy cinnamon. Surprisngly, overall its fairly muted. Maybe I expected more orange? I dont know what I expected but there isnt a ton here in terms of intensity.',
@@ -6590,7 +6882,8 @@ const bourbonSeeder = [
 		bottler: 'High West',
 		abv: '46%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a blend of bourbon, rye and peated malt from High West in Park City, Utah.',
@@ -6613,7 +6906,8 @@ const bourbonSeeder = [
 		bottler: 'High West',
 		abv: '52.4%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Maple, brown sugar, clove. Theres some nice honeyed vanilla. Little bit of dill. I like where this is going.',
@@ -6635,7 +6929,8 @@ const bourbonSeeder = [
 		bottler: 'High West',
 		abv: '40%',
 		age: 'NA',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: 'Unaged oat whiskey from High West in Park City, Utah.',
 			nose: 'Less sweet than the BT unaged mash. A little bit of cream, some astringency, maybe some mild spice. Overall, theres a lot less going on here than I expected there would be, but it also doesnt smell like paint thinner so I think thats a more favorable place to be.',
@@ -6656,7 +6951,8 @@ const bourbonSeeder = [
 		bottler: 'Hillrock Estate',
 		abv: '46.3%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: null,
@@ -6675,7 +6971,8 @@ const bourbonSeeder = [
 		bottler: 'Homestead',
 		abv: '56.65%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a craft bourbon whiskey that is sourced from MGP/LDI in Indiana and bottled by Homestead in Iowa. I originally did not realize this because I took notes before doing research as a measure to avoid bias, and it explains my befuddlement at Homestead not being flaming, but not flaming garbage.',
@@ -6698,7 +6995,8 @@ const bourbonSeeder = [
 		bottler: 'Prohibition Spirits',
 		abv: '50%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is an interesting Bourbon, sourced from Kentucky and finished, then barreled, by Prohibition Spirits under the Hooker's House line. It is 4 years old, before it makes a hop and a skip over to California for a 9 month stay in Schug Pinot Noir barrels. It features a pretty robustly rye forward mashbill, clocking in at 54% corn and 46% rye.",
@@ -6720,7 +7018,8 @@ const bourbonSeeder = [
 		bottler: 'Hooten & Young',
 		abv: '46%',
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Today's review comes to us in the form of Hooten & Young 12yr American Whiskey. A 12yr sourced whiskey (no mention of bourbon on the label) distilled by our friends in Indiana at MGP and bottled by our pals in Florida at Hooten & Young. Selected by Master Sommelier George Miliotes, this is an interesting release, so I'm looking forward to giving it a go. Let's dive in.",
@@ -6743,7 +7042,8 @@ const bourbonSeeder = [
 		bottler: 'Old Dominick',
 		abv: null,
 		age: '6 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'Distilled at MGP and bottled by Old Dominick, Huling Station Single Barrel is a series of releases by the distillery for select retailers and groups to select.',
@@ -6766,7 +7066,8 @@ const bourbonSeeder = [
 		bottler: 'Hyde',
 		abv: '46%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a single grain whiskey that is 6 years old and matured in an ex-bourbon cask.',
@@ -6789,7 +7090,8 @@ const bourbonSeeder = [
 		bottler: 'Luxco',
 		abv: '41%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'IW Harper is a brand reboot managed by Heaven Hill. IW Harper was one of the producers of old. You can still sometimes see their 15yr age stated expression sitting on a store counter in its cologne style bottle, but thats priced about $70 above this release. For the record, this is the no age statement, $20 edition.',
@@ -6812,7 +7114,8 @@ const bourbonSeeder = [
 		bottler: 'I.W. Harper',
 		abv: '43%',
 		age: '15 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a 15yr release from under Diageos wing. It is sourced product from New Bernheim bottled under the I.W Harper line that Diageo is resurrecting.',
@@ -6835,7 +7138,8 @@ const bourbonSeeder = [
 		bottler: 'Isaac Bowman',
 		abv: '46%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a non-LE release of Bowman spirit, finished in port casks. Thanks to /u/deathsnuggle, from the Whiscord Discord server for this sample. I'm not sure if this product sees distribution outside of Virginia, at least at this time.",
@@ -6858,7 +7162,8 @@ const bourbonSeeder = [
 		bottler: 'J. Mattingly',
 		abv: '55%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a frankenwhiskey coming from the dreaded Mattingly's. Supposedly a blend of bourbons, probably from MGP or OZ Tyler at an undisclosed age. I'm a little timid for this one, but lets see how it is. I didn't get a good shot of this sample, nor is there any real good info online, so the image is more or less a mystery. Redeye is the name of the blend, which released to little fanfare well after the general whiskey community shunned the Mattinglys.",
@@ -6881,7 +7186,8 @@ const bourbonSeeder = [
 		bottler: 'J. Mattingly',
 		abv: '69%',
 		age: '12 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This dram was tasted blind. I took down my notes, and formulated a guess over my usual tasting sessions. Let's see how I did!",
@@ -6904,7 +7210,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: null,
@@ -6923,7 +7230,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: null,
@@ -6942,7 +7250,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a pre-fire distillate, post-fire bottled bottled in bond product from Heaven Hill under the JWDant label.',
@@ -6965,7 +7274,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '48.5%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by Jack Daniel's and bottled after 10 years of aging, this bottling is the oldest spirit released so far from the distillery - quite the milestone.",
@@ -6988,7 +7298,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Oddly corn forward - almost smells like a corn tortilla or tortilla chip. Very distinctive. Banana, vanilla, mild wood funk, toffee and something that can only be described as peanuts. Its inviting and its not like Beam Peanut Brittle funk but this smells like a new can of Planters peanuts being cracked.',
@@ -7010,7 +7321,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '40%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Jack Daniel's Gentleman Jack is a dual filtered release from the distillery, hallmarked for being extra smooth.",
@@ -7033,7 +7345,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '35%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: null,
@@ -7052,7 +7365,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '40%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Filtered twice, aged in American oak barrels and finished in maple barrels, Jack Daniel's No. 27 release is a limited edition priced around $80. It's worth noting here, orthogonal to the current maple syrup barrel finishes some producers are releasing, that Jack Daniel's is using barrels made from maple wood for finishing - not oak barrels that aged maple syrup for some period of time.",
@@ -7075,7 +7389,8 @@ const bourbonSeeder = [
 		bottler: 'Jack Daniels',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This bourbon, yes bourbon, is a product from Jack Daniels in Tennesee where their bourbon is made. This bourbon is one of the better selling bourbons the world over. This bourbon is filtered like many other bourbons before and after it. Lets see how this bourbon is.',
@@ -7096,7 +7411,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'In an exercise to pay appreciation to one of Jack Daniels most notable fans: Frank Sinatra. As a result, the brand has incorporated additional grooves to their staves for extra oak and spirit interaction. Frank Sinatra infamously loved his Jack Daniels both on ice and with a splash of water, which seems like nothing short of heavy dilution, but we will see how this stands up neat.',
@@ -7119,7 +7435,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '63.35%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a single barrel offering from Jack Daniels that is bottled at barrel proof with no coloring or filtering. Ive seen some level of success with these in the past, although my current opinion is that in the past the variability of the barrels has been through the roof. Ive noticed this less in the last year or so, and hope that like Knob Creek Single Barrel Reserves, Jack Daniels is also dialing in their QC for this line of products.',
@@ -7143,7 +7460,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '64.8%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a single barrel of Brown-Forman distillate selected by an Illinois retailer. It is bottled at barrel proof.',
@@ -7167,7 +7485,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '66.15%',
 		age: '5 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is a single barrel selection from Jack Daniel's Single Barrel Barrel Proof collection named Goose's Lightning, selected by Bourbon Pursuit. Barrelhouse 46, T2, 4th Floor. This is a 5yr, distilled on Aug 12, 2014 and aged on Rick L2-Tier3. It's been a while since I've had one of these, and I'm typically a fan, so I'm looking forward to diving into this. Let's do it.",
@@ -7190,7 +7509,8 @@ const bourbonSeeder = [
 		bottler: "Jack Daniel's",
 		abv: '65.9%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a single barrel, barrel proof release of Brown-Forman distillate produced for the Jack Daniels line of expressions. This particular barrel was selected for Woodmans Market, a local chain here in Wisconsin.',
@@ -7213,7 +7533,8 @@ const bourbonSeeder = [
 		bottler: "Jacob's Pardon",
 		abv: '48.55%',
 		age: '8 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Jacob's Pardon is a new blend of staight whiskey's coupling distillate from Indiana and Tennessee. Age stated at 8 years, non-chill filtered and bottled at 97.1 proof, this is certainly an enticing set of statistics, though the $70 price tag may be a tough sell to some. Let's dig in.",
@@ -7236,7 +7557,8 @@ const bourbonSeeder = [
 		bottler: 'Jefferesons',
 		abv: '56%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Commuting is a real drag unless you're a barrel of bourbon in Jeffersons care. Jeffersons Ocean crosses the equator several times while zig zagging across the ocean, spending time maturing on the deck of ships. Conceptually, the rocking of boats ensures greater interaction with the barrel, and some assert that you can really experience the maritime air in the whiskey. Does it make a difference? Let's find out.",
@@ -7259,7 +7581,8 @@ const bourbonSeeder = [
 		bottler: 'Jeffersons',
 		abv: '41.15%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Jeffersons Very Small Batch Bourbon carries no age statement and inhabits most stores shelves around the $28 mark - extremely hotly contested real estate many similarly priced releases. We don't know who makes it, but it's bottled at 41.15% ABV.",
@@ -7282,7 +7605,8 @@ const bourbonSeeder = [
 		bottler: 'Jeffersons',
 		abv: '45.1%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'"Kentucky- A single barrel bourbon hand-picked by local Total Wine experts, aged in new American Oak barrels and finished in Chappellet Pritchard Hill Cabernet Sauvignon casks. Nose is reminiscent of this exquisite Napa Valley wine, with hints of caramel and spicy oak on the finish." - Total Wine So we have a Jeffersons release, matured in Cabernet casks, and chosen by Total Wine. This could be interesting.',
@@ -7305,7 +7629,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '43%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Aged a bit longer than standard Jim Beam White Label, Jim Beam Black Extra Aged occupies the same shelf space as the Double Oaked expression.',
@@ -7328,7 +7653,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Distilled by Beam, this release of Jim Beam is a Bonded one - bourbon adhering to the regulation known as Bottled in Bond.',
@@ -7351,7 +7677,8 @@ const bourbonSeeder = [
 		bottler: 'Jim Beam',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"Produced by harnessing science to extract extra bourbon absorbed into the barrel wood, Devils Cut is deemed the antithesis so the Angel's Share - alcohol lost to evaporation over aging.",
@@ -7373,7 +7700,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro: null,
 			nose: null,
@@ -7392,7 +7720,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '43%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Jim Beam Double Oak is a remix on Jim Beam’s flagship bourbon. Standard Jim Beam is taken for a second period of maturation and placed in another new charred barrel for the finishing duration.',
@@ -7415,7 +7744,8 @@ const bourbonSeeder = [
 		bottler: 'Beam Suntory, Inc.',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -7434,7 +7764,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '43%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"Released in a Limited Edition format, this monstrous bottling from Beam pays tribute to Prohibition and its repeal with a new, non chill filtered release in the company's line of bourbons.",
@@ -7457,7 +7788,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '43%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Sweet and winey, maple, vanilla, red fruits, cinnamon',
@@ -7479,7 +7811,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'A widely available product from one of the largest producers in American, and the world.',
@@ -7500,7 +7833,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: 'Sweet toffee, caramel, dough, light corn syrup note. No hint of heat or astringency.',
@@ -7522,7 +7856,8 @@ const bourbonSeeder = [
 		bottler: 'Bowman',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a release from the Bowman line, which is Buffalo Trace distillate that is repeat distilled at the Bowman facility. This is a single barrel offering from them. I included this in the the Craft Whiskey Crackdown because most unassuming purchasers tend to think Bowman is its own special entity and, well, I wanted some brief relief before the next couple entries.',
@@ -7544,7 +7879,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '50.5%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a younger product that is being distilled and released by Willett. It is bottled at 50.5% ABV and sees sporadic distribution around the US.',
@@ -7566,7 +7902,8 @@ const bourbonSeeder = [
 		bottler: 'Joseph A. Magnus',
 		abv: '51.5%',
 		age: '9 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'A blended whiskey - Murray Hill Club is a blend of 18 year bourbon, 11 year bourbon and nine year light whiskey - all distilled at MGP and bottled by Joseph Magnus in DC.',
@@ -7589,7 +7926,8 @@ const bourbonSeeder = [
 		bottler: 'Joseph Magnus',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'"Joseph Magnus Bourbon is a marriage of straight bourbon whiskey aged in white oak and finished in Oloroso sherry, Pedro Ximnez and Cognac casks. Rich and deep notes of vanilla, citrus, dark chocolate, brown sugar and dark stone fruits deliver with a lingering, warm finish." - Joseph Magnus Website',
@@ -7612,7 +7950,8 @@ const bourbonSeeder = [
 		bottler: 'Joseph Magnus',
 		abv: '50.35%',
 		age: '11 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is yet another MGP sourced product. Blend of 11 and 18yr old whiskeys finished in Armagnac, Sherry and Cognac casks.',
@@ -7634,7 +7973,8 @@ const bourbonSeeder = [
 		bottler: 'Kavalan',
 		abv: '57.8%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a young, cask strength bottling from Kavalan in Taiwan. This is matured in ex-bourbon casks.',
@@ -7656,7 +7996,8 @@ const bourbonSeeder = [
 		bottler: 'Kentucky Owl',
 		abv: '57.5%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				'Kentucky Owl Dry State is a fairly interesting release. In the vein of literally everything else Kentucky Owl, this is undisclosed as to who produced it. Combined with a lack of a real age statement, and a $1000 price tag, some, nay - many, may be dubious. Fear not - we coughed up the cash to give it a shot.',
@@ -7679,7 +8020,8 @@ const bourbonSeeder = [
 		bottler: 'Kentucky Par',
 		abv: '50%',
 		age: '12 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"This KY only Limited Release by the newly founded, er, re-founded, brand Kentucky Par is distilled by an undisclosed but not so hard to guess KY distillery and bottled by Kentucky Par at 12 years old, and 50% ABV. It's a little on the pricy side, but that doesn't change the flavor, so I think we have all we need to dive in. Let's get to it.",
@@ -7702,7 +8044,8 @@ const bourbonSeeder = [
 		bottler: 'Kilchoman',
 		abv: '56.4%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a single cask bottling that is available for purchase solely at Kilchomans distillery. It is 10 years old and matured entirely in Buffalo Trace ex-bourbon casks. It is bottled without dilution, filtering or coloring.',
@@ -7725,7 +8068,8 @@ const bourbonSeeder = [
 		bottler: 'Kilchoman',
 		abv: null,
 		age: '5 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'Admittedly, the label got ripped off of this sample, so its time for a little adventure.',
@@ -7748,7 +8092,8 @@ const bourbonSeeder = [
 		bottler: 'Kings County Distillery',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'"Kings County Distillerys Straight Bourbon is made from New York State organic corn and malted barley from the U.K., is twice distilled in copper pot stills and then aged in new charred oak barrels. It is characterized by a rich aroma of fresh corn, balanced with the sweet caramelized oak sap from small barrels. It has a very strong sweet base with flavors of vanilla and caramel, a deep molasses taste to the middle notes, and leaves a smooth finish with hints of cinnamon and autumn spices. Aged for at least two years, this bourbon is a precocious whiskey, surprisingly robust for its age." - Kings County website.',
@@ -7769,7 +8114,8 @@ const bourbonSeeder = [
 		bottler: 'Kings County Distillery',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: null,
@@ -7788,7 +8134,8 @@ const bourbonSeeder = [
 		bottler: 'Kirkland Signature',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by Barton and bottled for Kirkland Signature (yes, Costco) this is the 2nd release in the new Kirkland Signature 3 bottle campaign. Following in the foot steps of the Small Batch, this is the Bottled in Bond. Let's get to it.",
@@ -7811,7 +8158,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '46%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by Barton for Costco Warehouses, this Kirkland Signature Small Batch bourbon is a notable new labeling in a clear partnership between the two brands. Big distillers are often hesitant to put their name on clearly sourced products for competitors, but in this case, it's clear both Costco and Barton saw the value in a Barton distilled, Kirkland Signature release that's clear about the origin and the purpose. We love to see it. On to the whiskey.",
@@ -7834,7 +8182,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '50%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Released in 2020, Knob Creek now hosts a 12yr 100proof entry in their product portfolio. A blend of bourbons (at least not labeled single barrel) this $50 release immediately ignited concerns of a dwindling level of 12+ yr barrels in the single barrel program many have been known to come and love.',
@@ -7857,7 +8206,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '50%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"After years of Knob Creek Single Barrels, it's intriguing to also see a 15yr Limited Edition release as those older barrels fell off. This is a 15yr Limited Edition batch, and retails for about $100. Let's see how it is.",
@@ -7879,7 +8229,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '62.1%',
 		age: '13 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and Ive taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.',
@@ -7902,7 +8253,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '50%',
 		age: '9 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is the entry level, 9 year age stated Knob Creek product released by Beam Suntory. This was the bottling prior to them removing the age statement.',
@@ -7925,7 +8277,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: null,
@@ -7944,7 +8297,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '13 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a straggling bottle from my previous Knob Creek Rodeo. I bought two of this particular pick when prepping for the series, and now, almost a full year later, I finally cracked into it, shared it with some friends, and finished it off, taking notes all the way. I wonder how much this experience will differ from the bottle right after it was released.',
@@ -7967,7 +8321,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Hot, beam funky, maple. Peanut brittle, and caramel out the wazoo. Sweet and funky.',
@@ -7989,7 +8344,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrel Reserve is an impressively priced entry in Beam's bourbon catalogue featuring a 9 year age statement and hefty 60% ABV bottling proof.",
@@ -8012,7 +8368,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8035,7 +8392,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8058,7 +8416,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '15 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before. These have all been tried fully blind so as to rank them on their merits, rather than their stats, alone.",
@@ -8081,7 +8440,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8104,7 +8464,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8127,7 +8488,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '15 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8150,7 +8512,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8173,7 +8536,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Sticky caramel, peanut brittle, cocoa',
@@ -8196,7 +8560,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '15 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a well aged Knob Creek Single Barrel selection done by a good friend of mine, for himself. One day, I hope to be this great. This bottling is 15 years old and bottled at 60% ABV. These have become a favorite of mine, over the last 40 single barrels i've tried or so, so let's see how this stacks up. Time to dive in.",
@@ -8219,7 +8584,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: "Spicy. Ethanol. Cinnamon, peanut brittle, there's some of that nice peanut butter. Cloves and leather notes. This one seems a little more spicy/savory than the previous which was caramel / peanut brittle heavy. So far.",
@@ -8241,7 +8607,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8264,7 +8631,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8287,7 +8655,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8311,7 +8680,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '15 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Knob Creek is a very familiar product to me, distilled at Beam in Kentucky. This is a 13 year store pick of their Single Barrel Reserve line of expressions, and is bottled at 60% ABV.',
@@ -8334,7 +8704,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Hearty peanut brittle, caramel, toffee and huge clove and cinnamon. Smells hot but also smells like a good dead of winter dram.',
@@ -8356,7 +8727,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8380,7 +8752,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8403,7 +8776,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8425,7 +8799,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and Ive taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.',
@@ -8448,7 +8823,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before. These have all been tried fully blind so as to rank them on their merits, rather than their stats, alone.",
@@ -8472,7 +8848,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8495,7 +8872,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '15 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a 15yr selection of a Knob Creek single barrel by Beam for Gallenstein, a fairly well known retailer. Let's dive in.",
@@ -8518,7 +8896,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: 'This is a 12yr old single barrel pick called Golden Ox.',
 			nose: 'Graham cracker. Fruity, sweet caramel, some oak. Fairly muted overall.',
@@ -8540,7 +8919,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8562,7 +8942,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a Knob Creek Single Barrel being picked by Haymarket. It is 12 years old. This was reviewed and written down before the controversial events unfolding at Haymarket in recent months. In the interest in civility and not speculating, please focus on the review and the spirit here - don't make a commentary about events that conspired, may have conspired or otherwise.",
@@ -8583,7 +8964,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8606,7 +8988,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8629,7 +9012,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '13 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8652,7 +9036,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8675,7 +9060,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a pick done by a private group of individuals partnering with a store. It is 12 years old. Sorry for the garbage photo. High quality images will resume again tomorrow.',
@@ -8698,7 +9084,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8720,7 +9107,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8743,7 +9131,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and Ive taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.',
@@ -8765,7 +9154,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a 10 year old store pick done jointly by NASA liquors in Texas and Rosewater. As of right now, it sports some of the cooler labeling that is out there for Knob Creek picks - a custom back graphic and name that describe the pick and where it was selected from.',
@@ -8789,7 +9179,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a 12 year old store pick done jointly by NASA liquors in Texas and Rosewater. As of right now, it sports some of the cooler labeling that is out there for Knob Creek picks - a custom back graphic and name that describe the pick and where it was selected from.',
@@ -8812,7 +9203,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8836,7 +9228,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '15 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8859,7 +9252,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8881,7 +9275,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and I've taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.",
@@ -8904,7 +9299,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '9 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Knob Creek Single Barrels have long been a product easily available at most stores. In the last several years, picking private barrels of various ages has become more commonplace. Picks between 9 and 16 years of age have been popping up with great regularity and Ive taken it upon myself to try a variety and see how they fare. Some time ago, Knob Creek exhibited what may have been the largest barrel variation commonly agreed on in the bourbon community with some barrels ranging from wretched to godly. It has been my feeling that, as of late, the overall quality of these barrels being picked has risen, adding a slightly higher floor than existed before.',
@@ -8926,7 +9322,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '60%',
 		age: '13 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a private barrel selection of Knob Creek distillate from Beam / Suntory in Kentucky. It was sent to me blind, and I drank it live in the Whiskey Network Discord and tried to guess the reveal. I have filled in all of the info here post reveal for convenience before posting.',
@@ -8949,7 +9346,8 @@ const bourbonSeeder = [
 		bottler: 'Knox Whiskey Works',
 		abv: '60.56%',
 		age: '5 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a single barrel release of Knox Whiskey Works 5 year old spirit, distilled using a 70/30 corn:rye mash bill. It is bottled at cask strength and sourced from an undisclosed source. There is very little information out there regarding their contract producer / sourcer, and the mash bill further kicks up the intrigue factor.',
@@ -8972,7 +9370,8 @@ const bourbonSeeder = [
 		bottler: 'Laphroaig',
 		abv: '58%',
 		age: '12 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is from a cask at Laphroaig's Distillery that was hand filled. It was bottled in 2018 after being distilled and barreled in 2006 and spent the entirety of its life in an ex-bourbon cask. It is bottled at cask strength, with no coloring or filtering. It was aged in warehouse 8. Due to the cask number, Laphroaig refers to this cask as the Devil's Cask, which makes this the Devil's Dram.",
@@ -8995,7 +9394,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '61.6%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is the first release of Heaven Hill's Larceny Barrel Proof bourbon. Non age stated, but said to have 6-8 year old bourbon in the mix, this wheater is finally coming to us at barrel proof - something many have clamored about for years. Let's dive in. This is batch A120.",
@@ -9018,7 +9418,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '57.4%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"The first entry for 2021 in Heaven Hill's Larceny Barrel Proof portfolio, Batch A121 releases with an ABV of 57.42 and features the brand's wheated mashbill.",
@@ -9041,7 +9442,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '60.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled by Heaven Hill, Larceny Barrel Proof B521 is a barrel proof bottling of the brands flagship wheated bourbon mashbill product.',
@@ -9064,7 +9466,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '61.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Larceny Barrel Proof C920 is the third release of Larceny BP this year, following A120 and B520 batches. This wheated bourbon doesn't carry an age statement, but it's barrel proof and weighs in at an impressive 61.2% ABV.",
@@ -9087,7 +9490,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '61.3%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by Heaven Hill, Larceny Barrel Proof C921 is a barrel proof bottling of the brands flagship wheated bourbon mashbill product. Containing a blend of 6 to 8 year wheated bourbons, this offering has consistently appeared to improve since its launch in 2020. Let's see how C921 fares as the final batch of 2021 to release.",
@@ -9110,7 +9514,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '46%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Larceny is an inexpensive release from Heaven Hill that features a wheated mashbill and a bottling proof of 46% ABV.',
@@ -9133,7 +9538,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '47%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled by Fred Noe of Jim Beam, and blended by Shinji Fukuyo, this collaboration between the figureheads of both halves of Beam/Suntory focuses on displaying the skill required not only to distill, but to blend spirits.',
@@ -9156,7 +9562,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '43%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by Wild Turkey, this product is more or less becoming an offshoot under the Campari umbrella, a product more or less designed by Matthew McConaughey to stand independently. It's filtered through Texas Mesquite as well, so it should be unique, if nothing.",
@@ -9178,7 +9585,8 @@ const bourbonSeeder = [
 		bottler: 'A.D. Rattray',
 		abv: '54.3%',
 		age: '15 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'Distilled at The Macallan distillery in 1997 and bottled by AD Rattray after 15 years of maturation in ex-bourbon, this expression is bottled at cask strength with no coloring or filtering.',
@@ -9201,7 +9609,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"A modestly aged, modestly proofed, modestly priced wheated bourbon from Maker's Mark distillery in Kentucky.",
@@ -9224,7 +9633,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Released in 2020, Maker's Mark 101 proof Limited Edition is a throwback to the days of old. A common complaint about Maker's Mark standard expression typically relates to wanting a bit of a bump in richness and proof, so this should be a welcome bottling.",
@@ -9247,7 +9657,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.4%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Maker's Mark Limited Release 2020 brings us a bourbon that's got quite a story. Matured and then finished in a unique stave profile in collaboration with Independent Stave, in order to really show off a caramel and vanilla profile.",
@@ -9270,7 +9681,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.15%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Created by Maker\'s Mark to express "a fruit-forward expression with notes of tobacco and wood" (Maker\'s Mark), 2021 Limited Release FAE-01 is meant to evoke memories of standing in their rickhouses and smelling the essence of all those maturing barrels. Produced using 10 Virgin Toasted American Oak Staves, and bottled at 55.3% ABV.',
@@ -9293,7 +9705,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '47%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Ironic that I'm reviewing this before standard Maker's Mark. Oh well. This is slightly higher proofed Maker's Mark that has also had some French Oak stave added. This is supposed to add some additional spice and flavor to the base spirit. Lets see how it does!",
@@ -9316,7 +9729,8 @@ const bourbonSeeder = [
 		bottler: 'Makers Mark',
 		abv: '55.15%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Produced in small batches of 20 barrels or less, Maker's Mark 46 Cask Strength is a moderately limited release that features nothing but the French Oak staves used for 46 and bottling at cask strength. Once a distillery only release, Makers Mark 46 CS can now be found across the country.",
@@ -9339,7 +9753,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '53.65%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Molasses. Mildly astringent. Honey, spicy pepper, big brown sugar.',
@@ -9361,7 +9776,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.3%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Sporting the new label from the 2020 revision, this is the 1st batch of Maker's Mark Cask Strength bourbon whiskey landing. In 2020, Maker's has elected to give their Cask Strength releases more visible batch numbers, no doubt in an effort to remain in parity with their competitors. Regardless, this is a NAS expression bottled at 55.3% ABV and a recent market wide price drop. Let's get to it.",
@@ -9384,7 +9800,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.05%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"A part of the new 2020 release, this is the 1st batch of Maker's Mark Cask Strength bourbon whiskey landing. In 2020, Maker's has elected to give their Cask Strength releases batch numbers, no doubt in an effort to remain in parity with their competitors. Regardless, this is a NAS expression bottled at 55.05% ABV and a recent market wide price drop encouraged me to snag one. Let's get to it.",
@@ -9407,7 +9824,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"A part of the new 2020 release, this is the 2nd batch of Maker's Mark Cask Strength bourbon whiskey landing. In 2020, Maker's has elected to give their Cask Strength releases batch numbers, no doubt in an effort to remain in parity with their competitors. Regardless, this is a NAS expression bottled at 55.2% ABV and a recent market wide price drop encouraged me to snag one. Let's get to it.",
@@ -9430,7 +9848,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '54.9%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"A part of the new 2020 release, this is the 3rd batch of Maker's Mark Cask Strength bourbon whiskey landing. In 2020, Maker's has elected to give their Cask Strength releases batch numbers, no doubt in an effort to remain in parity with their competitors. Regardless, this is a NAS expression bottled at 54.9% ABV and a recent market wide price drop encouraged me to snag one. Let's get to it.",
@@ -9453,7 +9872,8 @@ const bourbonSeeder = [
 		bottler: 'Makers Mark',
 		abv: '54.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"A part of the new 2020 release, this is the 4th batch of Makers Mark Cask Strength bourbon whiskey landing. In 2020, Makers has elected to give their Cask Strength releases batch numbers, no doubt in an effort to remain in parity with their competitors. Regardless, this is a NAS expression bottled at 54.5% ABV and a recent market wide price drop encouraged me to snag one. Let's get to it.",
@@ -9476,7 +9896,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Sporting the new label from the 2020 revision, this is the 2nd batch of Maker's Mark Cask Strength bourbon whiskey landing. In 2020, Maker's has elected to give their Cask Strength releases more visible batch numbers, no doubt in an effort to remain in parity with their competitors. Regardless, this is a NAS expression bottled at 55.2% ABV and a recent market wide price drop. Let's get to it.",
@@ -9499,7 +9920,8 @@ const bourbonSeeder = [
 		bottler: 'Makers Mark',
 		abv: '54.7%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"INTRO: Sporting the new label from the 2020 revision, this is the 3rd batch of Maker's Mark Cask Strength bourbon whiskey landing in 2021. In 2020, Maker's has elected to give their Cask Strength releases more visible batch numbers, no doubt in an effort to remain in parity with their competitors. Regardless, this is a NAS expression bottled at 54.7% ABV and a recent market wide price drop. Let's get to it.",
@@ -9522,7 +9944,8 @@ const bourbonSeeder = [
 		bottler: 'Makers Mark',
 		abv: '54.7%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Sporting the new label from the 2020 revision, this is the 4th batch of Maker's Mark Cask Strength bourbon whiskey landing in 2021. In 2020, Maker's has elected to give their Cask Strength releases more visible batch numbers, no doubt in an effort to remain in parity with their competitors. Regardless, this is a NAS expression bottled at 54.7% ABV and a recent market wide price drop. Let's get to it.",
@@ -9544,7 +9967,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.1%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9567,7 +9991,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.1%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9589,7 +10014,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.45%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9612,7 +10038,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.45%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Makers only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9635,7 +10062,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.05%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9658,7 +10086,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.75%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is a private selection of spirit from Maker's Mark that underwent their stave process. I tasted this dram blind and then got the reveal at a later time, so keep that in mind as you read through these notes.",
@@ -9681,7 +10110,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.1%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9704,7 +10134,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.05%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9727,7 +10158,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.2%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9750,7 +10182,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.05%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9773,7 +10206,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.1%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9796,7 +10230,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.1%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Makers only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9819,7 +10254,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.2%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9842,7 +10278,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.15%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9865,7 +10302,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.7%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9887,7 +10325,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.5%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9911,7 +10350,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '55.7%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Maker's Mark, one of the larger producers of bourbon in Kentucky, produces wheated bourbon that is sold both domestically and abroad. Until recent years, Maker's only produced a small handful of products. In the last couple of years, though, products like Maker's Mark 46 and Maker's Mark Cask Strength have seen domestic releases. A major criticism of the brand, though, was the absence of a barrel selection program in favor of wax dipped limited editions. That has now changed. A barrel selection at Maker's Mark is unique, though, in that you choose a combination of staves to mature in a barrel, and that barrel is bottled. This is different from almost any other barrel selection process on the market. For better or for worse, this creates a very different product than their core line of expressions. I've set out to try approximately a dozen of these various private selections, completely blind, to gather my thoughts on how their releases are shaking out.",
@@ -9934,7 +10374,8 @@ const bourbonSeeder = [
 		bottler: "Maker's Mark",
 		abv: '54.1%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is a limited release from Maker's Mark featuring an entirely new stave choice. Let's dive in! Stock photo.",
@@ -9956,7 +10397,8 @@ const bourbonSeeder = [
 		bottler: 'Makers Mark',
 		abv: '54.55%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Created by Maker\'s Mark to express "rich, wonderfully oaky bourbon" (Maker\'s Mark), 2021 Limited Release FAE-02 is meant to really daw on expressive tannins and a rich mouthfeel, focusing on viscosity and woody notes. This is the second entry in the 2021 Limited Release series, and will be the last for the 2021 release calendar.',
@@ -9980,7 +10422,8 @@ const bourbonSeeder = [
 		bottler: 'MB Roland',
 		abv: '53.5%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a Total Wine selection of single barrel bourbon that appears to be contract distilled for MB Roland brand in Kentucky by an undisclosed distiller.',
@@ -10003,7 +10446,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Mellow Corn is a corn whiskey product from Heaven Hill. It is also bottled in bond.',
@@ -10026,7 +10470,8 @@ const bourbonSeeder = [
 		bottler: 'Famous Brands',
 		abv: '45%',
 		age: '6 Months',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -10045,7 +10490,8 @@ const bourbonSeeder = [
 		bottler: 'Van Winkle',
 		abv: '53%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'Nathan Stone is an old, hotly contested, and debated release. Linked closely to the Van Winkles, this export bottling is special to many and expensive to all.',
@@ -10068,7 +10514,8 @@ const bourbonSeeder = [
 		bottler: 'Nelsons Green Brier',
 		abv: '45.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by Nelson's Green Brier using a wheated mashbill, this whiskey comes to us from the same folks bottling Belle Meade. This is my first brush formally reviewing their own distillate, so I'm looking forward to it. Let's get to it.",
@@ -10091,7 +10538,8 @@ const bourbonSeeder = [
 		bottler: 'New Riff',
 		abv: '50%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Produced at New Riff using a peated mash, Backsetter Bourbon is a notable, and first of its kind release for the brand.',
@@ -10114,7 +10562,8 @@ const bourbonSeeder = [
 		bottler: 'New Riff',
 		abv: '53.35%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled at New Riff, this single barrel bourbon comes to us at barrel proof without filtering. Ages of single barrels will range widely, though New Riff typically keeps their barrels rolling out very closely to the 4 year mark.',
@@ -10137,7 +10586,8 @@ const bourbonSeeder = [
 		bottler: 'New Riff',
 		abv: '50%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled at New Riff, this craft bourbon comes to us from a gang who knows what they're doing - delivering a new riff on an old tradition. Produced on Vendome copper in the parking lot of The Party Source, New Riff prizes sound fermentation and the practice of keeping barrels until they are ready. Let's dive in.",
@@ -10159,7 +10609,8 @@ const bourbonSeeder = [
 		bottler: 'New Riff',
 		abv: '50%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'New Riff Winter Whiskey features a unique mashbill including malted oats and chocolate malt to join the standard corn recipe.',
@@ -10182,7 +10633,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '57.15%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Sweet cinnamon and sugar. Lots of clove. Spicy rye notes with some fruity cinnamon. This is a bourbon, but has a lot of high rye notes to it. Almost like cinnamon toast crunch cereal. Odd, but accurate.',
@@ -10204,7 +10656,8 @@ const bourbonSeeder = [
 		bottler: 'O.H. Ingram',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'"On the water, no matter the size of the fleet, there is only one flagship. That title is reserved for the finest vessel, one that outshines the rest. The same is true of this bottle. Chosen for its extraordinary character, this limited release bourbon is our finest spirit of the year." -- A blend of 10 barrels of hand chosen stock, Ingram doesn\'t give too much more info about the stats on this bourbon, other than the 100pf bottling ABV. Distilled at MGP, bottled in Kentucky.',
@@ -10227,7 +10680,8 @@ const bourbonSeeder = [
 		bottler: 'Brown Water Spirits',
 		abv: '46%',
 		age: '3 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled at MGP, aged at least 3 years, and made up of a blend of their bourbon and rye, OH Ingram Straight Whiskey is another release matured on their floating barge structure. A unique look at a new take on whiskey, this particular bottling is 64% rye, which should be a pretty interesting tasting. Let’s dig in.',
@@ -10249,7 +10703,8 @@ const bourbonSeeder = [
 		bottler: 'New Riff',
 		abv: '54%',
 		age: '10 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a cheeky NDP who uses their brand to indicate the states involved in producing and bottling their sourced spirits - the O, K and I are stand-ins for Ohio, Kentucky and Indiana. According to them, it is distilled in Indiana, bottled in Kentucky, and loved in Ohio.',
@@ -10272,7 +10727,8 @@ const bourbonSeeder = [
 		bottler: 'New Riff',
 		abv: '50%',
 		age: '9 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a cheeky NDP who uses their brand to indicate the states involved in producing and bottling their sourced spirits - the O, K and I are stand-ins for Ohio, Kentucky and Indiana. According to them, it is distilled in Indiana, bottled in Kentucky, and loved in Ohio.',
@@ -10295,7 +10751,8 @@ const bourbonSeeder = [
 		bottler: 'New Riff',
 		abv: '56.375%',
 		age: '10 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a cheeky NDP who uses their brand to indicate the states involved in producing and bottling their sourced spirits - the O, K and I are stand-ins for Ohio, Kentucky and Indiana. According to them, it is distilled in Indiana, bottled in Kentucky, and loved in Ohio.',
@@ -10318,7 +10775,8 @@ const bourbonSeeder = [
 		bottler: 'New Riff',
 		abv: '48.9%',
 		age: '10 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a cheeky NDP who uses their brand to indicate the states involved in producing and bottling their sourced spirits - the O, K and I are stand-ins for Ohio, Kentucky and Indiana. According to them, it is distilled in Indiana, bottled in Kentucky, and loved in Ohio.',
@@ -10341,7 +10799,8 @@ const bourbonSeeder = [
 		bottler: 'Old 55 Distillery',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"This sweet corn bourbon is produced from corn grown on the distillery estate and bottled at 40% ABV. This should be interesting, as I don't drink a particular ton of corn whiskey, but I like the sound of it, so here goes. Let's get to it.",
@@ -10364,7 +10823,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: 'Molasses turned up to 11. Overload. Delicious overload. Leather and clove, maple and some dusty, mildly vegetal notes. Little bit of wet paper. Lots of sweet and good balance of clove, maple and maple. Mmmm',
@@ -10386,7 +10846,8 @@ const bourbonSeeder = [
 		bottler: 'Stitzel-Weller',
 		abv: '43%',
 		age: '5 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a 5 year bourbon distilled at Stitzel Weller in Kentucky in 1972. It was bottled in 1977 and represents what is widely agreed upon to be a bygone era in bourbon production. Given that Stitzel Weller is now shuttered from distilling, it has taken a spot on the mantel of famed distilleries, with some of their products sitting at the head of the hype roundtable. Lets see how this one compares:',
@@ -10409,7 +10870,8 @@ const bourbonSeeder = [
 		bottler: 'Old Carter',
 		abv: '58.6%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"Distilled by an Undisclosed producer, this is Batch 7 of Old Carter's Small Batch Bourbon whiskey. Bottled at barrel proof without any coloring or filtering.",
@@ -10432,7 +10894,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '43%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"Old Charter 10 is a release from Sazerac focused on an old label owned elsewhere. This bourbon is bottled without an age statement and at 43% ABV. Let's dive in.",
@@ -10455,7 +10918,8 @@ const bourbonSeeder = [
 		bottler: 'Old Elk',
 		abv: '44%',
 		age: '5 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by Greg Metze for MGP in Indiana and bottled by Greg Metze for Old Elk in Colorado, this particular bottling is the brand's blend of Straight Bourbons, aged 5 years and bottled at 44% ABV.",
@@ -10478,7 +10942,8 @@ const bourbonSeeder = [
 		bottler: 'Old Elk',
 		abv: '46%',
 		age: '5 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by Greg Metze for MGP in Indiana and bottled by Greg Metze for Old Elk in Colorado, this particular bottling is the brand's Wheated Bourbon, aged 5 years and bottled at 46% ABV.",
@@ -10501,7 +10966,8 @@ const bourbonSeeder = [
 		bottler: 'Luxco',
 		abv: '58.5%',
 		age: '7 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a barrel proof release of what is most likely Heaven Hill distillate sourced by Luxco for the Ezra Brooks product line. It is age stated at 7 years old.',
@@ -10524,7 +10990,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '11 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled in 2010 and bottled for the Fall 2021 release season, this is the second release of Old Fitzgerald for the limited edition Decanter Series in 2021. Produced using all the hallmarks of Bottled in Bond, this bourbon is bottled at 50% ABV and leverages Heaven Hill's wheated mashbill. Let's dive in.",
@@ -10547,7 +11014,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '13 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"This is a limited edition revival of the Old Fitzgerald bottling by Heaven Hill. Produced in batches, in a limited release format, this 13yr wheated bourbon carries the bottled in bond designation and can be found in a fairly attractive decanter bottle. Let's dive in.",
@@ -10570,7 +11038,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '14 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Distilled in the Fall of 2005 and bottled in 2020, this 14 year age stated wheated bourbon is the latest entry into Heaven Hill's Old Fitzgerald Decanter Series. Produced using all the markers of a Bottled in Bond release, this series has taken off quite well in recent years after an initially rocky start. I was a big fan of this Spring's bottling, so I'm looking forward to diving into the older fall release that has just arrived.",
@@ -10593,7 +11062,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Distilled in 2004 and bottled for the Fall 2019 release season, this is the second release of Old Fitzgerald for the limited edition Decanter Series in 2019. Produced using all the hallmarks of Bottled in Bond, this bourbon is bottled at 50% ABV and leverages Heaven Hill's wheated mashbill. Let's dive in.",
@@ -10616,7 +11086,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '8 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Heaven Hill’s Spring 2021 entry in their limited edition Decanter series comes to us as an 8 year bottled in bond expression, distilled in the spring of 2013 and bottled in the spring of 2021. Bottled at 100pf as all Bottled In Bond things are. This is the first 8yr age stated bottling in this series, and is comprised of barrels pulled from 3 different Rickhouses on two different production dates.',
@@ -10639,7 +11110,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '9 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Today's whiskey review is of the new, limited edition, Old Fitzgerald Bottled in Bond Decanter Series. Distilled in 2010 and bottled in 2020, this release is 50% ABV and designated Bottled in Bond, and comes in a fancy bottle. Let's dive in.",
@@ -10662,7 +11134,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '50%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Heavy rich cola. Some cherried and coca. Sweet root beer and vanilla notes with a healtyh helping of some oaky richness. Im hesitant to mutter the words but this does give a nose like a pappy jr (sorry!)',
@@ -10684,7 +11157,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '16 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				'Distilled by Heaven Hill and bottled after 16 years of aging, this red label Old Fitzgerald is a limited edition, distillery only release.',
@@ -10707,7 +11181,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Sweet woody vanilla, cola notes and some root beer as well. Its sweet and woody but very well balanced. Minor molasses in the background but very cola forward.',
@@ -10729,7 +11204,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a bottom shelf release from Heaven Hill that uses the wheated mashbill.',
@@ -10752,7 +11228,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is an old iteration of Old Fitzgerald Prime, speculated to have been distilled and aged at the legendary Stitzel-Weller distillery.',
@@ -10775,7 +11252,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a release in Old Foresters Vintage dated line of expressions. Called the "Original Batch" this is supposed to harken back to George Browns orignal batching process. It is "minimally filtered" - whatever that means.',
@@ -10798,7 +11276,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a bottled in bond release from Brown Forman in their vintage dated line of expressions. They dont say a lot about it, so I am curious if this differes significantly from Old Forester Signature.',
@@ -10821,7 +11300,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '46.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a double barrel bourbon release from Old Forester as an entry in their vintage line of expressions. It is first matured in a normal bourbon cask, then moved to a second, highly charred barrel.',
@@ -10844,7 +11324,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '57.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the third release in Old Foresters vintage based line of expressions. This release is supposedly made in pursuit of replicating Old Foresters production during Prohibition - although there is no word of how that actually differs. The main sticking point of this release is the boost in proof - it is bottled at 115 proof.',
@@ -10867,7 +11348,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '43%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: 'Maple syrup and loads of molasses, banana bread, brown sugar, pound cake, pancakes and clove. Very sweet forward.',
@@ -10889,7 +11371,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '52.5%',
 		age: '11 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is an annual release from Old Forester in their Limited Expression line. Aged for 11 years, 120 barrels were distilled on Mar 15, 2008 and bottled in 2019.',
@@ -10912,7 +11395,8 @@ const bourbonSeeder = [
 		bottler: 'Old Forester',
 		abv: '43%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a 1990 bottling of bourbon distilled by Old Forester, and exported to the Japanese export market. It's an oldie, a definite dusty by todays standard, and from a producer I don't have much dusty experience with, so I'm looking forward to this one. Let's dive in.",
@@ -10935,7 +11419,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '50%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a 50% ABV release from Old Forester. It bears no age statement.',
@@ -10957,7 +11442,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a single barrel of Old Forester spirit that was selected by a local retailer. It was matured in Warehouse G, on Floor 2, and was bottled at 45% ABV. I really wish this was bottled at cask strength, but I gave it a go, regardless.',
@@ -10979,7 +11465,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '47.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Produced by blending barrels from the warmest parts of Old Forester's warehouses (presumably the top) this bottling from the company was produced to pay homage to the outrageous, yet entertaining, characters from the Kingsman franchise of films.",
@@ -11002,7 +11489,8 @@ const bourbonSeeder = [
 		bottler: 'Old Forge Distillery',
 		abv: '66.5%',
 		age: '8 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is what I believe to be a sourced release from Old Forge. They boast having 8-9 year old Tennessee Bourbon Whiskey, and this is a store pick, cask strength release. If this is true, it would be ironic, given that they label their products as hand forged spirits. If someone has more information on whether this is sourced, or their own product, I welcome your input.',
@@ -11025,7 +11513,8 @@ const bourbonSeeder = [
 		bottler: 'Old Fourth Distillery',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled at MGP and bottled by Old Fourth Distillery, this bottling of their bourbon is a bottled in bond release - ensuring it's at least 4 years old and bottled at 50% ABV.",
@@ -11048,7 +11537,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '57%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a 114pf version of the OGD products released from Beam Suntory. Its regularly available and inexpensive, although brief rumors of its demise came and went, causing taters to buy cases. Thankfully, that was not true, and it sits on every local shelf to this day.',
@@ -11071,7 +11561,8 @@ const bourbonSeeder = [
 		bottler: 'National Distillers',
 		abv: '57%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Sweet, punchy plums. Figs, jam, brown sugar, vanilla cream.',
@@ -11093,7 +11584,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Sitting between OGD86 and OGD114, this is Old Grand Dad Bottled in Bond. The Bottled in Bond act is one of the most well known pieces of legislature in bourbon, and it helps ensure consumers saw quality products after prohibition, and helped the government see some nice tax income also. Lets see how it is.',
@@ -11115,7 +11607,8 @@ const bourbonSeeder = [
 		bottler: 'National Distillers',
 		abv: '43%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Light caramel, buttery sweet and no peanut funk. Lots of toffee and butterscotch. Its sweet and I like that a lot.',
@@ -11137,7 +11630,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a very hyped release from Buffalo Trace under the Van Winkle name. Released in limited quantities every fall, people spend their free fall weekend clamoring for a bottle, and often even just a taste.',
@@ -11159,7 +11653,8 @@ const bourbonSeeder = [
 		bottler: 'Campari',
 		abv: '52%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: 'Sweet clove, cinnanmon, light corn. Thick rich vanilla cream, light mild citrus. Faint cocoa. Really, really reminiscent of many other WT products. From the nose, Id have assumed WT101.',
@@ -11181,7 +11676,8 @@ const bourbonSeeder = [
 		bottler: 'Beam',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Distilled by Beam and released widely in 2020 as part of a "Limited Release", Old Tub takes a bottling that is non chill filtered, bottled in bond, and previously was only seen at the distillery gift shop.',
@@ -11203,7 +11699,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a well-proofed wheater from Buffalo Trace in the Weller lineup. Ive reviewed it before, but its been a few years and my palate has grown since then.',
@@ -11226,7 +11723,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: '7 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a single barrel selection of Old Weller Antique from a friend of mine. Noted as 7 years old and non-chill filtered from the old school bottle style, this should be a treat. Let's dive in.",
@@ -11249,7 +11747,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a private selection of Old Weller Antique. It is non-chill filtered.',
@@ -11272,7 +11771,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a well proofed wheater released from Buffalo Trace. It is a NAS product using the wheated mashbill. Old Weller Antique used to be a common, easily available and affordable product, but has recently been struck by the halo effect generated by Buffalo Traces other, higher tier products.',
@@ -11295,7 +11795,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a sample of Old Weller Antique that I received in a blind sample. I got the reveal after taking down notes and am using that to fill in information here for convenience. For other blind reviews, hop on over to the Whiskey Network Discord server and join the chatter.',
@@ -11317,7 +11818,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a single barrel selection of Weller Antique, done by the state of Pennsylvania Fine Wine and Good Spirits state liquor chain. Let's see how it is.",
@@ -11338,7 +11840,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a well proofed wheater released from Buffalo Trace. It is a NAS product using the wheated mashbill. Old Weller Antique used to be a common, easily available and affordable product, but has recently been struck by the halo effect generated by Buffalo Traces other, higher tier products.',
@@ -11361,7 +11864,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.51%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is an Old Weller Antique single barrel selection from a store that is new to me. Let's see how they did.",
@@ -11384,7 +11888,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a well proofed wheater released from Buffalo Trace. It is a NAS product using the wheated mashbill. Old Weller Antique used to be a common, easily available and affordable product, but has recently been struck by the halo effect generated by Buffalo Traces other, higher tier products.',
@@ -11407,7 +11912,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a single barrel selection of Buffalo Trace's Old Weller Antique wheated bourbon. Let's dive in.",
@@ -11430,7 +11936,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a well proofed wheater released from Buffalo Trace. It is a NAS product using the wheated mashbill. Old Weller Antique used to be a common, easily available and affordable product, but has recently been struck by the halo effect generated by Buffalo Traces other, higher tier products.',
@@ -11453,7 +11960,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a single barrel selection of a popular Buffalo Trace product. Distilled using BTs wheated mashbill, Old Weller Antique is a young wheater bottled at a fair proof, and tatered into oblivion. I seem to really bounce between a strong dislike and a strong like of these single barrels, with some ground in between. Lets see how this one is.',
@@ -11476,7 +11984,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a well proofed wheater released from Buffalo Trace. It is a NAS product using the wheated mashbill. Old Weller Antique used to be a common, easily available and affordable product, but has recently been struck by the halo effect generated by Buffalo Traces other, higher tier products.',
@@ -11499,7 +12008,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a well proofed wheater released from Buffalo Trace. It is a NAS product using the wheated mashbill. Old Weller Antique used to be a common, easily available and affordable product, but has recently been struck by the halo effect generated by Buffalo Traces other, higher tier products.',
@@ -11521,7 +12031,8 @@ const bourbonSeeder = [
 		bottler: 'Orphan Barrel',
 		abv: '45.1%',
 		age: '20 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Orphan Barrel Barterhouse is an extra aged bourbon whiskey released as part of the Orphan Barrel line of expressions.',
@@ -11544,7 +12055,8 @@ const bourbonSeeder = [
 		bottler: 'Orphan Barrel',
 		abv: '45.25%',
 		age: '15 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This was sent to me as a blind mystery and it was sampled live in the Whiskey Network Discord where I also got the reveal. I have filled in the relevant info here for convenience.',
@@ -11566,7 +12078,8 @@ const bourbonSeeder = [
 		bottler: 'Orphan Barrel',
 		abv: '45.15%',
 		age: '21 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: 'Oaky Caramel, woody dusty clove. Molasses and light doughy fudge.',
@@ -11587,7 +12100,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"This dram speaks for itself - the 15yr expression from the hype machine that is Pappy Van Winkle. Let's dive in.",
@@ -11609,7 +12123,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45.2%',
 		age: '20 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"This is the coveted 20yr entry in the Pappy Van Winkle line of bottlings under the Old Rip Van Winkle Distillery banner, produced at Buffalo Trace. It's been some time since I had this, and it's always refreshing to try a different release year. This review will wrap up the Pappy side of my ongoing Pappy vs Antique Collection series thats slowly rolling out as I march towards 1600 reviews, and I'm looking forward to it. Stock image from BT. Let's dive in.",
@@ -11632,7 +12147,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '47.8%',
 		age: '23 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"This is an annual release from Buffalo Trace/ Van Winkle that is comprised of hand selected barrels blended at a minimum of 23 years of age. This is the 2019 release. Certainly a bourbon hunters dream, this bottle is hard to acquire, and from the looks of the internet, it's even harder to open. It's been a while since I've had this, so I'm looking forward to diving in. This more or less kicks off a mini series of some limiteds I've been writing on, to go along with the Chattanooga test batches, and some other fun stuff in the works. Let's cut the chatter and get to it.",
@@ -11655,7 +12171,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '24 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				'This is another release of the annual circus that is Parkers Heritage Collection. This is a 24 year old bourbon that is bottled in bond and, as such, is released at 50% ABV. There was both a spring and fall bottling, and Ill admit, I do not recall which this is. I doubt it makes any real difference either way.',
@@ -11679,7 +12196,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '60%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"The 14th entry in the series, Parker's Heritage Collection 14th Edition features a 10 year bourbon, matured in heavily charred barrels, and bottled at 60% ABV.",
@@ -11703,7 +12221,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is another release in the Parkers Heritage Collection and it is a bourbon, finished in cognac barrels that is ten years old and bottled at 50% ABV.',
@@ -11727,7 +12246,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '65.8%',
 		age: '11 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Maple, honey, molasses, oak, a good deal of ethanol',
@@ -11750,7 +12270,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '48%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is another release in the Parkers collection, it comes out every spring. This is release #7 and it is a single barrel offering.',
@@ -11773,7 +12294,8 @@ const bourbonSeeder = [
 		bottler: 'Peerless',
 		abv: '54.55%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Alongside their rye, Peerless is now producing a bourbon as well. This is a 200ml flask of their bourbon, bottled at cask strength, although it does not carry an age statement. Lets see how it is.',
@@ -11796,7 +12318,8 @@ const bourbonSeeder = [
 		bottler: 'Penelope',
 		abv: '58%',
 		age: '3 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled by MGP and blended and bottled be Penelope, this is the 5th edition of their Barrel Strength release. Edition 5 is also sporting a fancy new redesign, so it looks quite a bit different compared to previous batches.',
@@ -11819,7 +12342,8 @@ const bourbonSeeder = [
 		bottler: 'Penelope',
 		abv: '57.9%',
 		age: '43 Months',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled at MGP and bottled by the folks at Penelope Bourbon, this is the 6th iteration of the brand's Barrel Strength expression - a blend of three mashbills.",
@@ -11842,7 +12366,8 @@ const bourbonSeeder = [
 		bottler: 'Penelope Bourbon',
 		abv: '47%',
 		age: '2 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Penelope Bourbon's Rose Cask Finish takes 2+ year MGP and finishes it further in Rose wine casks. It's bottled at 47% ABV with no filtering.",
@@ -11865,7 +12390,8 @@ const bourbonSeeder = [
 		bottler: 'Penelope',
 		abv: '58.3%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is the barrel proof release from Penelope, geared towards more discerning drinkers. Also a blend of 3 mashbills from MGP, this is released at barrel proof. Let's get to it.",
@@ -11888,7 +12414,8 @@ const bourbonSeeder = [
 		bottler: 'Penelope',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is an entry level release from the blenders at Penelope bourbon. Using a four grain mashbill, this bourbon is targeted to deliver a combination of both easier drinking and lower price. We've all had a lot of MGP at this point, myself included, so this should be pretty easy to judge based on their stocks. For what it's worth, I like the no frills design, but since you can't drink the label, I say we dive in. Let's do this.",
@@ -11911,7 +12438,8 @@ const bourbonSeeder = [
 		bottler: 'Castle and Key',
 		abv: '57.25%',
 		age: '2 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is Bohemian - Castle and Key's first on premise distilled, aged and bottled release, coming out under the Pinhook label. A blend of 100 barrels aged just shy of 3 years (2 years, 10 months to be precise) this should be a great look at the trajectory Pinhook (and Castle and Key) are following. Stock image. Let's dive in.",
@@ -11934,7 +12462,8 @@ const bourbonSeeder = [
 		bottler: 'CJS Beverage Corp.',
 		abv: '49%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"A 4 Year old member of PInhook's Vertical Series, this rye whiskey was distilled at MGP and bottled by Pinhook, named after another racehorse.",
@@ -11957,7 +12486,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '50%',
 		age: '9 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is an independent bottling of Dickel whiskey, bottled for Pursuit Spirits - the IB sourcing arm of Bourbon Pursuit. Bottled at cask strength with no filtering, I'm looking forward to giving this a go.",
@@ -11979,7 +12509,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '51.9%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a sourced release from Dickel, picked by Bourbon Pursuit for their Pursuit Series independent bottlings.',
@@ -12002,7 +12533,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '49.35%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Recently, John from Bourbon Finder and I were chatting about doing some blind samples for one and other. Coupled with the fact he was interested in trying agave, we agreed to meet up and share some blind samples of a couple expressions of stuff we had been drinking. This is a blind sample from that, and I was given the reveal after completing all 4 samples and sending over my notes. Let's dive in.",
@@ -12025,7 +12557,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '49.35%',
 		age: '10 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is an independent bottling of Dickel whiskey, bottled for Pursuit Spirits - the IB sourcing arm of Bourbon Pursuit. Bottled at cask strength with no filtering, this is their 12th release.',
@@ -12048,7 +12581,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '56.75%',
 		age: '14 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Recently, John from Bourbon Finder and I were chatting about doing some blind samples for one and other. Coupled with the fact he was interested in trying agave, we agreed to meet up and share some blind samples of a couple expressions of stuff we had been drinking. This is a blind sample from that, and I was given the reveal after completing all 4 samples and sending over my notes. Let's dive in.",
@@ -12071,7 +12605,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '56.75%',
 		age: '14 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is an independent bottling of Dickel whiskey, bottled for Pursuit Spirits - the IB sourcing arm of Bourbon Pursuit. Bottled at cask strength with no filtering, this is their 13th release.',
@@ -12094,7 +12629,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '65.25%',
 		age: '6 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Recently, John from Bourbon Finder and I were chatting about doing some blind samples for one and other. Coupled with the fact he was interested in trying agave, we agreed to meet up and share some blind samples of a couple expressions of stuff we had been drinking. This is a blind sample from that, and I was given the reveal after completing all 4 samples and sending over my notes. Let's dive in.",
@@ -12117,7 +12653,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '56%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a bottling of Dickel by Pursuit Spirits - the Independent Bottling arm of Bourbon Pursuit. Episode 19 is bottled at cask strength with no coloring or filtering.',
@@ -12140,7 +12677,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '51.15%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'This is a bottling of Dickel by Pursuit Spirits - the Independent Bottling arm of Bourbon Pursuit. Episode 022 is bottled at cask strength with no coloring or filtering.',
@@ -12160,7 +12698,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '55.35%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a bottling of Dickel by Pursuit Spirits - the Independent Bottling arm of Bourbon Pursuit. Episode 023 is bottled at cask strength with no coloring or filtering.',
@@ -12182,7 +12721,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Series',
 		abv: '59.55%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Alrighty folks, today we have a 15 year Dickel bourbon whiskey sourced by Pursuit Spirits, the independent bottling arm of the Bourbon Pursuit umbrella. I've generally been a big fan of their past bottlings, so I'm looking forward to giving this a go. I can't remember the last time I had a Dickel this old, and with all the recent Sweeten's info, I'm curious to see how this is at a bit older. Let's dive in.",
@@ -12205,7 +12745,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Series',
 		abv: '52%',
 		age: '4 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This bottling is an independent bottling of 5yr spirit from Finger Lakes Distilling done by Pursuit Spirits. I've had a little from Finger Lakes so far, and I've thought they are making excellent progress for a new operation, so I'm really looking forward to diving in a giving this release a review. Let's get to it.",
@@ -12228,7 +12769,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '58.8%',
 		age: '4 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled by Starlight Distillery in Indiana, this episode from Pursuit Series is a single barrel bourbon finished in Applejack Brandy casks and bottled at cask strength.',
@@ -12251,7 +12793,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '51.05%',
 		age: '7 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by Finger Lakes Distilling in New York State, this episode from Pursuit Series is a single barrel bourbon and bottled at cask strength after 7 years of aging - a notable accomplishment for the relatively new craft distiller. Finger Lakes is an important component for the Pursuit Spirits gang - it's also a key ingredient in the notably successful Pursuit United bottling from the team as well.",
@@ -12274,7 +12817,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '54%',
 		age: '4 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'A blend of whiskey distilled In Kentucky (Bardstown Bourbon Company), Tennessee (Undisclosed) and New York State (Finger Lakes Distilling), Pursuit United is the brainchild of Kenny Coleman and Ryan Cecil, of Pursuit Spirits. Highlighting the power of blending to deliver bold, unique flavors, the pair set out to blend high rye and wheated bourbons for a new entry in their portfolio.',
@@ -12297,7 +12841,8 @@ const bourbonSeeder = [
 		bottler: 'Pursuit Spirits',
 		abv: '54%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'INTRO: A blend of whiskey distilled In Kentucky (Bardstown Bourbon Company), Tennessee (Undisclosed) and New York State (Finger Lakes Distilling), Pursuit United is the brainchild of Kenny Coleman and Ryan Cecil, of Pursuit Spirits. Highlighting the power of blending to deliver bold, unique flavors, the pair set out to blend high rye and wheated bourbons for a new entry in their portfolio. This is batch 2 of the series, released in 2021.',
@@ -12320,7 +12865,8 @@ const bourbonSeeder = [
 		bottler: 'Rabbit Hole',
 		abv: '47.5%',
 		age: '3 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Produced using a four grain mash bill, Rabbit Hole Cavehill is a Kentucky Straight Bourbon Whiskey bottled at 47.5% ABV with a 3 year age statement.',
@@ -12343,7 +12889,8 @@ const bourbonSeeder = [
 		bottler: 'Rabbit Hole',
 		abv: '46.5%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Produced by Rabbit Hole in Kentucky and finished in PX Sherry casks, this finished bourbon release clocks in at 46.5% ABV with no age statement.',
@@ -12366,7 +12913,8 @@ const bourbonSeeder = [
 		bottler: 'Rabbit Hole',
 		abv: '54.6%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"Distilled by Rabbit Hole using a chocolate malt inclusion to their mashbill, this Founder's Edition entry uses not one but two different chocolate malts: wheat and barley. Bottled at Cask Strength, this release is comprised of only 1365 bottles.",
@@ -12389,7 +12937,8 @@ const bourbonSeeder = [
 		bottler: 'Rabbit Hole',
 		abv: '57.1%',
 		age: '16 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"Comprised of approximately a 10 barrel blend, this 15 year old convent of barrels were dumped and finished for an additional year in Japanese Mizunara casks. Yielding 1403 bottles, Rabbit Hole distillery's Founders Collection Mizunara is their smallest release yet, with a suggested retail of $1499. Bottled at barrel proof.",
@@ -12412,7 +12961,8 @@ const bourbonSeeder = [
 		bottler: 'Rabbit Hole',
 		abv: '47.5%',
 		age: '3 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Produced using a 70% corn / 25% malted rye mash bill, Rabbit Hole tells the story of a German immigrant - Christian Heigold. Bottled at 47.5% ABV with a 3 year age statement.',
@@ -12434,7 +12984,8 @@ const bourbonSeeder = [
 		bottler: 'Luxco',
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Lightly floral. Sweet cream. Caramel. A nice fruitcake-ish set of notes. Light, sweet, doughy. Not a lot of oak, dryness, tannins or notes like clove and leather.',
@@ -12456,7 +13007,8 @@ const bourbonSeeder = [
 		bottler: 'MGP',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by MGP from a blend of vintages, the 2018 Medley of Remus Repeal Reserve contains 12% 2007 bourbon, 78% 2008 low rye bourbon and 12% 2008 high rye bourbon. This is the second chapter in Remus' medley of releases, produced for the 2018 calendar year.",
@@ -12479,7 +13031,8 @@ const bourbonSeeder = [
 		bottler: 'MGP',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Produced for the 2019 Medley of Remus' Repeal Reserve releases, the 3rd entry in the portfolio combines a collection of 2007, 2008 low rye and 2008 high rye bourbon.",
@@ -12502,7 +13055,8 @@ const bourbonSeeder = [
 		bottler: 'MGP',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Produced for the 2020 crop of Remus' annual Repeal Reserve release, this bottling combines low rye bourbon from 2008 and high rye from 2008 to create a 12yr blend from MGP.",
@@ -12525,7 +13079,8 @@ const bourbonSeeder = [
 		bottler: 'Rock Town',
 		abv: '46%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a craft product released at Rock Town in Arkansas. It is non-chill filtered.',
@@ -12547,7 +13102,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '50.05%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -12566,7 +13122,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '45%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: 'This is an age stated product from the Russells at Wild Turkey',
 			nose: 'Malty sweet, vanilla and some light cinnamon.',
@@ -12587,7 +13144,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '57.3%',
 		age: '15 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				'This is a limited edition release from Wild Turkey that is focusing on trying to create a blend of barrels that could top Russells Reserve 1998.',
@@ -12610,7 +13168,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'A Warehouse D Russells Reserve Single Barrel joins us today for our bourbon review.',
@@ -12633,7 +13192,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled by Wild Turkey, branded under the Russells Reserve banned and aged at Camp Nelson F, this single barrel selection comes to us from the folks at Liquor Barn in Kentucky.',
@@ -12656,7 +13216,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This is a Russell's Reserve single barrel selection, done by RareBird101 and the Russell's. The image is from RareBird's website. Let's dive in.",
@@ -12680,7 +13241,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a single barrel of Wild Turkeys Russells Reserve bourbon that was selected by Barrels and Brews.',
@@ -12703,7 +13265,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -12727,7 +13290,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -12750,7 +13314,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -12773,7 +13338,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wil Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -12796,7 +13362,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -12819,7 +13386,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Russell's Reserve bourbon is a fairly well aged single barrel release from WT that is bottled at 55% ABV. This sample came in a swap well after my Gobble Til You Wobble Series which was nice. That was a lot of turkey. The break in between was refreshing.",
@@ -12842,7 +13410,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wil Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -12865,7 +13434,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -12889,7 +13459,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Todays bourbon review features a short barrel selection by Jax Fine Wine and Spirits.',
@@ -12913,7 +13484,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"We make a brief return to the days of old. I have not wobbled in some time, but it sure it time to Gobble again. /u/thpbltblt recently bought some bottles of the stuff and wanted my opinion of them, so he sent a couple samples along. I'm sure you all remember the schtick from last time so let us dive in!",
@@ -12936,7 +13508,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wil Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -12959,7 +13532,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -12981,7 +13555,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13004,7 +13579,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13027,7 +13603,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13051,7 +13628,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a single barrel of bourbon from Wild Turkey under the Russells Reserve label. This was picked by a variety of bourbon distillery Master Distillers for a springtime festival in Kentucky. This hails from D-6.',
@@ -13074,7 +13652,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13097,7 +13676,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13120,7 +13700,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Another Russells Reserve Single Barrel joins the review archive as we look at a Polaris selection.',
@@ -13142,7 +13723,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13165,7 +13747,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13188,7 +13771,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: '8 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Rusells Reserve bourbon is a fairly well aged single barrel release from WT that is bottled at 55% ABV. Matured in Rickhouse E on Rick 4, this release is a hair under 9 years old. (Distilled 9.9.2011, Bottled 6.1.2020)',
@@ -13211,7 +13795,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13233,7 +13818,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 110 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13256,7 +13842,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '52%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the final phase of Gobble Til You Wobble and Ill be looking at both the Bourbon and Ryes that are sold under that line. Bourbons first, ryes second. This is a modern offering from Wild Turkey with the higher entry proof. It is diluted to 104 pf and sold as a single barrel offering across the nation. Many stores have been able to do picks of these products, and extra information is available as a result. It is, still, a NAS product, though.',
@@ -13279,7 +13866,8 @@ const bourbonSeeder = [
 		bottler: 'Single Cask Nation',
 		abv: '52.6%',
 		age: '11 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a private group selection, done through Single Cask Nation, that chose a barrel from MGP. It is 11 years old and is bottled at Cask Strength.',
@@ -13302,7 +13890,8 @@ const bourbonSeeder = [
 		bottler: 'Single Cask Nation',
 		abv: '61%',
 		age: '9 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a single barrel of Wild Turkey distillate that was picked and bottled by Single Cask Nation.',
@@ -13325,7 +13914,8 @@ const bourbonSeeder = [
 		bottler: 'Nevada Distillers',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by MGP and blended / bottled by Aaron Chepenik at Nevada Distilling Company, Smoke Wagon's bourbon has recently reached quite a bit of hobbyist acclaim. This is their small batch release, bottled at 46.25% ABV and sold in various markets in the USA.",
@@ -13348,7 +13938,8 @@ const bourbonSeeder = [
 		bottler: 'Nevada Distillers',
 		abv: '57.9%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled at MGP, and matured in both Indiana and Nevada, Smoke Wagon Uncut Unfiltered is a barrel proof blend of bourbon, overseen by none other than Alex Chepenik. As the name would imply, the bottling is also unfiltered as well.',
@@ -13370,7 +13961,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a sourced product produced by MGP/LDi in Indiana that is "scouted" and then aged at Smooth Ambler. It\'s no secret that this is their method and they are more than happy to talk about it which is commendable. This is a particular small batch product of theirs. I\'ve gone back to revisit and refresh this review with another tasting.',
@@ -13394,7 +13986,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '58.7%',
 		age: '10 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Maple sugar, molasses, black pepper, vanilla cream, mild clove',
@@ -13416,7 +14009,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '61%',
 		age: '11 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a private pick of an 11yr cask from MGP, bottled by Smooth Ambler in West Virginia.',
@@ -13439,7 +14033,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '43.8%',
 		age: '11 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a single barrel of MGP distillate bottled by Smooth Ambler in West Virginia. Bottled at cask strength with no filtering, this expression is one of several notable low low low proof barrels. Let's dive in.",
@@ -13462,7 +14057,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '49.7%',
 		age: '11 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Caramel, toffee, shortbread and muffins. Faint bananas foster',
@@ -13484,7 +14080,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '54.8%',
 		age: '11 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a single barrel from Smooth Ambler in West Virginia. It is MGP bourbon, bottled at cask strength.',
@@ -13506,7 +14103,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '53.8%',
 		age: '12 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a single barrel of MGP distillate bottled by Smooth Ambler. It is 12 years old.',
@@ -13529,7 +14127,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '53.5%',
 		age: '8 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a single barrel release from Smooth Ambler. Bottled at cask strength from sourced MGP distillate.',
@@ -13552,7 +14151,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '47.4%',
 		age: '9 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Peppery, spicy, clove forward, sweet cream, vanilla, molasses',
@@ -13573,7 +14173,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: null,
 		age: '5 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Today's bourbon review comes to us in the form of a sample that arrived blind-ish. I tasted it as part of a big Bourbon Pursuit tasting with their community, got the reveals and then was able to sit down and taste more and get down a full review. I don't have the ABV, but I do know the age and the group that selected, which should cover the important stuff. Let's get to it.",
@@ -13596,7 +14197,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '56.6%',
 		age: '10 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Another single barrel offering from Smooth Amblers sourced distillate line. Unfortunately, I don't have a barrel number for this one.",
@@ -13619,7 +14221,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '58%',
 		age: '8 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a store pick from Smooth Amblers Single Barrel program. This pick is from Davidsons in Colorado.',
@@ -13641,7 +14244,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '59.4%',
 		age: '11 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: null,
@@ -13660,7 +14264,8 @@ const bourbonSeeder = [
 		bottler: 'Smooth Ambler',
 		abv: '46%',
 		age: '3 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'A limited edition release of Smooth Amblers first bottling of their own spirit. Double pot distilled.',
@@ -13684,7 +14289,8 @@ const bourbonSeeder = [
 		bottler: 'Spirits of French Lick',
 		abv: '56.35%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This bourbon from Spirits of French Lick is also the first single barrel selection done for the brand, picked by Seelbachs. Distilled from a 4-Grain mashbill, this should be interesting as I haven't had much from Indiana that wasn't MGP. Let's get to it.",
@@ -13707,7 +14313,8 @@ const bourbonSeeder = [
 		bottler: 'Springbank',
 		abv: '55.8%',
 		age: '14 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'"Released in September 2017, this is a 14 year old single malt from the Springbank distillery in Campbeltown. It was aged in casks that previously held bourbon, which has imparted generous notes of general-vanilla-tastiness to the whisky. A release of 9,000 bottles..." - Master of Malt',
@@ -13730,7 +14337,8 @@ const bourbonSeeder = [
 		bottler: 'St. George',
 		abv: '43%',
 		age: '5 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a whiskey release form St. George in California. They distill a range of spirits, and this is an older bottling of their younger spirit. From what I can tell, this bottle was bottled when the distillate was 65 months old. For those in the audience that hate math, that's just over 5 years old.",
@@ -13753,7 +14361,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '67.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Stagg Jr is made from the same mashbill as the Buffalo Trace Antique Collections George T. Stagg product. This is aged "almost ten years" per the label and is bottled at cask strength.',
@@ -13776,7 +14385,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '63.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the 10th Batch of Stagg Jr - a ten-ish year old barrel proof release from Buffalo Trace featuring mashbill 1. Stock image.',
@@ -13799,7 +14409,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '63.95%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the 11th Batch of Stagg Jr - a ten-ish year old barrel proof release from Buffalo Trace featuring mashbill 1.',
@@ -13822,7 +14433,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '66.15%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the 12th Batch of Stagg Jr - a ten-ish year old barrel proof release from Buffalo Trace featuring mashbill 1. Stock Image',
@@ -13845,7 +14457,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '64.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the 13th Batch of Stagg Jr - a ten-ish year old barrel proof release from Buffalo Trace featuring mashbill 1. Image is a stock image.',
@@ -13868,7 +14481,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '65.1%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the 14th Batch of Stagg Jr - a ten-ish year old barrel proof release from Buffalo Trace featuring mashbill 1 at barrel proof.',
@@ -13891,7 +14505,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '65.55%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the 15th Batch of Stagg Jr - a ten-ish year old barrel proof release from Buffalo Trace featuring mashbill 1 at barrel proof.',
@@ -13914,7 +14529,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '64.35%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Stagg Jr is made from the same mashbill as the Buffalo Trace Antique Collections George T. Stagg product. This is aged "almost ten years" per the label and is bottled at cask strength.',
@@ -13937,7 +14553,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '66.05%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Stagg Jr is made from the same mashbill as the Buffalo Trace Antique Collections George T. Stagg product. This is aged "almost ten years" per the label and is bottled at cask strength.',
@@ -13959,7 +14576,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '64.35%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Stagg Jr is made from the same mashbill as the Buffalo Trace Antique Collections George T. Stagg product. This is aged "almost ten years" per the label and is bottled at cask strength.',
@@ -13982,7 +14600,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '64.85%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Stagg Jr is made from the same mashbill as the Buffalo Trace Antique Collections George T. Stagg product. This is aged "almost ten years" per the label and is bottled at cask strength.',
@@ -14005,7 +14624,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '66.25%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the 6th Batch of Stagg Jr - a ten-ish year old barrel proof release from Buffalo Trace featuring mashbill 1.',
@@ -14028,7 +14648,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '65%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This release of Stagg Jr is bottled at 65.95% ABV. Stagg Junior is a Buffalo Trace product that is aged around 10 years and bottled at cask strength. It is distilled using the Mashbill 1 recipe. This is the 7th batch they have released.',
@@ -14051,7 +14672,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '64.75%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is a Buffalo Trace Mashbill 1 product that is aged "around 10 years" and bottled at cask strength. It typically releases widely, twice annualy.',
@@ -14074,7 +14696,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '65.95%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This release of Stagg Jr is bottled at 65.95% ABV. Stagg Junior is a Buffalo Trace product that is aged around 10 years and bottled at cask strength. It is distilled using the Mashbill 1 recipe. This is the 9th batch they have released.',
@@ -14097,7 +14720,8 @@ const bourbonSeeder = [
 		bottler: 'Starlight',
 		abv: '53.4%',
 		age: '4 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled at Starlight in Indiana, this bourbon release sees a finishing period in Port wine barrels, and is bottled at barrel proof.',
@@ -14120,7 +14744,8 @@ const bourbonSeeder = [
 		bottler: 'Starlight',
 		abv: '55.7%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled by Starlight and matured in PX sherry barrels for an undisclosed period of time, this is a nation wide, blended release from the brand at barrel proof.',
@@ -14143,7 +14768,8 @@ const bourbonSeeder = [
 		bottler: 'Starlight',
 		abv: '54.6%',
 		age: '2 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a 2 year old single barrel bourbon picked by Liquor Barn in Kentucky.',
@@ -14166,7 +14792,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell Craft Spirits',
 		abv: '54.61%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled in KY, IN and TN, the Stellum line comes to us from the brainchild of Barrell Craft Spirits. The brand first launched in early 2021 and features some hefty age statements in the blend, despite a moderate to low price tag. Bottled at barrel proof, these $50 machines were set to take over the market. About 6 months later, the advent of Stellum Black is upon us - retailing for $99, limited in distribution and said to contain even older stocks. Like the original Stellum releases before it, this Black label carries no age statement. It's paired with a Rye as well. Let's dig in.",
@@ -14189,7 +14816,8 @@ const bourbonSeeder = [
 		bottler: 'Barrell Craft Spirits',
 		abv: '57.49%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Stellum Spirits is a new brand developed by the brains behind Barrell Craft Spirits. This is Stellum Bourbon - a blend of 4-16yr bourbon, comprised of mostly MGP, with a little undisclosed KY and TN distillate for taste. Bottled at barrel proof, in this case 57.49% ABV.',
@@ -14212,7 +14840,8 @@ const bourbonSeeder = [
 		bottler: 'Still Austin',
 		abv: '59%',
 		age: '2 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Still Austin has uncorked a cask strength bottling based on their The Musician release. The TX based operation has shown impressive performance so far and it's encouraging to see them doing barrel proof bottlings to accompany their core release.",
@@ -14235,7 +14864,8 @@ const bourbonSeeder = [
 		bottler: 'Still Austin',
 		abv: '49.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by Still Austin, this 2+ year bourbon comes to us as the hard work product of another Texas operation. At this point in the craft whiskey game, Texan distilled spirit invites a lot of scrutiny due to the complexities that come with climate management in that part of the United States, so these are always interesting. Let's dive in.",
@@ -14258,7 +14888,8 @@ const bourbonSeeder = [
 		bottler: "Stranahan's",
 		abv: '47%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a December 2016 release from Stranahan's as an entry into their Snowflake limited edition line. It contains a blend of Stranahan's spirit that is finished in rum casks, Amador wine, Madeira fortified wine, zinfandel and also contains some 4 year casks and a 5 year cask blended in as well.",
@@ -14281,7 +14912,8 @@ const bourbonSeeder = [
 		bottler: "Stranahan's",
 		abv: '47%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a yearly LE product from Stranahan's. This particular release is finished in a variety of wine casks. This particular release is also named after Mt. Evans. It was released in 2016.",
@@ -14304,7 +14936,8 @@ const bourbonSeeder = [
 		bottler: 'Balvenie',
 		abv: '47.8%',
 		age: '15 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro: null,
 			nose: 'Definitely Balvenie. Sweet, doughy, yeasty. Mild citrus. Cinnamon, clove.',
@@ -14326,7 +14959,8 @@ const bourbonSeeder = [
 		bottler: 'Proof & Wood',
 		abv: '57.7%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled at MGP and aged for 4 years, this single barrel bourbon comes to us from Proof And Wood, bottled at barrel proof.',
@@ -14349,7 +14983,8 @@ const bourbonSeeder = [
 		bottler: 'Old Forester',
 		abv: '58.15%',
 		age: '9 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a rare and limited release from Old Forester known as The Presidents Choice. This is 9 years old, bottled at a liberal 58.15% ABV and was done so without any coloring or filtering. Lets dive in.',
@@ -14372,7 +15007,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '47.65%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled by Barton and aged for quite a healthy period, both initially and then again in Cabernet Sauvignon wine barrels, Thomas S. Moore is a new, 2021 release that promises to be interesting, at the very least. Cabernet Sauvignon is typically a bold, boisterous grape, so the secondary maturation utilizing those wine casks should be nothing short of fascinating.',
@@ -14395,7 +15031,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '48.95%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by Barton and aged for quite a healthy period, both initially and then again in Chardonnay wine casks, Thomas S. Moore is a new, 2021 release that promises to be interesting, at the very least. Chardonnay is an interesting choice - typically a buttery, acidic, wine produced using white grapes, so we'll see how it integrates.",
@@ -14418,7 +15055,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '49.45%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by Barton and aged for quite a healthy period, both initially and then again in Port wine casks, Thomas S. Moore is a new, 2021 release that promises to be interesting, at the very least. Is Barton coming for Angel's Envy's lunch? We'll see.",
@@ -14441,7 +15079,8 @@ const bourbonSeeder = [
 		bottler: 'Steel Blending Spirits',
 		abv: '40.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled by a variety of producers and blended in Michigan, this release from Three Chord promises a "harmony of flavor, structure & finish" and comes to us from Batch 007 at an ABV of 40.5%.',
@@ -14463,7 +15102,8 @@ const bourbonSeeder = [
 		bottler: 'Steel Blending Spirits',
 		abv: '53.5%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled by an undisclosed distiller in KY and IN, this release is a 12yr blend of barrels, bottled under the Twelve Bar Reserve label for Three Chord. It’s bottled at barrel proof.',
@@ -14486,7 +15126,8 @@ const bourbonSeeder = [
 		bottler: 'Tomatin',
 		abv: '53.1%',
 		age: '12 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a 12yr cask strength bottling of a single cask of ex-bourbon matured Tomatin. It was selected and sold by Ace Spirits.',
@@ -14508,7 +15149,8 @@ const bourbonSeeder = [
 		bottler: 'Tomatin',
 		abv: '54%',
 		age: '11 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a single cask of Tomatin distillate that was bottled and released for Twin Liquors. It is 11 years old and was matured entirely in an ex-bourbon barrel. It is bottled without coloring or filtering, and at cask strength.',
@@ -14531,7 +15173,8 @@ const bourbonSeeder = [
 		bottler: 'Town Branch',
 		abv: '40%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -14550,7 +15193,8 @@ const bourbonSeeder = [
 		bottler: 'Traverse City Whiskey Company',
 		abv: '35%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled in Michigan with some Indiana bourbon blended in, this release from TCWC features their bourbon aqed on Montmorency cherries. It's obviously now invalidated as a bourbon, since its bottled at 35% ABV but it's not produced to be a liqueur. Let's give this a go.",
@@ -14573,7 +15217,8 @@ const bourbonSeeder = [
 		bottler: 'Traverse City Whiskey Company',
 		abv: '58.3%',
 		age: '4 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled in TC, Michigan, this particular release is a barrel proof bourbon from Traverse City Whiskey Company that is at least four years old, and bottled at barrel proof. Let's get to it.",
@@ -14596,7 +15241,8 @@ const bourbonSeeder = [
 		bottler: 'Traverse City Whiskey Company',
 		abv: '55.1%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Poured from bottle 522 out of 525, this is the first release of of Traverse City's Cherry Whiskey dialed up to barrel proof - or rather, not dialed down. You get the picture. A straight bourbon distilled at Traverse City Whiskey Company that is infused with Montmorency Cherries. This release is bottled at barrel proof, and was a limited release from the distillery only, during Traverse City's Cherry Festival. Let's dive in.",
@@ -14619,7 +15265,8 @@ const bourbonSeeder = [
 		bottler: 'Traverse City Whiskey Company',
 		abv: '43%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled in Traverse City by the Traverse City Whiskey Company with some MGP blended in, this straight bourbon is aged for at least 3 years and follows a fairly standard mashbill. This is the first taste of TCWC's bourbon I've had, despite near yearly excursions to TC, Michigan in the past, so I'm looking forward to it. Batch 017, let's give it a go.",
@@ -14642,7 +15289,8 @@ const bourbonSeeder = [
 		bottler: 'Treaty Oak',
 		abv: '47.5%',
 		age: '18 Months',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Produced from grain to glass at Treaty Oak, Ghost Gill bourbon is made with heirloom grains and is approaching a universal age of 2 years on premise.',
@@ -14664,7 +15312,8 @@ const bourbonSeeder = [
 		bottler: 'Treaty Oak',
 		abv: '47.5%',
 		age: '2 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Sourced from Kentucky, this 70% corn mashbill bourbon is aged for two years and is billed as either a mixer or sipper.',
@@ -14687,7 +15336,8 @@ const bourbonSeeder = [
 		bottler: 'Proof And Wood',
 		abv: '56.15%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled at MGP, aged for 4 years and bottled by Proof And Wood, this single barrel selection comes to us using MGP's 36% rye mashbill and at barrel proof.",
@@ -14710,7 +15360,8 @@ const bourbonSeeder = [
 		bottler: 'Uncle Nearest',
 		abv: '57.55%',
 		age: '11 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: null,
@@ -14729,7 +15380,8 @@ const bourbonSeeder = [
 		bottler: 'Uncle Nearest',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Sourced and bottled for Uncle Nearest, this 100pf release comes to us under the 1856 banner and has raked in awards the world across for the brand.',
@@ -14752,7 +15404,8 @@ const bourbonSeeder = [
 		bottler: 'Uncle Nearest',
 		abv: '46.5%',
 		age: '7 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -14771,7 +15424,8 @@ const bourbonSeeder = [
 		bottler: 'Uncle Nearest',
 		abv: '59.2%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"[Batch 5] This blend from Uncle Nearest focuses on using the brand's best and oldest barrels, completely distilled at Uncle Nearest. Blended under the watch of V. Eady Butler, this is the 5th release in the series and comes in with a hefty 59.2% ABV.",
@@ -14794,7 +15448,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45.2%',
 		age: '12 Years',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Lot B is known as a common nomenclature in the world of wine - but it's here in the world of whiskey now as well. Van Winkle Lot B is an age stated 12yr bourbon that comprises barrels that were good, but not quite great enough for the lauded Pappy van Winkle releases also released by Buffalo Trace.",
@@ -14817,7 +15472,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: null,
@@ -14836,7 +15492,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is the devilishly NAS edition of Bartons old 6 year age stated bottled in bond.',
@@ -14859,7 +15516,8 @@ const bourbonSeeder = [
 		bottler: 'Barton',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: 'Fruity, malty and sweet. Dash of faint fudge, confectioners sugar and thick vanilla and icing.',
@@ -14881,7 +15539,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50.01%',
 		age: '8 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Old parchment. Dusty leather. Sweet cherry dark chocolates. Deep toffee. Sitting for a bit lets it open up a bit to release tons of deep toffee, thich cola and rich caramel notes. Quite distinctive from the 1973 6yr BiB I reviewed a while back. I could sit and smell this literally all day, and all night long. If they made a Glade plugin...Id consider it.',
@@ -14903,7 +15562,8 @@ const bourbonSeeder = [
 		bottler: 'KBD',
 		abv: '45%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Originally Very Olde Saint Nick was a Bardstown distilled product produced for the export marked, predominantly headed to Japan. There are a variety of VOSN products out there, each about as mysterious as the next unless they sport an age statement. They fetch various prices, based on the secondary's flavor of the day, in the hip game of not only keeping up with, but destroying the Joneses.",
@@ -14927,7 +15587,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '45%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: "Rich maple, cinnamon, toffee, cocoa - this could almost be a completely different dram. There's also a faint, savory note.",
@@ -14949,7 +15610,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Brown sugar, molasses, cinnamon, clove, caramel, and oak.',
@@ -14971,7 +15633,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50.5%',
 		age: '7 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"This is a little known brand from Heaven Hill sporting a reasonable age statement and more than reasonable proof. It's a part of the Crackdown here because I thought it was a craft / sourced release for a long time, until I dug into its origins. Sue me.",
@@ -14994,7 +15657,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '48.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Today's review comes to us in the form of a new, monstrously hyped release from Buffalo Trace. At this point most of the whiskey world is jaded towards new entries in the Weller portfolio, and I can understand why, but these still hold so much anticipation for me as we see new expressions that seem to round out features I don't love in Weller Antique and Special Reserve. This particular expression is W.L. Single Barrel - a no age statement wheated bourbon from Buffalo Trace that's bottled at 48.5% ABV. Let's dive on in.",
@@ -15017,7 +15681,8 @@ const bourbonSeeder = [
 		bottler: 'Campari',
 		abv: '53.5%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"This is the third release in Campari's Whiskey Barons collection - a line of releases in 375 formats produced by Wild Turkey, but independently released by Campari. Let's dive in.",
@@ -15040,7 +15705,8 @@ const bourbonSeeder = [
 		bottler: 'Tipton Spirits',
 		abv: '57.5%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'W. H. Harrison Governors Reserve celebrates the rare balance of boldness and smoothness required in a great leader, and great Bourbon. This is Batch #4',
@@ -15063,7 +15729,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: '12 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Sweet malty maple. Almost cloyingly sweet. Fruity brown sugar, molasses and clove.',
@@ -15085,7 +15752,8 @@ const bourbonSeeder = [
 		bottler: 'Medley Family',
 		abv: '47%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: null,
@@ -15104,7 +15772,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '47.5%',
 		age: '8 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Supposedly born out of the results of mass community polling, this Weller release from Buffalo Trace is titled 'Craft Your Perfect Bourbon' - an ode to the crowd sourced inspiration that lead to Weller CYPB's genesis.",
@@ -15127,7 +15796,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '57%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Weller Full Proof almost needs no introduction....almost. The Weller line exists in its own layer of the atmosphere, if hype were an elevation. This 57% ABV Wheated Bourbon comes to us from Buffalo Trace, as a 2020 Extension to the Weller line. This year we've also seen Weller Single Barrel drop (which we've already reviewed). This particular bottling is also NAS (No Age Statement) but comes with quite a proof bump over the Single Barrel and widely released Antique.",
@@ -15149,7 +15819,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '57%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Weller Full Proof almost needs no introduction....almost. The Weller line exists in its own layer of the atmosphere, if hype were an elevation. This 57% ABV Wheated Bourbon comes to us from Buffalo Trace, as a 2020 Extension to the Weller line, as a selection collaboration between Cox's and Evergreen. This year we've also seen Weller Single Barrel drop (which we've already reviewed). This particular bottling is also NAS (No Age Statement) but comes with quite a proof bump over the Single Barrel and widely released Antique.",
@@ -15171,7 +15842,8 @@ const bourbonSeeder = [
 		bottler: 'Buffalo Trace',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is the lower most entry in Buffalo Traces Weller line of expressions - wheated bourbons sold under the William Larue Weller (and various permutations) name.',
@@ -15193,7 +15865,8 @@ const bourbonSeeder = [
 		bottler: 'Wheel Horse',
 		abv: '50.5%',
 		age: '2 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"Distilled by OZ Tyler, this bottling is the joint work of the distillery and Latitude Beverage. Containing a blend of 2-4 year bourbon, I'm pleased it's bottled at 50.5% ABV with no filtering. There's rumors of a single barrel program on the horizon as well. Curious.",
@@ -15217,7 +15890,8 @@ const bourbonSeeder = [
 		bottler: 'Whistle Pig',
 		abv: '57.35%',
 		age: '13 Years 5 Months',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a 13.5yr single barrel of rye distilled at MGP and bottled by Whistle Pig. It is bottled at cask strength without any coloring or filtering. Stock image. ',
@@ -15239,7 +15913,8 @@ const bourbonSeeder = [
 		bottler: 'Widow Jane',
 		abv: '45.5%',
 		age: '10 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a sourced blend of bourbons distilled in Kentucky and blended and bottled by Widow Jane in Brooklyn, NY.',
@@ -15261,7 +15936,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				"Wild Turkey 101 is about as ubiquitous a whiskey that has ever existed - and that's for the better. Moderately aged, aggressively priced, and proofed well at 50.5% ABV, the legacy of what some refer to as the 'Mighty Gobble' is a whiskey known for neat drinking, bar shots and cocktails alike. Let's dive in and see how it rates.",
@@ -15284,7 +15960,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15307,7 +15984,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101 proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15330,7 +16008,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101 proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15353,7 +16032,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101 proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15376,7 +16056,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101 proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15399,7 +16080,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15422,7 +16104,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101cproof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15445,7 +16128,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15468,7 +16152,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: '8 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15491,7 +16176,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: '8 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101 proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15514,7 +16200,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: '8 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'Wild Turkey 101 is a NAS offering bottled at 101proof. The mash is standard but barrel entry proof varies based on the era in which the barrels were laid down.',
@@ -15536,7 +16223,8 @@ const bourbonSeeder = [
 		bottler: 'Single Cask Nation',
 		abv: '61.7%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is an independent bottling of spirit distilled at Wild Turkey. Bottled at cask strength with no filtering, this release from Single Cask Nation is 10 years old and bottled at a healthy 61%+ ABV',
@@ -15559,7 +16247,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '45.5%',
 		age: '13 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro: null,
 			nose: 'Turkey spice, cinnamon, clove, cinnamon bun and sticky vanilla frosting. Molasses, brown sugar, some citrusy orange peel',
@@ -15581,7 +16270,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: '8 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"Today's review comes from one of the numerous decanters released in the mid 80's from Wild Turkey.",
@@ -15604,7 +16294,8 @@ const bourbonSeeder = [
 		bottler: 'Campari Group',
 		abv: '35.5%',
 		age: 'NAS',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro: null,
 			nose: null,
@@ -15623,7 +16314,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '45.5%',
 		age: '13 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Produced to commemorate Jimmy Russels 60th Anniversary with Wild Turkey, who started at 1964. It is a blend of 13-16yo whiskey, bottled at 91 proof.',
@@ -15645,7 +16337,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '45.5%',
 		age: '13 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'An export only, extra aged Wild Turkey product. This, more or less, is WTs replacement of the 12yr 101 export product which saw an end in production in 2014. This 13 year old bourbon is diluted to 91pf.',
@@ -15668,7 +16361,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '45.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Wild Turkey Forgiven is supposedly the result of an "accident" on premises that resulted in a bourbon and rye blend a la Bourye (from High West).',
@@ -15691,7 +16385,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Wild Turkey Kentucky Spirit is a single barrel Wild Turkey product aged somewhere from 8.5ish to 9.5ish years. Its bottled at 101 proof with a mashbill consisting of 75% corn, 13% rye and 12% malt.',
@@ -15714,7 +16409,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Wild Turkey Kentucky Spirit is a single barrel Wild Turkey product aged somewhere from 8.5ish to 9.5ish years. Its bottled at 101 proof with a mashbill consisting of 75% corn, 13% rye and 12% malt.',
@@ -15737,7 +16433,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Wild Turkey Kentucky Spirit is a single barrel Wild Turkey product aged somewhere from 8.5ish to 9.5ish years. Its bottled at 101 proof with a mashbill consisting of 75% corn, 13% rye and 12% malt.',
@@ -15759,7 +16456,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Wild Turkey Kentucky Spirit is a single barrel Wild Turkey product aged somewhere from 8.5ish to 9.5ish years. Its bottled at 101 proof with a mashbill consisting of 75% corn, 13% rye and 12% malt.',
@@ -15782,7 +16480,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Wild Turkey Kentucky Spirit is a single barrel Wild Turkey product aged somewhere from 8.5ish to 9.5ish years. Its bottled at 101 proof with a mashbill consisting of 75% corn, 13% rye and 12% malt.',
@@ -15805,7 +16504,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Wild Turkey Kentucky Spirit is a single barrel Wild Turkey product aged somewhere from 8.5ish to 9.5ish years. Its bottled at 101 proof with a mashbill consisting of 75% corn, 13% rye and 12% malt.',
@@ -15828,7 +16528,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"This is a single barrel from the Kentucky Spirit line of expressions from Wild Turkey, selected by Raised by Wolves in San Diego. Bottled on 9/18/17, barrel #17-0528, aged in Warehouse D, Rick 5. Stock image. It's been a hot minute since I've had a WTKS, so let's get to it.",
@@ -15852,7 +16553,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This was another mystery sample. I have filled in the pertinent info after reveal so it is available here to read.',
@@ -15874,7 +16576,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Wild Turkey Kentucky Spirit is a single barrel Wild Turkey product aged somewhere from 8.5ish to 9.5ish years. Its bottled at 101 proof with a mashbill consisting of 75% corn, 13% rye and 12% malt.',
@@ -15897,7 +16600,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50%',
 		age: '17 Years',
-		price: ['$', '$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$', '$'],
+		price_value: 5,
 		review: {
 			intro:
 				"2020's entry into the Masters Keep series by Wild Turkey brings us a 17 year old bottled in bond bourbon with a hefty price. This is pretty old compared to most bourbon we see on shelves, so its a surprise to see it sold around the $200 mark.",
@@ -15920,7 +16624,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '52%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Produced from a blend of barrels of varying age (10-20 years) this famously non-compliant bourbon label comes to us in the form of Wild Turkey's annual Masters Keep line of allocated bourbons.",
@@ -15943,7 +16648,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"The newest release in Wild Turkey's Master's Keep series features a hot new finish that's recently become quite popular and prevalent in the world of whiskey: toasted barrel finish. One features a combination of 9, 10 and 14yr whiskey, which enters a toasted barrel and hangs out in Tyrone G for a short period of time. Bandwagon gimmick or thoughtful experiment? Let's find out.",
@@ -15966,7 +16672,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'"Masters Keep Revival is made from a blend of Wild Turkey Kentucky Straight Bourbon aged 12-15 years before finishing in at least 20-year-old Oloroso Sherry casks, hand-selected by Master Distiller Eddie Russell." - Wild Turkeys Website',
@@ -15989,7 +16696,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '58.4%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is the latest batched iteration of Wild Turkeys Rare Breed. Based on how long WT RB 03 was around, who knows how long we can expect to this on the market also.',
@@ -16012,7 +16720,8 @@ const bourbonSeeder = [
 		bottler: 'Wild Turkey',
 		abv: '54.1%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Spicy brown sugar. Maple, molasses, some woody tannic notes and nice dusty leather. This seems like a good campfire or cabin in the woods dram based on the nose. Nice and earthy, robust and maple spice forward.',
@@ -16034,7 +16743,8 @@ const bourbonSeeder = [
 		bottler: 'Wilderness Trail',
 		abv: '50%',
 		age: '6 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled by Wilderness Trail, this bottled in bond bourbon features their high rye mashbill and an age statement.',
@@ -16057,7 +16767,8 @@ const bourbonSeeder = [
 		bottler: 'Wilderness Trail',
 		abv: '50%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Distilled by Wilderness Trail, this bottled in bond bourbon does not carry an age statement beyond what is required by Bottled in Bond (4 years) and features WT's wheated mashbill.",
@@ -16080,7 +16791,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '63.3%',
 		age: '14 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: null,
@@ -16099,7 +16811,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '58.2%',
 		age: '4 Years',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro: null,
 			nose: 'Sweet corn, caramel, toffee, vanilla',
@@ -16120,7 +16833,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '59.81%',
 		age: '12 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"It's WIllett...who knows? I think people just fight over these cause its the hip thing to do. Or it makes them feel like Goyk. Or its the tube. Who knows...but its whiskey and that means I'm gonna drink it! Lets see what the deal is.",
@@ -16143,7 +16857,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '47%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'This is supposedly a blend of 8-10 year old whiskies, according to murky internet information. The sample I am trying bears the small batch designation, although it once was a single barrel release. It is generally well accepted that this is a sourced product, with more and more of the blend being replaced by Willett produced bourbon as their stocks come of age. I will admit, it is sort of cute, as far as distillery produced and sold miniatures go.',
@@ -16165,7 +16880,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '61.3%',
 		age: '6 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				"This is a Willett release of bourbon distilled at Willett Estate. Dumped from barrel 2047 and aged for 6 years, this release was bottled at cask strength. Let's dive in.",
@@ -16188,7 +16904,8 @@ const bourbonSeeder = [
 		bottler: 'Willett',
 		abv: '51.7%',
 		age: '7 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a weird Heimerdinger of a release from our pals down at Willett. The XCF stands for eXperimental Cask Finish, and this 7 year old bourbon spent 90 days being finished in a cask that once held Curacao. Lets see how it is.',
@@ -16211,7 +16928,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50%',
 		age: '10 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'This is a limited edition, Heaven Hill gift shop only bottle. This release is bottled in bond.',
@@ -16234,7 +16952,8 @@ const bourbonSeeder = [
 		bottler: 'TerrePURE',
 		abv: '45%',
 		age: '<1 Year',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a Total Wine house brand that is sourced from TerrePURE in the Carolinas - a company that "hyper ages" distills products by attempting to age them faster than conventionally possible using a proprietary method. They claim that this process will revolutionize the industry by providing producers with products that are comparable to well aged bourbons and ryes, in just a fraction of that time. Let\'s see how it is.',
@@ -16256,7 +16975,8 @@ const bourbonSeeder = [
 		bottler: 'TerrePURE',
 		abv: '45%',
 		age: '2 Years',
-		price: ['$'],
+		price_array: ['$'],
+		price_value: 1,
 		review: {
 			intro:
 				'This is a Total Wine house brand that is sourced from TerrePURE in the Carolinas - a company that "hyper ages" distills products by attempting to age them faster than conventionally possible using a proprietary method. They claim that this process will revolutionize the industry by providing producers with products that are comparable to well aged bourbons and ryes, in just a fraction of that time. Let\'s see how it is.',
@@ -16276,7 +16996,8 @@ const bourbonSeeder = [
 		bottler: 'Witherspoon',
 		abv: '52.5%',
 		age: 'NAS',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This was a blind sample that was sent to me. I reviewed it, then got the reveal in order to fill in relevant details here. For other blind reviews, hop on over to the Whiskey Network Discord server and join the chatter.',
@@ -16299,7 +17020,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '62.9%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'I tasted this dram blind and then got the reveal at a later time, so keep that in mind as you read through these notes.',
@@ -16322,7 +17044,8 @@ const bourbonSeeder = [
 		bottler: 'Woodford Reserve',
 		abv: '45.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Todays whiskey review is a bourbon whiskey releases by Woodford Reserve, under the Brown-Forman umbrella. Bottled at 45.2% ABV, this is their flagship product, though it comes with no word on age or filtering. Let's dive in.",
@@ -16345,7 +17068,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '45.2%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"This is a new release from Woodford, and surprisingly one of my first Woodford reviews in a long time. This is their new Distillers Select Barrel Finished Rye, which is a rye that undergoes a secondary finishing in a newly charred barrel. Let's see how it is.",
@@ -16367,7 +17091,8 @@ const bourbonSeeder = [
 		bottler: 'Woodford Reserve',
 		abv: '45.2%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: null,
@@ -16386,7 +17111,8 @@ const bourbonSeeder = [
 		bottler: 'Woodford Reserve',
 		abv: '45.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"Todays whiskey review is a release that's been around for quite some time but always eluded a review from me. Woodford Double Oaked is a NAS release from Woodford Reserve, owned by Brown-Forman, that sees a second maturation in a toasted barrel with light charring after initial maturation. This is bottled at 45.2% ABV, with no word on filtering. Let's get to it.",
@@ -16408,7 +17134,8 @@ const bourbonSeeder = [
 		bottler: 'Woodford Reserve',
 		abv: '59.9%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Distilled by Woodford Reserve and bottled at barrel proof, this release clocks in at 59.9% ABV and continues the use of Woodford's newest bottle design for limited edition releases in the Master's Collection. It's worth noting here that the barrel proof designation is an assumption - the bottle is labeled 'Batch Proof' which is an interesting moniker of a term, but with a unique ABV that's quite high for the brand, it's likely barrel proof. These can be found with some rolling availability in the United States, and should retail around $110.",
@@ -16431,7 +17158,8 @@ const bourbonSeeder = [
 		bottler: 'Woodford Reserve',
 		abv: '45.2%',
 		age: 'NAS',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				'Blending barrels as old as 17 years, this eclectic release from Woodford Reserve is an extremely new kind of release for the distillery. The brand has been strongly against age statements at all, let alone one this old. Bottled at 45.2 proof - like the rest of Woodford’s non batch proof releases.',
@@ -16455,7 +17183,8 @@ const bourbonSeeder = [
 		bottler: 'Brown-Forman',
 		abv: '45.2%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				"This was a blind sample I did from a friend, and the bottle was revealed to me upon presenting my notes. Let's see how I did.",
@@ -16477,7 +17206,8 @@ const bourbonSeeder = [
 		bottler: 'Woodinville',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled by Woodinville Whiskey Company in Washington State, this bourbon whiskey comes to us devoid of an age statement but bottled at respectable 45% ABV after some period being matured in port casks.',
@@ -16499,7 +17229,8 @@ const bourbonSeeder = [
 		bottler: 'Woodinville Whiskey',
 		abv: '47.5%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				"Distilled by Woodinville Whiskey in Washington State, this distillery only release is an exclusive bottling featuring Woodinville's bourbon matured in PX casks. PX is the layman's abbreviation for Pedro XImenez sherry - a sweet, syrupy dessert wine from, most notably, Jerez. Since this is a distillery exclusive, you can only purchase a bottle by visiting the distillery itself.",
@@ -16522,7 +17253,8 @@ const bourbonSeeder = [
 		bottler: 'Woodinville',
 		abv: '45%',
 		age: 'NAS',
-		price: ['$', '$'],
+		price_array: ['$', '$'],
+		price_value: 2,
 		review: {
 			intro:
 				'Distilled by Woodinville Whiskey Company in Washington State, this bourbon whiskey comes to us devoid of an age statement but bottled at respectable 45% ABV.',
@@ -16545,7 +17277,8 @@ const bourbonSeeder = [
 		bottler: 'Woodinville Whiskey Co',
 		abv: '50%',
 		age: 'NAS',
-		price: ['$', '$', '$'],
+		price_array: ['$', '$', '$'],
+		price_value: 3,
 		review: {
 			intro:
 				'Distilled by Woodinville Whiskey Company using their pot still, this exclusive release was a distillery only offering and featured a finish using Moscatel wine casks. Bottled at 50% ABV with no coloring or filtering.',
@@ -16568,7 +17301,8 @@ const bourbonSeeder = [
 		bottler: 'Wyoming Whiskey',
 		abv: '55.7%',
 		age: '5 Years',
-		price: [],
+		price_array: [],
+		price_value: 0,
 		review: {
 			intro:
 				'This is a private bottling of Wyoming Whiskeys distillate. It is 5 years old, bottled at cask strength, and bottled for Waterford Wines, a local Wisconsin retailer of wine and spirits.',
@@ -16590,7 +17324,8 @@ const bourbonSeeder = [
 		bottler: 'Luxco',
 		abv: '52.5%',
 		age: '7 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro: null,
 			nose: 'Sweet corn, vanilla, cream, mild toffee, some faint leather and dust',
@@ -16611,7 +17346,8 @@ const bourbonSeeder = [
 		bottler: 'Heaven Hill',
 		abv: '50.5%',
 		age: '7 Years',
-		price: ['$', '$', '$', '$'],
+		price_array: ['$', '$', '$', '$'],
+		price_value: 4,
 		review: {
 			intro:
 				"Sourced for Yellowstone and finished in Amarone wine casks, this is 2021's Limited Edition from the Lux Row owned brand. It retails at $99.",
