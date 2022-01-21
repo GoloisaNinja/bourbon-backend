@@ -9,6 +9,12 @@
 
 The bourbons endpoint is a simple paginaged endpoint that will provide bourbons 20 records at a time. If no query params are used, the endpoint returns bourbons in alphabetical order (asc). The following query params can be used to mofify the repsonse of this endpoint.
 
+- /bourbons?page=**PAGENUMBER**
+
+You can provide a page query to receive bourbons from that page - bourbons limit per page is 20.
+
+1. /bourbons?page=7 _this query will skip 120 records and will return bourbons 121 - 139_
+
 - /bourbons?search=**SEARCHTERM**
 
 You can provide a search term and the endpoint will normalize your request and search your term against bourbon titles, bottlers and distillers. Matches are returned in a paginated repsonse containing 20 bourbons per page.
