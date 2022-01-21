@@ -25,14 +25,20 @@ router.get('/api/bourbons', async (req, res) => {
 			}
 		}
 		switch (sortSplit[0].toLowerCase()) {
-			case 'price':
-				sort = { price_value: sortDirection };
+			case 'abv':
+				sort = { abv_value: sortDirection };
+				break;
+			case 'age':
+				sort = { age_value: sortDirection };
 				break;
 			case 'bottler':
 				sort = { bottler: sortDirection };
 				break;
 			case 'distiller':
 				sort = { distiller: sortDirection };
+				break;
+			case 'price':
+				sort = { price_value: sortDirection };
 				break;
 			case 'score':
 				sort = { 'review.score': sortDirection };

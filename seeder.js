@@ -12,6 +12,7 @@ const importData = async () => {
 		await Bourbon.deleteMany();
 		await Bourbon.insertMany(bourbonSeeder);
 		console.log('bourbon data was imported successfully...');
+		process.exit();
 	} catch (error) {
 		console.error(error);
 		process.exit(1);

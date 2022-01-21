@@ -19,8 +19,14 @@ const BourbonSchema = new Schema({
 	abv: {
 		type: String,
 	},
+	abv_value: {
+		type: Number,
+	},
 	age: {
 		type: String,
+	},
+	age_value: {
+		type: Number,
 	},
 	price_array: [String],
 	price_value: {

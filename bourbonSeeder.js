@@ -6,7 +6,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -30,7 +32,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '61.5%',
+		abv_value: 61.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -54,7 +58,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '62.5%',
+		abv_value: 62.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -78,7 +84,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '62.5%',
+		abv_value: 62.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -102,7 +110,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '62.5%',
+		abv_value: 62.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -126,7 +136,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '62.5%',
+		abv_value: 62.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -150,7 +162,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '62.5%',
+		abv_value: 62.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -174,7 +188,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '62.5%',
+		abv_value: 62.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -198,7 +214,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '44.45%',
+		abv_value: 44.45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -221,7 +239,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '45.6%',
+		abv_value: 45.6,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -243,7 +263,9 @@ const bourbonSeeder = [
 		distiller: 'Ezra Brooks',
 		bottler: 'Ezra Brooks',
 		abv: '45%',
+		abv_value: 45,
 		age: '12 Years',
+		age_value: 12,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -267,7 +289,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -290,7 +314,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -314,7 +340,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: "Angel's Envy",
 		abv: '43.3%',
+		abv_value: 43.3,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -338,7 +366,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Undisclosed',
 		abv: '53.85%',
+		abv_value: 53.85,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -362,7 +392,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: "Angel's Envy",
 		abv: '54.8%',
+		abv_value: 54.8,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -386,7 +418,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Backbone',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -410,7 +444,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -434,7 +470,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -457,7 +495,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -481,7 +521,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '11 Years 8 Months',
+		age_value: 11,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -505,7 +547,9 @@ const bourbonSeeder = [
 		distiller: 'Balcones',
 		bottler: 'Balcones',
 		abv: '62.9%',
+		abv_value: 62.9,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -529,7 +573,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Bardstown Bourbon Company',
 		abv: '61.1%',
+		abv_value: 61.1,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -553,7 +599,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Bardstown Bourbon Company',
 		abv: '47.45%',
+		abv_value: 47.45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -577,7 +625,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Bardstown Bourbon Company',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -601,7 +651,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed Tennessee Distiller',
 		bottler: 'Bardstown Bourbon Company',
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -625,7 +677,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Barrell',
 		abv: '52.55%',
+		abv_value: 52.55,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -649,7 +703,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Barrell',
 		abv: '61.25%',
+		abv_value: 61.25,
 		age: '7 Years',
+		age_value: 7,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -673,7 +729,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Barrell',
 		abv: '62.35%',
+		abv_value: 62.35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -697,7 +755,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Barrell',
 		abv: '66.4%',
+		abv_value: 66.4,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -721,7 +781,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Barrell',
 		abv: '56.05%',
+		abv_value: 56.05,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -745,7 +807,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Barrell',
 		abv: '57.4%',
+		abv_value: 57.4,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -769,7 +833,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Barrell',
 		abv: '56.95%',
+		abv_value: 56.95,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -793,7 +859,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Barrell',
 		abv: '56.32%',
+		abv_value: 56.32,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -817,7 +885,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Barrell',
 		abv: '57.85%',
+		abv_value: 57.85,
 		age: '5 Years',
+		age_value: 5,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -841,7 +911,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Barrell',
 		abv: '54.43%',
+		abv_value: 54.43,
 		age: '10 Years 4 Months',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -865,7 +937,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Barrell',
 		abv: '58.5%',
+		abv_value: 58.5,
 		age: '5 Years',
+		age_value: 5,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -889,7 +963,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Barrell',
 		abv: '73.06%',
+		abv_value: 73.06,
 		age: '14 Years',
+		age_value: 14,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -912,7 +988,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Barrell',
 		abv: '52.55%',
+		abv_value: 52.55,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -936,7 +1014,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Barrell Craft Spirits',
 		abv: '55.05%',
+		abv_value: 55.05,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -960,7 +1040,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Barrell Craft Spirits',
 		abv: '56.77%',
+		abv_value: 56.77,
 		age: '16 Years',
+		age_value: 16,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -984,7 +1066,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Barrell Craft Spirits',
 		abv: '56.95%',
+		abv_value: 56.95,
 		age: '5 Years',
+		age_value: 5,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1008,7 +1092,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Barrell',
 		abv: '59.2%',
+		abv_value: 59.2,
 		age: '9 Years',
+		age_value: 9,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -1032,7 +1118,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '40%',
+		abv_value: 40,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -1056,7 +1144,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -1076,7 +1166,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '40%',
+		abv_value: 40,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1096,7 +1188,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Nelsons Green Brier',
 		abv: '51.4%',
+		abv_value: 51.4,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1119,7 +1213,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Nelsons Green Brier',
 		abv: '47.5%',
+		abv_value: 47.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -1143,7 +1239,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Nelsons Green Brier',
 		abv: '57.9%',
+		abv_value: 57.9,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1166,7 +1264,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Nelsons Greenbrier',
 		abv: '62.85%',
+		abv_value: 62.85,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1190,7 +1290,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Nelsons Green Brier',
 		abv: '53.35%',
+		abv_value: 53.35,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1214,7 +1316,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Nelsons Greenbrier',
 		abv: '45.2%',
+		abv_value: 45.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1236,7 +1340,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -1256,7 +1362,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '45%',
+		abv_value: 45,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -1279,7 +1387,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Deutsch Family Wine and Spirits',
 		abv: '46%',
+		abv_value: 46,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1299,7 +1409,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Deutsch Family Wine and Spirits',
 		abv: null,
+		abv_value: 0,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1319,7 +1431,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Deutsch Family Wine and Spirits',
 		abv: '46%',
+		abv_value: 46,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -1339,7 +1453,9 @@ const bourbonSeeder = [
 		distiller: 'Big Bottom',
 		bottler: 'Big Bottom',
 		abv: '45.5%',
+		abv_value: 45.5,
 		age: '3 Years',
+		age_value: 3,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -1361,7 +1477,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Underdog Wine and Spirits',
 		abv: '45%',
+		abv_value: 45,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -1383,7 +1501,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Diageo',
 		abv: '45.5%',
+		abv_value: 45.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -1407,7 +1527,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '51.5%',
+		abv_value: 51.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1431,7 +1553,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '46.5%',
+		abv_value: 46.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1455,7 +1579,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '66.65%',
+		abv_value: 66.65,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1478,7 +1604,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '65.35%',
+		abv_value: 65.35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1502,7 +1630,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '65.3%',
+		abv_value: 65.3,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1525,7 +1655,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '62.8%',
+		abv_value: 62.8,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1548,7 +1680,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Blaum Bros',
 		abv: '58.6%',
+		abv_value: 58.6,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1572,7 +1706,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Lux Row',
 		abv: '49.3%',
+		abv_value: 49.3,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1596,7 +1732,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Big River Distilling',
 		abv: '50.95%',
+		abv_value: 50.95,
 		age: '17 Years',
+		age_value: 17,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1620,7 +1758,9 @@ const bourbonSeeder = [
 		distiller: 'B.R. Distilling',
 		bottler: 'B.R. Distilling',
 		abv: '46.5%',
+		abv_value: 46.5,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -1643,7 +1783,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Blue Run Spirits',
 		abv: '56.5%',
+		abv_value: 56.5,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1663,7 +1805,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Campari',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1687,7 +1831,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '63.85%',
+		abv_value: 63.85,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1710,7 +1856,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '63.95%%',
+		abv_value: 63.95,
 		age: '6 Years 5 Months',
+		age_value: 6,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1734,7 +1882,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '62.9%',
+		abv_value: 62.9,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -1758,7 +1908,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '64.35%',
+		abv_value: 64.35,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1782,7 +1934,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '63.25%',
+		abv_value: 63.25,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1806,7 +1960,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '50.8%',
+		abv_value: 50.8,
 		age: '8 Years',
+		age_value: 8,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -1830,7 +1986,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '63.6%',
+		abv_value: 63.6,
 		age: '7 Years',
+		age_value: 7,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -1854,7 +2012,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '64%',
+		abv_value: 64,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1878,7 +2038,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '64.05%',
+		abv_value: 64.05,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1901,7 +2063,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '63.5%',
+		abv_value: 63.5,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -1925,7 +2089,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '63.65%',
+		abv_value: 63.65,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1949,7 +2115,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Bourbon Street Wine and Spirits',
 		abv: '55%',
+		abv_value: 55,
 		age: '4 Years',
+		age_value: 4,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -1973,7 +2141,9 @@ const bourbonSeeder = [
 		distiller: 'Silver Screen Bottling Company',
 		bottler: 'Silver Screen Bottling Company',
 		abv: '51.9%',
+		abv_value: 51.9,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -1993,7 +2163,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -2017,7 +2189,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '17 Years',
+		age_value: 17,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -2041,7 +2215,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: '17 Years',
+		age_value: 17,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -2065,7 +2241,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '69.1%',
+		abv_value: 69.1,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -2089,7 +2267,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '64.6%',
+		abv_value: 64.6,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -2113,7 +2293,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '62.45%',
+		abv_value: 62.45,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -2137,7 +2319,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '65.2%',
+		abv_value: 65.2,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -2161,7 +2345,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '64.4%',
+		abv_value: 64.4,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -2185,7 +2371,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '67.3%',
+		abv_value: 67.3,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -2209,7 +2397,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '67.7%',
+		abv_value: 67.7,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -2232,7 +2422,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '67.25%',
+		abv_value: 67.25,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -2256,7 +2448,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -2280,7 +2474,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '62.5%',
+		abv_value: 62.5,
 		age: 'NA',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -2304,7 +2500,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -2328,7 +2526,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -2351,7 +2551,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '57.5%',
+		abv_value: 57.5,
 		age: 'NA',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -2375,7 +2577,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Bull Run',
 		abv: '62.8%',
+		abv_value: 62.8,
 		age: '14 Years',
+		age_value: 14,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -2399,7 +2603,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Bull Run',
 		abv: '62.67%',
+		abv_value: 62.67,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -2423,7 +2629,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Bulleit',
 		abv: null,
+		abv_value: 0,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -2446,7 +2654,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Bulleit',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2470,7 +2680,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Bulleit',
 		abv: '50%',
+		abv_value: 50,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -2494,7 +2706,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Bulleit',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -2517,7 +2731,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2541,7 +2757,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Calumet',
 		abv: '47%',
+		abv_value: 47,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -2565,7 +2783,9 @@ const bourbonSeeder = [
 		distiller: 'Charbay',
 		bottler: 'Charbay',
 		abv: '66.2%',
+		abv_value: 66.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -2588,7 +2808,9 @@ const bourbonSeeder = [
 		distiller: 'Charbay',
 		bottler: 'Charbay',
 		abv: '49.5%',
+		abv_value: 49.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -2612,7 +2834,9 @@ const bourbonSeeder = [
 		distiller: 'Charbay',
 		bottler: 'Charbay',
 		abv: '73.5%',
+		abv_value: 73.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2635,7 +2859,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '45.5%',
+		abv_value: 45.5,
 		age: '2 Years',
+		age_value: 2,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -2659,7 +2885,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '58.59%',
+		abv_value: 58.59,
 		age: '35 Months',
+		age_value: 2,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2683,7 +2911,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '59.095%',
+		abv_value: 59.095,
 		age: '35 Months',
+		age_value: 2,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2707,7 +2937,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '59.405%',
+		abv_value: 59.405,
 		age: '3 Years',
+		age_value: 3,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2731,7 +2963,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '47.5%',
+		abv_value: 47.5,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -2756,7 +2990,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga Whiskey',
 		bottler: 'Chattanooga Whiskey',
 		abv: '50%',
+		abv_value: 50,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -2779,7 +3015,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '55.5%',
+		abv_value: 55.5,
 		age: '2 Years',
+		age_value: 2,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -2803,7 +3041,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Chattanooga Whiskey',
 		abv: '56.8%',
+		abv_value: 56.8,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2826,7 +3066,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '51%',
+		abv_value: 51,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2850,7 +3092,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '51%',
+		abv_value: 51,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2875,7 +3119,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '60.85%',
+		abv_value: 60.85,
 		age: '4 Years',
+		age_value: 4,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2899,7 +3145,9 @@ const bourbonSeeder = [
 		distiller: 'Chattanooga',
 		bottler: 'Chattanooga',
 		abv: '57.5%',
+		abv_value: 57.5,
 		age: 'NA',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -2923,7 +3171,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Chicken Cock Whiskey',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -2947,7 +3197,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Chicken Cock',
 		abv: '57%',
+		abv_value: 57,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -2971,7 +3223,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -2994,7 +3248,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: '18 Years',
+		age_value: 18,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3018,7 +3274,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '63.75%',
+		abv_value: 63.75,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3041,7 +3299,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '63.5%',
+		abv_value: 63.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3064,7 +3324,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: '17 Years',
+		age_value: 17,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3088,7 +3350,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3112,7 +3376,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3136,7 +3402,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3159,7 +3427,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3183,7 +3453,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3208,7 +3480,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Compass Box',
 		abv: '49%',
+		abv_value: 49,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3232,7 +3506,9 @@ const bourbonSeeder = [
 		distiller: 'Copper & Kings',
 		bottler: 'Copper & Kings',
 		abv: null,
+		abv_value: 0,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -3256,7 +3532,9 @@ const bourbonSeeder = [
 		distiller: 'Corner Creek',
 		bottler: 'Corner Creek',
 		abv: '44%',
+		abv_value: 44,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -3278,7 +3556,9 @@ const bourbonSeeder = [
 		distiller: 'Corsair',
 		bottler: 'Corsair',
 		abv: '40%',
+		abv_value: 40,
 		age: '8 Months',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3301,7 +3581,9 @@ const bourbonSeeder = [
 		distiller: 'Crown Royal',
 		bottler: 'Crown Royal',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -3325,7 +3607,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Luxco',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3348,7 +3632,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Lux Row',
 		abv: '48%',
+		abv_value: 48,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3372,7 +3658,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Lux Row',
 		abv: '48%',
+		abv_value: 48,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3396,7 +3684,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Lux Row',
 		abv: '48%',
+		abv_value: 48,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3420,7 +3710,9 @@ const bourbonSeeder = [
 		distiller: 'Driftless Glen',
 		bottler: 'Driftless Glen',
 		abv: '55%',
+		abv_value: 55,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3445,7 +3737,9 @@ const bourbonSeeder = [
 		distiller: 'Driftless Glen',
 		bottler: 'Driftless Glen',
 		abv: '59.3%',
+		abv_value: 59.3,
 		age: '3 Years',
+		age_value: 3,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -3469,7 +3763,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Droptine',
 		abv: '46%',
+		abv_value: 46,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3493,7 +3789,9 @@ const bourbonSeeder = [
 		distiller: 'Dry Fly Distilling',
 		bottler: 'Dry Fly Distilling',
 		abv: '60%',
+		abv_value: 60,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3517,7 +3815,9 @@ const bourbonSeeder = [
 		distiller: 'Dry Fly Distilling',
 		bottler: 'Dry Fly Distilling',
 		abv: '43%',
+		abv_value: 43,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3541,7 +3841,9 @@ const bourbonSeeder = [
 		distiller: 'O.Z. Tyler Distillery',
 		bottler: 'O.Z. Tyler Distillery',
 		abv: '44%',
+		abv_value: 44,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3561,7 +3863,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3585,7 +3889,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3609,7 +3915,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3632,7 +3940,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3655,7 +3965,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '10 Years',
+		age_value: 10,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -3679,7 +3991,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3702,7 +4016,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3725,7 +4041,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3749,7 +4067,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -3773,7 +4093,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '50%',
+		abv_value: 50,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -3797,7 +4119,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '67.1%',
+		abv_value: 67.1,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3821,7 +4145,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '69.4%',
+		abv_value: 69.4,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3845,7 +4171,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '69.7%',
+		abv_value: 69.7,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3869,7 +4197,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '68%',
+		abv_value: 68,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3893,7 +4223,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '68.5%',
+		abv_value: 68.5,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3917,7 +4249,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '66.6%',
+		abv_value: 66.6,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -3941,7 +4275,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '66.2%',
+		abv_value: 66.2,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3965,7 +4301,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '67.4%',
+		abv_value: 67.4,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -3989,7 +4327,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '70.1%',
+		abv_value: 70.1,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4013,7 +4353,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '64%',
+		abv_value: 64,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4037,7 +4379,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '69.9%',
+		abv_value: 69.9,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4061,7 +4405,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '62.8%',
+		abv_value: 62.8,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4085,7 +4431,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '63.5%',
+		abv_value: 63.5,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4108,7 +4456,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '65.3%',
+		abv_value: 65.3,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4132,7 +4482,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '67.6%',
+		abv_value: 67.6,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4153,7 +4505,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '68.3%',
+		abv_value: 68.3,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4173,7 +4527,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '61.8%',
+		abv_value: 61.8,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4197,7 +4553,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '62.1%',
+		abv_value: 62.1,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4221,7 +4579,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '66.7%',
+		abv_value: 66.7,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4241,7 +4601,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '61.6%',
+		abv_value: 61.6,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4265,7 +4627,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '63.6%',
+		abv_value: 63.6,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4285,7 +4649,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '59.1%',
+		abv_value: 59.1,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4309,7 +4675,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '65.5%',
+		abv_value: 65.5,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4333,7 +4701,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '65.7%',
+		abv_value: 65.7,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4353,7 +4723,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '68.4%',
+		abv_value: 68.4,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4377,7 +4749,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '66.4%',
+		abv_value: 66.4,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4401,7 +4775,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '60.1%',
+		abv_value: 60.1,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4425,7 +4801,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '62.5%',
+		abv_value: 62.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4449,7 +4827,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -4473,7 +4853,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4497,7 +4879,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '47%',
+		abv_value: 47,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4521,7 +4905,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -4544,7 +4930,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '47%',
+		abv_value: 47,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -4567,7 +4955,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -4591,7 +4981,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -4615,7 +5007,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -4639,7 +5033,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -4663,7 +5059,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4687,7 +5085,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '43%',
+		abv_value: 43,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4710,7 +5110,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4734,7 +5136,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '43.3%',
+		abv_value: 43.3,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4758,7 +5162,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '43.3%',
+		abv_value: 43.3,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -4781,7 +5187,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '43.3%',
+		abv_value: 43.3,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4804,7 +5212,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Luxco',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4828,7 +5238,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Lux Row Distillers',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4852,7 +5264,9 @@ const bourbonSeeder = [
 		distiller: 'The Edrington Group',
 		bottler: 'The Edrington Group',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4872,7 +5286,9 @@ const bourbonSeeder = [
 		distiller: 'FEW Spirits',
 		bottler: 'FEW Spirits',
 		abv: '46.5%',
+		abv_value: 46.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -4892,7 +5308,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '51.5%',
+		abv_value: 51.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4916,7 +5334,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'William Grant and Sons',
 		abv: '45%',
+		abv_value: 45,
 		age: '2 Years',
+		age_value: 2,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -4939,7 +5359,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -4963,7 +5385,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Four Gate',
 		abv: '62.3%',
+		abv_value: 62.3,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -4987,7 +5411,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Four Gate',
 		abv: '62.35%',
+		abv_value: 62.35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -5011,7 +5437,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Four Gate',
 		abv: '59.7%',
+		abv_value: 59.7,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -5035,7 +5463,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '55.1%',
+		abv_value: 55.1,
 		age: '16 Years',
+		age_value: 16,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -5058,7 +5488,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '53.65%',
+		abv_value: 53.65,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -5081,7 +5513,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '54.46%',
+		abv_value: 54.46,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -5105,7 +5539,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '58.6%',
+		abv_value: 58.6,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5129,7 +5565,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '59%',
+		abv_value: 59,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5153,7 +5591,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '54.8%',
+		abv_value: 54.8,
 		age: '9 Years 2 Months',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5177,7 +5617,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '55.5%',
+		abv_value: 55.5,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5199,7 +5641,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '60%',
+		abv_value: 60,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5224,7 +5668,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '58%',
+		abv_value: 58,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5248,7 +5694,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '59%',
+		abv_value: 59,
 		age: '8 Years 9 Months',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5272,7 +5720,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '55.6%',
+		abv_value: 55.6,
 		age: 'Unknown',
+		age_value: null,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5296,7 +5746,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '58.6%',
+		abv_value: 58.6,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5320,7 +5772,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '58.4%',
+		abv_value: 58.4,
 		age: '9 Years',
+		age_value: 9,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -5342,7 +5796,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '57.5%',
+		abv_value: 57.5,
 		age: '11 Years 5 Months',
+		age_value: 11,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -5366,7 +5822,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '57.1%',
+		abv_value: 57.1,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5390,7 +5848,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '62.3%',
+		abv_value: 62.3,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5413,7 +5873,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '57.7%',
+		abv_value: 57.7,
 		age: '8 Years 7 Months',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5437,7 +5899,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '62.8%',
+		abv_value: 62.8,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5461,7 +5925,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '62.6%',
+		abv_value: 62.6,
 		age: '8 Years 7 Months',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5485,7 +5951,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '60%',
+		abv_value: 60,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5509,7 +5977,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '55.5%',
+		abv_value: 55.5,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5534,7 +6004,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '60.3%',
+		abv_value: 60.3,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5557,7 +6029,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '58.8%',
+		abv_value: 58.8,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5582,7 +6056,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '55.2%',
+		abv_value: 55.2,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5606,7 +6082,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '52.4%',
+		abv_value: 52.4,
 		age: '9 Years 8 Months',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5630,7 +6108,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '53.9%',
+		abv_value: 53.9,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -5654,7 +6134,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '56.1%',
+		abv_value: 56.1,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5678,7 +6160,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '54.7%',
+		abv_value: 54.7,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5701,7 +6185,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '59.7%',
+		abv_value: 59.7,
 		age: '10 Years 4 Months',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5725,7 +6211,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '58.1%',
+		abv_value: 58.1,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5748,7 +6236,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '57.1%',
+		abv_value: 57.1,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5772,7 +6262,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '56%',
+		abv_value: 56,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5795,7 +6287,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '57.3%',
+		abv_value: 57.3,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5817,7 +6311,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '55.8%',
+		abv_value: 55.8,
 		age: '11 Years 8 Months',
+		age_value: 11,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -5841,7 +6337,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '58.3%',
+		abv_value: 58.3,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5865,7 +6363,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '57.2%',
+		abv_value: 57.2,
 		age: 'Unknown',
+		age_value: null,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5889,7 +6389,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '52.1%',
+		abv_value: 52.1,
 		age: '9 Years 2 Months',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5913,7 +6415,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '59%',
+		abv_value: 59,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5937,7 +6441,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '61.1%',
+		abv_value: 61.1,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5960,7 +6466,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '52.5%',
+		abv_value: 52.5,
 		age: '10 Years 3 Months',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -5984,7 +6492,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '56.1%',
+		abv_value: 56.1,
 		age: '10 Years 3 Months',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6008,7 +6518,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '59.5%',
+		abv_value: 59.5,
 		age: '10 Years 5 Months',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6031,7 +6543,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '62.9%',
+		abv_value: 62.9,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6056,7 +6570,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '58.3%',
+		abv_value: 58.3,
 		age: '9 Years',
+		age_value: 9,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -6080,7 +6596,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6104,7 +6622,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '50%',
+		abv_value: 50,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6128,7 +6648,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '58.1%',
+		abv_value: 58.1,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6151,7 +6673,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6175,7 +6699,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '54.2%',
+		abv_value: 54.2,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6200,7 +6726,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '51.6%',
+		abv_value: 51.6,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6224,7 +6752,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '55.9%',
+		abv_value: 55.9,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6248,7 +6778,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '55.6%',
+		abv_value: 55.6,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6270,7 +6802,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '56.3%',
+		abv_value: 56.3,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6294,7 +6828,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '55.65%',
+		abv_value: 55.65,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6318,7 +6854,9 @@ const bourbonSeeder = [
 		distiller: 'Four Roses',
 		bottler: 'Four Roses',
 		abv: '52%',
+		abv_value: 52,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6342,7 +6880,9 @@ const bourbonSeeder = [
 		distiller: 'Garrison Brothers',
 		bottler: 'Garrison Brothers',
 		abv: '47%',
+		abv_value: 47,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6366,7 +6906,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Dickel',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -6386,7 +6928,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Dickel',
 		abv: '50.2%',
+		abv_value: 50.2,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6410,7 +6954,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Dickel',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -6434,7 +6980,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Dickel',
 		abv: '45%',
+		abv_value: 45,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6458,7 +7006,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Dickel',
 		abv: '50%',
+		abv_value: 50,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6482,7 +7032,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Dickel',
 		abv: '50%',
+		abv_value: 50,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6506,7 +7058,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Dickel',
 		abv: '35%',
+		abv_value: 35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -6530,7 +7084,9 @@ const bourbonSeeder = [
 		distiller: 'Glenfiddich',
 		bottler: 'Glenfiddich',
 		abv: '43%',
+		abv_value: 43,
 		age: '14 Years',
+		age_value: 14,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6553,7 +7109,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Great Lakes Distillery',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -6577,7 +7135,9 @@ const bourbonSeeder = [
 		distiller: 'TerrePURE',
 		bottler: 'TerrePURE',
 		abv: '45%',
+		abv_value: 45,
 		age: '<1 Year',
+		age_value: null,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -6599,7 +7159,9 @@ const bourbonSeeder = [
 		distiller: 'Mystic',
 		bottler: 'Mystic',
 		abv: '58.2%',
+		abv_value: 58.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6623,7 +7185,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Single Cask Nation',
 		abv: '47.4%',
+		abv_value: 47.4,
 		age: '24 Years',
+		age_value: 24,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6647,7 +7211,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -6671,7 +7237,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6695,7 +7263,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: "Heaven's Door",
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6715,7 +7285,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: "Heaven's Door",
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6739,7 +7311,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: "Heaven's Door",
 		abv: '45%',
+		abv_value: 45,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6763,7 +7337,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6786,7 +7362,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6811,7 +7389,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6834,7 +7414,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'High West',
 		abv: '46%',
+		abv_value: 46,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6858,7 +7440,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'High West',
 		abv: '49.9%',
+		abv_value: 49.9,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6881,7 +7465,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'High West',
 		abv: '46%',
+		abv_value: 46,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6905,7 +7491,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'High West',
 		abv: '52.4%',
+		abv_value: 52.4,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -6928,7 +7516,9 @@ const bourbonSeeder = [
 		distiller: 'High West',
 		bottler: 'High West',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NA',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -6950,7 +7540,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Hillrock Estate',
 		abv: '46.3%',
+		abv_value: 46.3,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -6970,7 +7562,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Homestead',
 		abv: '56.65%',
+		abv_value: 56.65,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -6994,7 +7588,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Prohibition Spirits',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -7017,7 +7613,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Hooten & Young',
 		abv: '46%',
+		abv_value: 46,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -7041,7 +7639,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Old Dominick',
 		abv: null,
+		abv_value: 0,
 		age: '6 Years',
+		age_value: 6,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -7065,7 +7665,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Hyde',
 		abv: '46%',
+		abv_value: 46,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -7089,7 +7691,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Luxco',
 		abv: '41%',
+		abv_value: 41,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -7113,7 +7717,9 @@ const bourbonSeeder = [
 		distiller: 'New Bernheim Distillery',
 		bottler: 'I.W. Harper',
 		abv: '43%',
+		abv_value: 43,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7137,7 +7743,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Isaac Bowman',
 		abv: '46%',
+		abv_value: 46,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -7161,7 +7769,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'J. Mattingly',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -7185,7 +7795,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'J. Mattingly',
 		abv: '69%',
+		abv_value: 69,
 		age: '12 Years',
+		age_value: 12,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -7209,7 +7821,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7229,7 +7843,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7249,7 +7865,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7273,7 +7891,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '48.5%',
+		abv_value: 48.5,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7297,7 +7917,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7320,7 +7942,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -7344,7 +7968,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '35%',
+		abv_value: 35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7364,7 +7990,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7388,7 +8016,9 @@ const bourbonSeeder = [
 		distiller: 'Jack Daniels',
 		bottler: 'Jack Daniels',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7410,7 +8040,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -7434,7 +8066,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '63.35%',
+		abv_value: 63.35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7459,7 +8093,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '64.8%',
+		abv_value: 64.8,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7484,7 +8120,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '66.15%',
+		abv_value: 66.15,
 		age: '5 Years',
+		age_value: 5,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7508,7 +8146,9 @@ const bourbonSeeder = [
 		distiller: "Jack Daniel's",
 		bottler: "Jack Daniel's",
 		abv: '65.9%',
+		abv_value: 65.9,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7532,7 +8172,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: "Jacob's Pardon",
 		abv: '48.55%',
+		abv_value: 48.55,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7556,7 +8198,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Jefferesons',
 		abv: '56%',
+		abv_value: 56,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -7580,7 +8224,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Jeffersons',
 		abv: '41.15%',
+		abv_value: 41.15,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -7604,7 +8250,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Jeffersons',
 		abv: '45.1%',
+		abv_value: 45.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -7628,7 +8276,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7652,7 +8302,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7676,7 +8328,9 @@ const bourbonSeeder = [
 		distiller: 'Jim Beam',
 		bottler: 'Jim Beam',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7699,7 +8353,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -7719,7 +8375,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -7743,7 +8401,9 @@ const bourbonSeeder = [
 		distiller: 'Beam Suntory, Inc.',
 		bottler: 'Beam Suntory, Inc.',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -7763,7 +8423,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7787,7 +8449,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -7810,7 +8474,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7832,7 +8498,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -7855,7 +8523,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Bowman',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -7878,7 +8548,9 @@ const bourbonSeeder = [
 		distiller: 'Willett',
 		bottler: 'Willett',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -7901,7 +8573,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Joseph A. Magnus',
 		abv: '51.5%',
+		abv_value: 51.5,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -7925,7 +8599,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Joseph Magnus',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -7949,7 +8625,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Joseph Magnus',
 		abv: '50.35%',
+		abv_value: 50.35,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -7972,7 +8650,9 @@ const bourbonSeeder = [
 		distiller: 'Kavalan',
 		bottler: 'Kavalan',
 		abv: '57.8%',
+		abv_value: 57.8,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -7995,7 +8675,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Kentucky Owl',
 		abv: '57.5%',
+		abv_value: 57.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -8019,7 +8701,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Kentucky Par',
 		abv: '50%',
+		abv_value: 50,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -8043,7 +8727,9 @@ const bourbonSeeder = [
 		distiller: 'Kilchoman',
 		bottler: 'Kilchoman',
 		abv: '56.4%',
+		abv_value: 56.4,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -8067,7 +8753,9 @@ const bourbonSeeder = [
 		distiller: 'Kilchoman',
 		bottler: 'Kilchoman',
 		abv: null,
+		abv_value: 0,
 		age: '5 Years',
+		age_value: 5,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -8091,7 +8779,9 @@ const bourbonSeeder = [
 		distiller: 'Kings County Distillery',
 		bottler: 'Kings County Distillery',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8113,7 +8803,9 @@ const bourbonSeeder = [
 		distiller: 'Kings County Distillery',
 		bottler: 'Kings County Distillery',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -8133,7 +8825,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Kirkland Signature',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8157,7 +8851,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '46%',
+		abv_value: 46,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8181,7 +8877,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '50%',
+		abv_value: 50,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8205,7 +8903,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '50%',
+		abv_value: 50,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -8228,7 +8928,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '62.1%',
+		abv_value: 62.1,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -8252,7 +8954,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '50%',
+		abv_value: 50,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -8276,7 +8980,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -8296,7 +9002,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8320,7 +9028,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8343,7 +9053,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8367,7 +9079,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8391,7 +9105,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8415,7 +9131,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8439,7 +9157,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8463,7 +9183,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8487,7 +9209,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8511,7 +9235,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8535,7 +9261,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8559,7 +9287,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8583,7 +9313,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8606,7 +9338,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8630,7 +9364,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8654,7 +9390,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8679,7 +9417,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8703,7 +9443,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8726,7 +9468,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8751,7 +9495,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8775,7 +9521,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8798,7 +9546,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8822,7 +9572,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8847,7 +9599,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8871,7 +9625,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8895,7 +9651,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8918,7 +9676,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8941,7 +9701,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8963,7 +9725,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -8987,7 +9751,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9011,7 +9777,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9035,7 +9803,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9059,7 +9829,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9083,7 +9855,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9106,7 +9880,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9130,7 +9906,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9153,7 +9931,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9178,7 +9958,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9202,7 +9984,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9227,7 +10011,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9251,7 +10037,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9274,7 +10062,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9298,7 +10088,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9321,7 +10113,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '60%',
+		abv_value: 60,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9345,7 +10139,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Knox Whiskey Works',
 		abv: '60.56%',
+		abv_value: 60.56,
 		age: '5 Years',
+		age_value: 5,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -9369,7 +10165,9 @@ const bourbonSeeder = [
 		distiller: 'Laphroaig',
 		bottler: 'Laphroaig',
 		abv: '58%',
+		abv_value: 58,
 		age: '12 Years',
+		age_value: 12,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -9393,7 +10191,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '61.6%',
+		abv_value: 61.6,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9417,7 +10217,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '57.4%',
+		abv_value: 57.4,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9441,7 +10243,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '60.5%',
+		abv_value: 60.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9465,7 +10269,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '61.2%',
+		abv_value: 61.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9489,7 +10295,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '61.3%',
+		abv_value: 61.3,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -9513,7 +10321,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '46%',
+		abv_value: 46,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -9537,7 +10347,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9561,7 +10373,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9584,7 +10398,9 @@ const bourbonSeeder = [
 		distiller: 'Macallan',
 		bottler: 'A.D. Rattray',
 		abv: '54.3%',
+		abv_value: 54.3,
 		age: '15 Years',
+		age_value: 15,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -9608,7 +10424,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -9632,7 +10450,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9656,7 +10476,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.4%',
+		abv_value: 55.4,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9680,7 +10502,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.15%',
+		abv_value: 55.15,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -9704,7 +10528,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9728,7 +10554,9 @@ const bourbonSeeder = [
 		distiller: 'Makers Mark',
 		bottler: 'Makers Mark',
 		abv: '55.15%',
+		abv_value: 55.15,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -9752,7 +10580,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '53.65%',
+		abv_value: 53.65,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -9775,7 +10605,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.3%',
+		abv_value: 55.3,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9799,7 +10631,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.05%',
+		abv_value: 55.05,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9823,7 +10657,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.2%',
+		abv_value: 55.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9847,7 +10683,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '54.9%',
+		abv_value: 54.9,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9871,7 +10709,9 @@ const bourbonSeeder = [
 		distiller: 'Makers Mark',
 		bottler: 'Makers Mark',
 		abv: '54.5%',
+		abv_value: 54.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9895,7 +10735,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.2%',
+		abv_value: 55.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9919,7 +10761,9 @@ const bourbonSeeder = [
 		distiller: 'Makers Mark',
 		bottler: 'Makers Mark',
 		abv: '54.7%',
+		abv_value: 54.7,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -9943,7 +10787,9 @@ const bourbonSeeder = [
 		distiller: 'Makers Mark',
 		bottler: 'Makers Mark',
 		abv: '54.7%',
+		abv_value: 54.7,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -9966,7 +10812,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.1%',
+		abv_value: 55.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -9990,7 +10838,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.1%',
+		abv_value: 55.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10013,7 +10863,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.45%',
+		abv_value: 55.45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10037,7 +10889,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.45%',
+		abv_value: 55.45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10061,7 +10915,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.05%',
+		abv_value: 55.05,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10085,7 +10941,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.75%',
+		abv_value: 55.75,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10109,7 +10967,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.1%',
+		abv_value: 55.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10133,7 +10993,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.05%',
+		abv_value: 55.05,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10157,7 +11019,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.2%',
+		abv_value: 55.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10181,7 +11045,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.05%',
+		abv_value: 55.05,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10205,7 +11071,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.1%',
+		abv_value: 55.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10229,7 +11097,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.1%',
+		abv_value: 55.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10253,7 +11123,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.2%',
+		abv_value: 55.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10277,7 +11149,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.15%',
+		abv_value: 55.15,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10301,7 +11175,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.7%',
+		abv_value: 55.7,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10324,7 +11200,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.5%',
+		abv_value: 55.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10349,7 +11227,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '55.7%',
+		abv_value: 55.7,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10373,7 +11253,9 @@ const bourbonSeeder = [
 		distiller: "Maker's Mark",
 		bottler: "Maker's Mark",
 		abv: '54.1%',
+		abv_value: 54.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10396,7 +11278,9 @@ const bourbonSeeder = [
 		distiller: 'Makers Mark',
 		bottler: 'Makers Mark',
 		abv: '54.55%',
+		abv_value: 54.55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10421,7 +11305,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'MB Roland',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -10445,7 +11331,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -10469,7 +11357,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Famous Brands',
 		abv: '45%',
+		abv_value: 45,
 		age: '6 Months',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -10489,7 +11379,9 @@ const bourbonSeeder = [
 		distiller: 'Van Winkle',
 		bottler: 'Van Winkle',
 		abv: '53%',
+		abv_value: 53,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -10513,7 +11405,9 @@ const bourbonSeeder = [
 		distiller: 'Nelsons Green Brier',
 		bottler: 'Nelsons Green Brier',
 		abv: '45.5%',
+		abv_value: 45.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -10537,7 +11431,9 @@ const bourbonSeeder = [
 		distiller: 'New Riff',
 		bottler: 'New Riff',
 		abv: '50%',
+		abv_value: 50,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -10561,7 +11457,9 @@ const bourbonSeeder = [
 		distiller: 'New Riff',
 		bottler: 'New Riff',
 		abv: '53.35%',
+		abv_value: 53.35,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -10585,7 +11483,9 @@ const bourbonSeeder = [
 		distiller: 'New Riff',
 		bottler: 'New Riff',
 		abv: '50%',
+		abv_value: 50,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -10608,7 +11508,9 @@ const bourbonSeeder = [
 		distiller: 'New Riff',
 		bottler: 'New Riff',
 		abv: '50%',
+		abv_value: 50,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -10632,7 +11534,9 @@ const bourbonSeeder = [
 		distiller: 'Willett',
 		bottler: 'Willett',
 		abv: '57.15%',
+		abv_value: 57.15,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -10655,7 +11559,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'O.H. Ingram',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10679,7 +11585,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Brown Water Spirits',
 		abv: '46%',
+		abv_value: 46,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10702,7 +11610,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'New Riff',
 		abv: '54%',
+		abv_value: 54,
 		age: '10 Years',
+		age_value: 10,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -10726,7 +11636,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'New Riff',
 		abv: '50%',
+		abv_value: 50,
 		age: '9 Years',
+		age_value: 9,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -10750,7 +11662,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'New Riff',
 		abv: '56.375%',
+		abv_value: 56.375,
 		age: '10 Years',
+		age_value: 10,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -10774,7 +11688,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'New Riff',
 		abv: '48.9%',
+		abv_value: 48.9,
 		age: '10 Years',
+		age_value: 10,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -10798,7 +11714,9 @@ const bourbonSeeder = [
 		distiller: 'Old 55 Distillery',
 		bottler: 'Old 55 Distillery',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -10822,7 +11740,9 @@ const bourbonSeeder = [
 		distiller: 'Willett',
 		bottler: 'Willett',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -10845,7 +11765,9 @@ const bourbonSeeder = [
 		distiller: 'Stitzel-Weller',
 		bottler: 'Stitzel-Weller',
 		abv: '43%',
+		abv_value: 43,
 		age: '5 Years',
+		age_value: 5,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -10869,7 +11791,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Old Carter',
 		abv: '58.6%',
+		abv_value: 58.6,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -10893,7 +11817,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -10917,7 +11843,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Old Elk',
 		abv: '44%',
+		abv_value: 44,
 		age: '5 Years',
+		age_value: 5,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -10941,7 +11869,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Old Elk',
 		abv: '46%',
+		abv_value: 46,
 		age: '5 Years',
+		age_value: 5,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -10965,7 +11895,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Luxco',
 		abv: '58.5%',
+		abv_value: 58.5,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -10989,7 +11921,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -11013,7 +11947,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -11037,7 +11973,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '14 Years',
+		age_value: 14,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -11061,7 +11999,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -11085,7 +12025,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -11109,7 +12051,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -11133,7 +12077,9 @@ const bourbonSeeder = [
 		distiller: 'Stitzel-Weller',
 		bottler: 'Buffalo Trace',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11156,7 +12102,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '16 Years',
+		age_value: 16,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -11180,7 +12128,9 @@ const bourbonSeeder = [
 		distiller: 'Bernheim',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11203,7 +12153,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -11227,7 +12179,9 @@ const bourbonSeeder = [
 		distiller: 'Stitzel-Weller',
 		bottler: 'Buffalo Trace',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -11251,7 +12205,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11275,7 +12231,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11299,7 +12257,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '46.5%',
+		abv_value: 46.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11323,7 +12283,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '57.5%',
+		abv_value: 57.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11347,7 +12309,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -11370,7 +12334,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '52.5%',
+		abv_value: 52.5,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -11394,7 +12360,9 @@ const bourbonSeeder = [
 		distiller: 'Old Forester',
 		bottler: 'Old Forester',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11418,7 +12386,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11441,7 +12411,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11464,7 +12436,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '47.5%',
+		abv_value: 47.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11488,7 +12462,9 @@ const bourbonSeeder = [
 		distiller: 'Old Forge Distillery',
 		bottler: 'Old Forge Distillery',
 		abv: '66.5%',
+		abv_value: 66.5,
 		age: '8 Years',
+		age_value: 8,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11512,7 +12488,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Old Fourth Distillery',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11536,7 +12514,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '57%',
+		abv_value: 57,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -11560,7 +12540,9 @@ const bourbonSeeder = [
 		distiller: 'National Distillers',
 		bottler: 'National Distillers',
 		abv: '57%',
+		abv_value: 57,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11583,7 +12565,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -11606,7 +12590,9 @@ const bourbonSeeder = [
 		distiller: 'National Distillers',
 		bottler: 'National Distillers',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11629,7 +12615,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -11652,7 +12640,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Campari',
 		abv: '52%',
+		abv_value: 52,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -11675,7 +12665,9 @@ const bourbonSeeder = [
 		distiller: 'Beam',
 		bottler: 'Beam',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -11698,7 +12690,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11722,7 +12716,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11746,7 +12742,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11770,7 +12768,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11794,7 +12794,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11817,7 +12819,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11839,7 +12843,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11863,7 +12869,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.51%',
+		abv_value: 53.51,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -11887,7 +12895,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11911,7 +12921,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11935,7 +12947,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -11959,7 +12973,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -11983,7 +12999,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -12007,7 +13025,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -12030,7 +13050,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Orphan Barrel',
 		abv: '45.1%',
+		abv_value: 45.1,
 		age: '20 Years',
+		age_value: 20,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -12054,7 +13076,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Orphan Barrel',
 		abv: '45.25%',
+		abv_value: 45.25,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12077,7 +13101,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Orphan Barrel',
 		abv: '45.15%',
+		abv_value: 45.15,
 		age: '21 Years',
+		age_value: 21,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -12099,7 +13125,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -12122,7 +13150,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45.2%',
+		abv_value: 45.2,
 		age: '20 Years',
+		age_value: 20,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -12146,7 +13176,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '47.8%',
+		abv_value: 47.8,
 		age: '23 Years',
+		age_value: 23,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -12170,7 +13202,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '24 Years',
+		age_value: 24,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -12195,7 +13229,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '60%',
+		abv_value: 60,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -12220,7 +13256,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12245,7 +13283,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven HIll',
 		bottler: 'Heaven Hill',
 		abv: '65.8%',
+		abv_value: 65.8,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12269,7 +13309,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '48%',
+		abv_value: 48,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -12293,7 +13335,9 @@ const bourbonSeeder = [
 		distiller: 'Peerless',
 		bottler: 'Peerless',
 		abv: '54.55%',
+		abv_value: 54.55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -12317,7 +13361,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Penelope',
 		abv: '58%',
+		abv_value: 58,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -12341,7 +13387,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Penelope',
 		abv: '57.9%',
+		abv_value: 57.9,
 		age: '43 Months',
+		age_value: 3,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -12365,7 +13413,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Penelope Bourbon',
 		abv: '47%',
+		abv_value: 47,
 		age: '2 Years',
+		age_value: 2,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12389,7 +13439,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Penelope',
 		abv: '58.3%',
+		abv_value: 58.3,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -12413,7 +13465,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Penelope',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -12437,7 +13491,9 @@ const bourbonSeeder = [
 		distiller: 'Castle and Key',
 		bottler: 'Castle and Key',
 		abv: '57.25%',
+		abv_value: 57.25,
 		age: '2 Years',
+		age_value: 2,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -12461,7 +13517,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'CJS Beverage Corp.',
 		abv: '49%',
+		abv_value: 49,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -12485,7 +13543,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Spirits',
 		abv: '50%',
+		abv_value: 50,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12508,7 +13568,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Spirits',
 		abv: '51.9%',
+		abv_value: 51.9,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12532,7 +13594,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Spirits',
 		abv: '49.35%',
+		abv_value: 49.35,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12556,7 +13620,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Spirits',
 		abv: '49.35%',
+		abv_value: 49.35,
 		age: '10 Years',
+		age_value: 10,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -12580,7 +13646,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Spirits',
 		abv: '56.75%',
+		abv_value: 56.75,
 		age: '14 Years',
+		age_value: 14,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -12604,7 +13672,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Spirits',
 		abv: '56.75%',
+		abv_value: 56.75,
 		age: '14 Years',
+		age_value: 14,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -12628,7 +13698,9 @@ const bourbonSeeder = [
 		distiller: 'Willett',
 		bottler: 'Pursuit Spirits',
 		abv: '65.25%',
+		abv_value: 65.25,
 		age: '6 Years',
+		age_value: 6,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -12652,7 +13724,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Spirits',
 		abv: '56%',
+		abv_value: 56,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12676,7 +13750,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Spirits',
 		abv: '51.15%',
+		abv_value: 51.15,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12697,7 +13773,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Spirits',
 		abv: '55.35%',
+		abv_value: 55.35,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -12720,7 +13798,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Pursuit Series',
 		abv: '59.55%',
+		abv_value: 59.55,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -12744,7 +13824,9 @@ const bourbonSeeder = [
 		distiller: 'Finger Lakes Distilling',
 		bottler: 'Pursuit Series',
 		abv: '52%',
+		abv_value: 52,
 		age: '4 Years',
+		age_value: 4,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -12768,7 +13850,9 @@ const bourbonSeeder = [
 		distiller: 'Starlight',
 		bottler: 'Pursuit Spirits',
 		abv: '58.8%',
+		abv_value: 58.8,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12792,7 +13876,9 @@ const bourbonSeeder = [
 		distiller: 'Finger Lakes Distilling',
 		bottler: 'Pursuit Spirits',
 		abv: '51.05%',
+		abv_value: 51.05,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12816,7 +13902,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Pursuit Spirits',
 		abv: '54%',
+		abv_value: 54,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12840,7 +13928,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Pursuit Spirits',
 		abv: '54%',
+		abv_value: 54,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12864,7 +13954,9 @@ const bourbonSeeder = [
 		distiller: 'Rabbit Hole',
 		bottler: 'Rabbit Hole',
 		abv: '47.5%',
+		abv_value: 47.5,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12888,7 +13980,9 @@ const bourbonSeeder = [
 		distiller: 'Rabbit Hole',
 		bottler: 'Rabbit Hole',
 		abv: '46.5%',
+		abv_value: 46.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12912,7 +14006,9 @@ const bourbonSeeder = [
 		distiller: 'Rabbit Hole',
 		bottler: 'Rabbit Hole',
 		abv: '54.6%',
+		abv_value: 54.6,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -12936,7 +14032,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Rabbit Hole',
 		abv: '57.1%',
+		abv_value: 57.1,
 		age: '16 Years',
+		age_value: 16,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -12960,7 +14058,9 @@ const bourbonSeeder = [
 		distiller: 'Rabbit Hole',
 		bottler: 'Rabbit Hole',
 		abv: '47.5%',
+		abv_value: 47.5,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -12983,7 +14083,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Luxco',
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -13006,7 +14108,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'MGP',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -13030,7 +14134,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'MGP',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -13054,7 +14160,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'MGP',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -13078,7 +14186,9 @@ const bourbonSeeder = [
 		distiller: 'Rock Town',
 		bottler: 'Rock Town',
 		abv: '46%',
+		abv_value: 46,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13101,7 +14211,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Willett',
 		abv: '50.05%',
+		abv_value: 50.05,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13121,7 +14233,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '45%',
+		abv_value: 45,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13143,7 +14257,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '57.3%',
+		abv_value: 57.3,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -13167,7 +14283,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13191,7 +14309,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -13215,7 +14335,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13240,7 +14362,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13264,7 +14388,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13289,7 +14415,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -13313,7 +14441,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13337,7 +14467,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13361,7 +14493,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13385,7 +14519,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13409,7 +14545,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13433,7 +14571,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13458,7 +14598,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13483,7 +14625,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13507,7 +14651,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13531,7 +14677,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13554,7 +14702,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13578,7 +14728,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13602,7 +14754,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13627,7 +14781,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13651,7 +14807,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13675,7 +14833,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13699,7 +14859,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13722,7 +14884,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13746,7 +14910,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13770,7 +14936,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -13794,7 +14962,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13817,7 +14987,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '55%',
+		abv_value: 55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13841,7 +15013,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '52%',
+		abv_value: 52,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13865,7 +15039,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Single Cask Nation',
 		abv: '52.6%',
+		abv_value: 52.6,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -13889,7 +15065,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Single Cask Nation',
 		abv: '61%',
+		abv_value: 61,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -13913,7 +15091,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Nevada Distillers',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13937,7 +15117,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Nevada Distillers',
 		abv: '57.9%',
+		abv_value: 57.9,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -13960,7 +15142,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -13985,7 +15169,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '58.7%',
+		abv_value: 58.7,
 		age: '10 Years',
+		age_value: 10,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14008,7 +15194,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '61%',
+		abv_value: 61,
 		age: '11 Years',
+		age_value: 11,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14032,7 +15220,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '43.8%',
+		abv_value: 43.8,
 		age: '11 Years',
+		age_value: 11,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14056,7 +15246,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '49.7%',
+		abv_value: 49.7,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -14079,7 +15271,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '54.8%',
+		abv_value: 54.8,
 		age: '11 Years',
+		age_value: 11,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14102,7 +15296,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '53.8%',
+		abv_value: 53.8,
 		age: '12 Years',
+		age_value: 12,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14126,7 +15322,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '8 Years',
+		age_value: 8,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14150,7 +15348,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '47.4%',
+		abv_value: 47.4,
 		age: '9 Years',
+		age_value: 9,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14172,7 +15372,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: null,
+		abv_value: 0,
 		age: '5 Years',
+		age_value: 5,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14196,7 +15398,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '56.6%',
+		abv_value: 56.6,
 		age: '10 Years',
+		age_value: 10,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14220,7 +15424,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '58%',
+		abv_value: 58,
 		age: '8 Years',
+		age_value: 8,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14243,7 +15449,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Smooth Ambler',
 		abv: '59.4%',
+		abv_value: 59.4,
 		age: '11 Years',
+		age_value: 11,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14263,7 +15471,9 @@ const bourbonSeeder = [
 		distiller: 'Smooth Ambler',
 		bottler: 'Smooth Ambler',
 		abv: '46%',
+		abv_value: 46,
 		age: '3 Years',
+		age_value: 3,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -14288,7 +15498,9 @@ const bourbonSeeder = [
 		distiller: 'Spirits of French Lick',
 		bottler: 'Spirits of French Lick',
 		abv: '56.35%',
+		abv_value: 56.35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14312,7 +15524,9 @@ const bourbonSeeder = [
 		distiller: 'Springbank',
 		bottler: 'Springbank',
 		abv: '55.8%',
+		abv_value: 55.8,
 		age: '14 Years',
+		age_value: 14,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14336,7 +15550,9 @@ const bourbonSeeder = [
 		distiller: 'St. George',
 		bottler: 'St. George',
 		abv: '43%',
+		abv_value: 43,
 		age: '5 Years',
+		age_value: 5,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14360,7 +15576,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '67.2%',
+		abv_value: 67.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14384,7 +15602,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '63.2%',
+		abv_value: 63.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14408,7 +15628,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '63.95%',
+		abv_value: 63.95,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14432,7 +15654,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '66.15%',
+		abv_value: 66.15,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14456,7 +15680,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '64.2%',
+		abv_value: 64.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14480,7 +15706,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '65.1%',
+		abv_value: 65.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14504,7 +15732,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '65.55%',
+		abv_value: 65.55,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14528,7 +15758,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '64.35%',
+		abv_value: 64.35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14552,7 +15784,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '66.05%',
+		abv_value: 66.05,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14575,7 +15809,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '64.35%',
+		abv_value: 64.35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14599,7 +15835,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '64.85%',
+		abv_value: 64.85,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14623,7 +15861,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '66.25%',
+		abv_value: 66.25,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14647,7 +15887,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '65%',
+		abv_value: 65,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14671,7 +15913,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '64.75%',
+		abv_value: 64.75,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14695,7 +15939,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '65.95%',
+		abv_value: 65.95,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14719,7 +15965,9 @@ const bourbonSeeder = [
 		distiller: 'Starlight',
 		bottler: 'Starlight',
 		abv: '53.4%',
+		abv_value: 53.4,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -14743,7 +15991,9 @@ const bourbonSeeder = [
 		distiller: 'Starlight',
 		bottler: 'Starlight',
 		abv: '55.7%',
+		abv_value: 55.7,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -14767,7 +16017,9 @@ const bourbonSeeder = [
 		distiller: 'Starlight',
 		bottler: 'Starlight',
 		abv: '54.6%',
+		abv_value: 54.6,
 		age: '2 Years',
+		age_value: 2,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14791,7 +16043,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Barrell Craft Spirits',
 		abv: '54.61%',
+		abv_value: 54.61,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -14815,7 +16069,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Barrell Craft Spirits',
 		abv: '57.49%',
+		abv_value: 57.49,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14839,7 +16095,9 @@ const bourbonSeeder = [
 		distiller: 'Still Austin',
 		bottler: 'Still Austin',
 		abv: '59%',
+		abv_value: 59,
 		age: '2 Years',
+		age_value: 2,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14863,7 +16121,9 @@ const bourbonSeeder = [
 		distiller: 'Still Austin',
 		bottler: 'Still Austin',
 		abv: '49.2%',
+		abv_value: 49.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14887,7 +16147,9 @@ const bourbonSeeder = [
 		distiller: "Stranahan's",
 		bottler: "Stranahan's",
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14911,7 +16173,9 @@ const bourbonSeeder = [
 		distiller: "Stranahan's",
 		bottler: "Stranahan's",
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -14935,7 +16199,9 @@ const bourbonSeeder = [
 		distiller: 'Balvenie',
 		bottler: 'Balvenie',
 		abv: '47.8%',
+		abv_value: 47.8,
 		age: '15 Years',
+		age_value: 15,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -14958,7 +16224,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Proof & Wood',
 		abv: '57.7%',
+		abv_value: 57.7,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -14982,7 +16250,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Old Forester',
 		abv: '58.15%',
+		abv_value: 58.15,
 		age: '9 Years',
+		age_value: 9,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -15006,7 +16276,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '47.65%',
+		abv_value: 47.65,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -15030,7 +16302,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '48.95%',
+		abv_value: 48.95,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -15054,7 +16328,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '49.45%',
+		abv_value: 49.45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -15078,7 +16354,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Steel Blending Spirits',
 		abv: '40.5%',
+		abv_value: 40.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15101,7 +16379,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Steel Blending Spirits',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -15125,7 +16405,9 @@ const bourbonSeeder = [
 		distiller: 'Tomatin',
 		bottler: 'Tomatin',
 		abv: '53.1%',
+		abv_value: 53.1,
 		age: '12 Years',
+		age_value: 12,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -15148,7 +16430,9 @@ const bourbonSeeder = [
 		distiller: 'Tomatin',
 		bottler: 'Tomatin',
 		abv: '54%',
+		abv_value: 54,
 		age: '11 Years',
+		age_value: 11,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -15172,7 +16456,9 @@ const bourbonSeeder = [
 		distiller: 'Town Branch',
 		bottler: 'Town Branch',
 		abv: '40%',
+		abv_value: 40,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15192,7 +16478,9 @@ const bourbonSeeder = [
 		distiller: 'Traverse City Whiskey Company',
 		bottler: 'Traverse City Whiskey Company',
 		abv: '35%',
+		abv_value: 35,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15216,7 +16504,9 @@ const bourbonSeeder = [
 		distiller: 'Traverse City Whiskey Company',
 		bottler: 'Traverse City Whiskey Company',
 		abv: '58.3%',
+		abv_value: 58.3,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -15240,7 +16530,9 @@ const bourbonSeeder = [
 		distiller: 'Traverse City Whiskey Company',
 		bottler: 'Traverse City Whiskey Company',
 		abv: '55.1%',
+		abv_value: 55.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -15264,7 +16556,9 @@ const bourbonSeeder = [
 		distiller: 'Traverse City Whiskey Company',
 		bottler: 'Traverse City Whiskey Company',
 		abv: '43%',
+		abv_value: 43,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15288,7 +16582,9 @@ const bourbonSeeder = [
 		distiller: 'Treaty Oak',
 		bottler: 'Treaty Oak',
 		abv: '47.5%',
+		abv_value: 47.5,
 		age: '18 Months',
+		age_value: 1,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15311,7 +16607,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Treaty Oak',
 		abv: '47.5%',
+		abv_value: 47.5,
 		age: '2 Years',
+		age_value: 2,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15335,7 +16633,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Proof And Wood',
 		abv: '56.15%',
+		abv_value: 56.15,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15359,7 +16659,9 @@ const bourbonSeeder = [
 		distiller: 'Dickel',
 		bottler: 'Uncle Nearest',
 		abv: '57.55%',
+		abv_value: 57.55,
 		age: '11 Years',
+		age_value: 11,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -15379,7 +16681,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Uncle Nearest',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -15403,7 +16707,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Uncle Nearest',
 		abv: '46.5%',
+		abv_value: 46.5,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15423,7 +16729,9 @@ const bourbonSeeder = [
 		distiller: 'Uncle Nearest',
 		bottler: 'Uncle Nearest',
 		abv: '59.2%',
+		abv_value: 59.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -15447,7 +16755,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45.2%',
+		abv_value: 45.2,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -15471,7 +16781,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -15491,7 +16803,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -15515,7 +16829,9 @@ const bourbonSeeder = [
 		distiller: 'Barton',
 		bottler: 'Barton',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -15538,7 +16854,9 @@ const bourbonSeeder = [
 		distiller: 'Stitzel-Weller',
 		bottler: 'Heaven Hill',
 		abv: '50.01%',
+		abv_value: 50.01,
 		age: '8 Years',
+		age_value: 8,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -15561,7 +16879,9 @@ const bourbonSeeder = [
 		distiller: 'KBD',
 		bottler: 'KBD',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -15586,7 +16906,9 @@ const bourbonSeeder = [
 		distiller: 'Stitzel-Weller',
 		bottler: 'Heaven Hill',
 		abv: '45%',
+		abv_value: 45,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15609,7 +16931,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15632,7 +16956,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -15656,7 +16982,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '48.5%',
+		abv_value: 48.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15680,7 +17008,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Campari',
 		abv: '53.5%',
+		abv_value: 53.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -15704,7 +17034,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Tipton Spirits',
 		abv: '57.5%',
+		abv_value: 57.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -15728,7 +17060,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: '12 Years',
+		age_value: 12,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15751,7 +17085,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Medley Family',
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15771,7 +17107,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '47.5%',
+		abv_value: 47.5,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15795,7 +17133,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '57%',
+		abv_value: 57,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15818,7 +17158,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '57%',
+		abv_value: 57,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -15841,7 +17183,9 @@ const bourbonSeeder = [
 		distiller: 'Buffalo Trace',
 		bottler: 'Buffalo Trace',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -15864,7 +17208,9 @@ const bourbonSeeder = [
 		distiller: 'OZ Tyler',
 		bottler: 'Wheel Horse',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: '2 Years',
+		age_value: 2,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -15889,7 +17235,9 @@ const bourbonSeeder = [
 		distiller: 'MGP',
 		bottler: 'Whistle Pig',
 		abv: '57.35%',
+		abv_value: 57.35,
 		age: '13 Years 5 Months',
+		age_value: 13,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -15912,7 +17260,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Widow Jane',
 		abv: '45.5%',
+		abv_value: 45.5,
 		age: '10 Years',
+		age_value: 10,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -15935,7 +17285,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -15959,7 +17311,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -15983,7 +17337,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16007,7 +17363,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16031,7 +17389,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16055,7 +17415,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16079,7 +17441,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16103,7 +17467,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16127,7 +17493,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16151,7 +17519,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16175,7 +17545,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16199,7 +17571,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: '8 Years',
+		age_value: 8,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16222,7 +17596,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Single Cask Nation',
 		abv: '61.7%',
+		abv_value: 61.7,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -16246,7 +17622,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '45.5%',
+		abv_value: 45.5,
 		age: '13 Years',
+		age_value: 13,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -16269,7 +17647,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: '8 Years',
+		age_value: 8,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -16293,7 +17673,9 @@ const bourbonSeeder = [
 		distiller: 'Campari Group',
 		bottler: 'Campari Group',
 		abv: '35.5%',
+		abv_value: 35.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16313,7 +17695,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '45.5%',
+		abv_value: 45.5,
 		age: '13 Years',
+		age_value: 13,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -16336,7 +17720,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '45.5%',
+		abv_value: 45.5,
 		age: '13 Years',
+		age_value: 13,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -16360,7 +17746,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '45.5%',
+		abv_value: 45.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16384,7 +17772,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16408,7 +17798,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16432,7 +17824,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16455,7 +17849,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16479,7 +17875,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16503,7 +17901,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16527,7 +17927,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -16552,7 +17954,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16575,7 +17979,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16599,7 +18005,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50%',
+		abv_value: 50,
 		age: '17 Years',
+		age_value: 17,
 		price_array: ['$', '$', '$', '$', '$'],
 		price_value: 5,
 		review: {
@@ -16623,7 +18031,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '52%',
+		abv_value: 52,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -16647,7 +18057,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -16671,7 +18083,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -16695,7 +18109,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '58.4%',
+		abv_value: 58.4,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16719,7 +18135,9 @@ const bourbonSeeder = [
 		distiller: 'Wild Turkey',
 		bottler: 'Wild Turkey',
 		abv: '54.1%',
+		abv_value: 54.1,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16742,7 +18160,9 @@ const bourbonSeeder = [
 		distiller: 'Wilderness Trail',
 		bottler: 'Wilderness Trail',
 		abv: '50%',
+		abv_value: 50,
 		age: '6 Years',
+		age_value: 6,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16766,7 +18186,9 @@ const bourbonSeeder = [
 		distiller: 'Wilderness Trail',
 		bottler: 'Wilderness Trail',
 		abv: '50%',
+		abv_value: 50,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16790,7 +18212,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Willett',
 		abv: '63.3%',
+		abv_value: 63.3,
 		age: '14 Years',
+		age_value: 14,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -16810,7 +18234,9 @@ const bourbonSeeder = [
 		distiller: 'Willett',
 		bottler: 'Willett',
 		abv: '58.2%',
+		abv_value: 58.2,
 		age: '4 Years',
+		age_value: 4,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16832,7 +18258,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Willett',
 		abv: '59.81%',
+		abv_value: 59.81,
 		age: '12 Years',
+		age_value: 12,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -16856,7 +18284,9 @@ const bourbonSeeder = [
 		distiller: 'Various',
 		bottler: 'Willett',
 		abv: '47%',
+		abv_value: 47,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -16879,7 +18309,9 @@ const bourbonSeeder = [
 		distiller: 'Willett',
 		bottler: 'Willett',
 		abv: '61.3%',
+		abv_value: 61.3,
 		age: '6 Years',
+		age_value: 6,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -16903,7 +18335,9 @@ const bourbonSeeder = [
 		distiller: 'Undisclosed',
 		bottler: 'Willett',
 		abv: '51.7%',
+		abv_value: 51.7,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -16927,7 +18361,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50%',
+		abv_value: 50,
 		age: '10 Years',
+		age_value: 10,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -16951,7 +18387,9 @@ const bourbonSeeder = [
 		distiller: 'TerrePURE',
 		bottler: 'TerrePURE',
 		abv: '45%',
+		abv_value: 45,
 		age: '<1 Year',
+		age_value: null,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16974,7 +18412,9 @@ const bourbonSeeder = [
 		distiller: 'TerrePURE',
 		bottler: 'TerrePURE',
 		abv: '45%',
+		abv_value: 45,
 		age: '2 Years',
+		age_value: 2,
 		price_array: ['$'],
 		price_value: 1,
 		review: {
@@ -16995,7 +18435,9 @@ const bourbonSeeder = [
 		distiller: 'Witherspoon',
 		bottler: 'Witherspoon',
 		abv: '52.5%',
+		abv_value: 52.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -17019,7 +18461,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '62.9%',
+		abv_value: 62.9,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -17043,7 +18487,9 @@ const bourbonSeeder = [
 		distiller: 'Woodford Reserve',
 		bottler: 'Woodford Reserve',
 		abv: '45.2%',
+		abv_value: 45.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -17067,7 +18513,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '45.2%',
+		abv_value: 45.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -17090,7 +18538,9 @@ const bourbonSeeder = [
 		distiller: 'Woodford Reserve',
 		bottler: 'Woodford Reserve',
 		abv: '45.2%',
+		abv_value: 45.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -17110,7 +18560,9 @@ const bourbonSeeder = [
 		distiller: 'Woodford Reserve',
 		bottler: 'Woodford Reserve',
 		abv: '45.2%',
+		abv_value: 45.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -17133,7 +18585,9 @@ const bourbonSeeder = [
 		distiller: 'Woodford Reserve',
 		bottler: 'Woodford Reserve',
 		abv: '59.9%',
+		abv_value: 59.9,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -17157,7 +18611,9 @@ const bourbonSeeder = [
 		distiller: 'Woodford Reserve',
 		bottler: 'Woodford Reserve',
 		abv: '45.2%',
+		abv_value: 45.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -17182,7 +18638,9 @@ const bourbonSeeder = [
 		distiller: 'Brown-Forman',
 		bottler: 'Brown-Forman',
 		abv: '45.2%',
+		abv_value: 45.2,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -17205,7 +18663,9 @@ const bourbonSeeder = [
 		distiller: 'Woodinville',
 		bottler: 'Woodinville',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -17228,7 +18688,9 @@ const bourbonSeeder = [
 		distiller: 'Woodinville Whiskey',
 		bottler: 'Woodinville Whiskey',
 		abv: '47.5%',
+		abv_value: 47.5,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -17252,7 +18714,9 @@ const bourbonSeeder = [
 		distiller: 'Woodinville',
 		bottler: 'Woodinville',
 		abv: '45%',
+		abv_value: 45,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$'],
 		price_value: 2,
 		review: {
@@ -17276,7 +18740,9 @@ const bourbonSeeder = [
 		distiller: 'Woodinville Whiskey Co',
 		bottler: 'Woodinville Whiskey Co',
 		abv: '50%',
+		abv_value: 50,
 		age: 'NAS',
+		age_value: 0,
 		price_array: ['$', '$', '$'],
 		price_value: 3,
 		review: {
@@ -17300,7 +18766,9 @@ const bourbonSeeder = [
 		distiller: 'Wyoming Whiskey',
 		bottler: 'Wyoming Whiskey',
 		abv: '55.7%',
+		abv_value: 55.7,
 		age: '5 Years',
+		age_value: 5,
 		price_array: [],
 		price_value: 0,
 		review: {
@@ -17323,7 +18791,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Luxco',
 		abv: '52.5%',
+		abv_value: 52.5,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
@@ -17345,7 +18815,9 @@ const bourbonSeeder = [
 		distiller: 'Heaven Hill',
 		bottler: 'Heaven Hill',
 		abv: '50.5%',
+		abv_value: 50.5,
 		age: '7 Years',
+		age_value: 7,
 		price_array: ['$', '$', '$', '$'],
 		price_value: 4,
 		review: {
