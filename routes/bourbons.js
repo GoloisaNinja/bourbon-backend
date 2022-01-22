@@ -2,6 +2,23 @@ import express from 'express';
 const router = express.Router();
 import Bourbon from '../models/Bourbon.js';
 
+// Get all bourbons from DB
+// This response returns nearly 1MB of data and should only be used
+// if you truly need access to the entire bourbon db at once...
+
+router.get('/api/bourbons/all', async (req, res) => {
+	try {
+		const bourbons = await Bourbon.find({});
+		if (!bourbons) {
+			return res.status(404).send({ message: 'No bourbons found...' });
+		}
+		res.status(200).send(bourbons);
+	} catch (error) {
+		console.error(error);
+		res.status(500).send(error.message);
+	}
+});
+
 // Get paginated bourbons
 
 router.get('/api/bourbons', async (req, res) => {
@@ -49,6 +66,13 @@ router.get('/api/bourbons', async (req, res) => {
 		}
 	}
 	try {
+		const totalRecords = await Bourbon.find({
+			$or: [
+				{ title: new RegExp(searchTerm, 'i') },
+				{ distiller: new RegExp(searchTerm, 'i') },
+				{ bottler: new RegExp(searchTerm, 'i') },
+			],
+		}).countDocuments();
 		const bourbons = await Bourbon.find({
 			$or: [
 				{ title: new RegExp(searchTerm, 'i') },
@@ -63,8 +87,36 @@ router.get('/api/bourbons', async (req, res) => {
 		if (!bourbons.length) {
 			return res.status(404).send({ message: 'No bourbons found...' });
 		}
-		res.status(200).send(bourbons);
+		res.status(200).send({ bourbons: bourbons, total_records: totalRecords });
 	} catch (error) {
+		res.status(500).send(error.message);
+	}
+});
+
+// Get random bourbon
+router.get('/api/bourbons/random', async (req, res) => {
+	// search term section
+	const searchTerm = req.query.search ? req.query.search.trim() : '';
+	try {
+		const bourbons = await Bourbon.find({
+			$or: [
+				{ title: new RegExp(searchTerm, 'i') },
+				{ distiller: new RegExp(searchTerm, 'i') },
+				{ bottler: new RegExp(searchTerm, 'i') },
+			],
+		});
+		if (!bourbons) {
+			return res.status(404).send({ message: 'No bourbons found...' });
+		}
+		const randomBourbon = bourbons[Math.floor(Math.random() * bourbons.length)];
+		if (!randomBourbon) {
+			return res.status(404).send({
+				message: 'Could not get a random bourbon...that is random...',
+			});
+		}
+		res.status(200).send(randomBourbon);
+	} catch (error) {
+		console.error(error);
 		res.status(500).send(error.message);
 	}
 });
