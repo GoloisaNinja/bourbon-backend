@@ -14,36 +14,36 @@ The bourbons endpoint is a simple paginaged endpoint that will provide bourbons 
 ```
 {
   "bourbons": [
-    { bourbon data ....},
-    { more bourbon data...}
+    { bourbon object 1 ...},
+    { bourbon object 2...}
   ],
   "total_records": 2
 }
 ```
 
-- /bourbons?page=**PAGENUMBER**
+- /bourbons?page=**\<PAGENUMBER\>**
 
 You can provide a page query to receive bourbons from that page - bourbons limit per page is 20.
 
-1. /bourbons?page=7 _this query will skip 120 records and will return bourbons 121 - 139_
+1. /bourbons?page=7 (**_this query will skip 120 records and will return bourbons 121 - 139_**)
 
-- /bourbons?search=**SEARCHTERM**
+- /bourbons?search=**\<SEARCHTERM\>**
 
 You can provide a search term and the endpoint will normalize your request and search your term against bourbon titles, bottlers and distillers. Matches are returned in a paginated repsonse containing 20 bourbons per page.
 
-- /bourbons?sort=**SORTBY**\_**SORTDIRECTION**
+- /bourbons?sort=**\<SORTBY\>**\_**\<SORTDIRECTION\>**
 
 You can provide sort query params for age, abv, score, bottler, distiller, price, and title (this is default). You can separate your sort type and sort direction by an underscore. If you do not provide a sort direction, the default behavior is ascending direction. A few examples:
 
-1. /bourbons?sort=bottler_desc _this will sort bourbons by bottler name in descending alphabetical order_
-2. /bourbouns?sort=price_asc _this will sort bourbons by price - lowest to highest_
-3. /bourbons?sort=score _note no direction is provided - this will sort bourbons by score (rating) and will default to ascending order lowest score to highest score_
+1. /bourbons?sort=bottler_desc (**_this will sort bourbons by bottler name in descending alphabetical order_**)
+2. /bourbouns?sort=price_asc (**_this will sort bourbons by price - lowest to highest_**)
+3. /bourbons?sort=score (**_note no direction is provided - this will sort bourbons by score (rating) and will default to ascending order lowest score to highest score_**)
 
 It is also possible to combine these query parameters. You may include both a search term and a sort. Some examples would look like:
 
-- /bourbons?search=barton&sort=score_desc _this request should return bourbons bottled, distilled, or with barton (case insensitive) in the title and will sort them by bourbon score highest to lowest_
+1. /bourbons?search=barton&sort=score_desc (**_this request should return bourbons bottled, distilled, or with barton (case insensitive) in the title and will sort them by bourbon score highest to lowest_**)
 
-- /bourbons?search=turkey&sort=price_asc _this request should return bourbons bottled, distilled, or with turkey (case insensitive) in the title and wil sort them by price lowest to highest_
+2. /bourbons?search=turkey&sort=price_asc (**_this request should return bourbons bottled, distilled, or with turkey (case insensitive) in the title and wil sort them by price lowest to highest_**)
 
 ### /bourbons/all
 
@@ -59,8 +59,8 @@ The bourbons/all endpoint is exactly as it sounds. Hitting this endpoint returns
 
 This route will return a singular random bourbon. This endpoint will accept a query param of search if you'd like to fine tune your random response. Here are some examples:
 
-- /bourbons/random _this will return a truly random bourbon from all 736 (at the time of writing) bourbons_
-- /bourbons/random?search=barton _this will return a random bourbon from a collection of bourbons that contain the search term of "barton" in either the title, bottler, or distiller_
+1. /bourbons/random (**_this will return a truly random bourbon from all 736 (at the time of writing) bourbons_**)
+2. /bourbons/random?search=barton (**_this will return a random bourbon from a collection of bourbons that contain the search term of "barton" in either the title, bottler, or distiller_**)
 
 ### More endpoints are coming soon and will be documented as they are created. It should be noted that this is a personal project and is hosted via free resources and as such cannot be expected to the most performant API. Please don't expext to be able to field 1000's of responses per second 😂
 
