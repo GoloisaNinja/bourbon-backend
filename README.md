@@ -2,6 +2,12 @@
 
 ## This Bourbon API was created by scraping bourbon data from [Whiskey Raiders](https://whiskeyraiders.com/archive/?sort=bourbon) and using that data to seed a MongoDB cluster. Made for an awesome bourbon enthusiast to be able to consume a not-so-lame API. The API is not intended for production use. The API is located at https://bourbon-backend.herokuapp.com/api
 
+## IMPORTANT!
+
+## This service is now locked behind user specific API keys to reduce traffic of unknown users. Each endpoint will now need an apiKey query parameter with a VALID and CURRENTLY ACTIVE API key that can be verified by our service. At this time we are not accepting new requests for API keys. As the project progresses this will likely change, and this README will be updated with info on how/where to obtain your key.
+
+### all endpoints should now include the apiKey query parameter - example https://bourbon-backend.herokuapp.com/api/bourbons?page=2&apiKey=abcdefuandyourmomandyoursisterandyourjob
+
 ### Endpoints
 
 ### /bourbons
@@ -68,4 +74,5 @@ Coming soon...
 
 - [x] GET request to receive a totally random bourbon (like a Bourbon of the Day!)
 - [x] modifying the server response of the GET request to include the total number of records
+- [x] access api via authorized api keys
 - [ ] integration into a frontend project that will allow for the building of digital bourbon collections and wishlists

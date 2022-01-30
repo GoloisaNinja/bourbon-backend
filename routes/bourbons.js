@@ -1,12 +1,13 @@
 import express from 'express';
 const router = express.Router();
 import Bourbon from '../models/Bourbon.js';
+import apikey from '../middleware/apikey.js';
 
 // Get all bourbons from DB
 // This response returns nearly 1MB of data and should only be used
 // if you truly need access to the entire bourbon db at once...
 
-router.get('/api/bourbons/all', async (req, res) => {
+router.get('/api/bourbons/all', apikey, async (req, res) => {
 	try {
 		const bourbons = await Bourbon.find({});
 		if (!bourbons) {
@@ -21,7 +22,7 @@ router.get('/api/bourbons/all', async (req, res) => {
 
 // Get paginated bourbons
 
-router.get('/api/bourbons', async (req, res) => {
+router.get('/api/bourbons', apikey, async (req, res) => {
 	let page = parseInt(req.query.page);
 	// pagination section
 	if (!page) {
@@ -94,7 +95,7 @@ router.get('/api/bourbons', async (req, res) => {
 });
 
 // Get random bourbon
-router.get('/api/bourbons/random', async (req, res) => {
+router.get('/api/bourbons/random', apikey, async (req, res) => {
 	// search term section
 	const searchTerm = req.query.search ? req.query.search.trim() : '';
 	try {

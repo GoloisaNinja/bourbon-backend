@@ -9,6 +9,7 @@
 		"dev": "nodemon server.js",
 		"data:import": "node seeder.js",
 		"data:destroy": "node seeder.js -d",
+		"keys:import": "node keyseeder.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
@@ -26,6 +27,7 @@
 		"express": "^4.17.2",
 		"jsonwebtoken": "^8.5.1",
 		"mongoose": "^6.1.7",
+		"nanoid": "^3.2.0",
 		"validator": "^13.7.0"
 	},
 	"devDependencies": {
