@@ -10,6 +10,8 @@
 
 ### Endpoints
 
+## /bourbons
+
 ### /bourbons
 
 - GET
@@ -68,6 +70,66 @@ This route will return a singular random bourbon. This endpoint will accept a qu
 1. /bourbons/random (**_this will return a truly random bourbon from all 736 (at the time of writing) bourbons_**)
 2. /bourbons/random?search=barton (**_this will return a random bourbon from a collection of bourbons that contain the search term of "barton" in either the title, bottler, or distiller_**)
 
+### /bourbons/:id
+
+- GET
+  - /bourbons/:id
+
+This route will return a singular bourbon based on the bourbon id passed as a request parameter. Here is an example:
+
+1. /bourbons/61ea5e11c6963461375bba80?apiKey=abcdefuandyourmomandyoursisterandyourjob
+
+```
+{
+    "review": {
+        "intro": "1792 Full Proof is typically a small batch, proofed release from Barton in Kentucky. Bottled at 125pf, it is hard to tell what the original barrel proof was for these releases, but all the same, 62.5% ABV isn't a bad number to run with. This is very similar to Knob Creeks Single Barrel Reserve, which is a release consistently diluted to 60% ABV and I like those all the way from fine to amazing. In this series, I'm comparing a variety of Single Barrel releases from the Full Proof lineup, selected by various stores, vendors and societies in the USA.",
+        "nose": "Honey, apples and pears, vanilla cream, light cocoa. Some light almond, ethanol.",
+        "taste": "Honey, ethanol. Nice medium mouth feel. Vanilla cream, fruity apple tart, faint chalky character. Some bitter oak, light pepper.",
+        "finish": "Long but very hot. Apples, vanilla cream, cocoa and rich oak. Faint tobacco. Mostly fruity and hot.",
+        "overall": "This is nice, but very hot. It leans towards the fruity and oaky profile with notes like caramel and toffee that I usually find in bourbons taking the back seat.",
+        "score": "5",
+        "author": "t8ke"
+    },
+    "_id": "61ea5e11c6963461375bba80",
+    "title": "1792 Full Proof MCs Package Store Selection",
+    "image": "https://whiskeyraiders.com/wp-content/uploads/2020/11/ORG_DSC02811-1024x683.jpg",
+    "distiller": "Barton",
+    "bottler": "Barton",
+    "abv": "62.5%",
+    "abv_value": 62.5,
+    "age": "NAS",
+    "age_value": 0,
+    "price_array": [
+        "$",
+        "$"
+    ],
+    "price_value": 2,
+    "__v": 0
+}
+```
+
+## /user
+
+### /user
+
+- POST
+  - /user
+
+The /user POST route will create a new user in the database. The /user route expects a username, a valid email address, and a password. The password must contain at least 7 characters, one uppercase, one lowercase, and one symbol. The password also MUST NOT contain the string "password" or creating the new user will fail. The password will be hashed by the server with bcrypt before being saved to the database. Here is an exampe of a good user creation POST:
+
+- /user?apiKey=abcdefuandyourmomandyoursisterandyourjob
+  - request body looks like:
+
+```
+{
+  "username": "Capone",
+  "email": "tommygun01@hotmail.com",
+  "password": "pAyUrTaxEs!"
+}
+```
+
+If successful - your request will generate a status code 201 and return the user object in the response to be used in your frontend.
+
 ### More endpoints are coming soon and will be documented as they are created. It should be noted that this is a personal project and is hosted via free resources and as such cannot be expected to the most performant API. Please don't expext to be able to field 1000's of responses per second 😂
 
 Coming soon...
@@ -75,4 +137,10 @@ Coming soon...
 - [x] GET request to receive a totally random bourbon (like a Bourbon of the Day!)
 - [x] modifying the server response of the GET request to include the total number of records
 - [x] access api via authorized api keys
+- [x] add a USER Model/Schema
+- [x] add a COLLECTION Model/Schema
+- [x] add a WISHLIST Model/Schema
+- [ ] add corresponding User routes (auth)
+- [ ] add corresponding Collection routes (full crud)
+- [ ] add corresponding Wishlist routes (full crud)
 - [ ] integration into a frontend project that will allow for the building of digital bourbon collections and wishlists

@@ -43,44 +43,20 @@ const UserSchema = mongoose.Schema(
 		},
 		collections: [
 			{
-				name: {
-					type: String,
+				collection_id: {
+					type: mongoose.Schema.Types.ObjectId,
+					ref: 'Collection',
 					required: true,
 				},
-				bourbons: [
-					{
-						title: {
-							type: String,
-							required: true,
-						},
-						bourbon_id: {
-							type: mongoose.Schema.Types.ObjectId,
-							ref: 'Bourbon',
-							required: true,
-						},
-					},
-				],
 			},
 		],
 		wishlists: [
 			{
-				name: {
-					type: String,
+				watchlist_id: {
+					type: mongoose.Schema.Types.ObjectId,
+					ref: 'Watchlist',
 					required: true,
 				},
-				bourbons: [
-					{
-						title: {
-							type: String,
-							required: true,
-						},
-						bourbon_id: {
-							type: mongoose.Schema.Types.ObjectId,
-							ref: 'Bourbon',
-							required: true,
-						},
-					},
-				],
 			},
 		],
 		tokens: [

@@ -122,4 +122,19 @@ router.get('/api/bourbons/random', apikey, async (req, res) => {
 	}
 });
 
+// Get a bourbon by bourbon database ID
+
+router.get('/api/bourbons/:id', apikey, async (req, res) => {
+	const _id = req.params.id;
+	try {
+		const bourbon = await Bourbon.findOne({ _id });
+		if (!bourbon) {
+			res.status(404).send({ message: 'Bourbon not found...' });
+		}
+		res.status(200).send(bourbon);
+	} catch (error) {
+		res.status(400).send({ message: error.message });
+	}
+});
+
 export default router;
