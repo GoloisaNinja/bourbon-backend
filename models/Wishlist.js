@@ -4,9 +4,15 @@ const { Schema, model } = mongoose;
 
 const WishlistSchema = new Schema({
 	user: {
-		type: mongoose.Schema.Types.ObjectId,
-		ref: 'User',
-		required: true,
+		id: {
+			type: mongoose.Schema.Types.ObjectId,
+			ref: 'User',
+			required: true,
+		},
+		username: {
+			type: String,
+			required: true,
+		},
 	},
 	name: {
 		type: String,

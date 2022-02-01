@@ -48,6 +48,10 @@ const UserSchema = mongoose.Schema(
 					ref: 'Collection',
 					required: true,
 				},
+				collection_name: {
+					type: String,
+					required: true,
+				},
 			},
 		],
 		wishlists: [

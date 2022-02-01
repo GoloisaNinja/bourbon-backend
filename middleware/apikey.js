@@ -7,7 +7,7 @@ const apikey = async (req, res, next) => {
 			key: reqKey,
 		});
 
-		if (!key) {
+		if (!key || !key.active) {
 			throw new Error();
 		}
 		key.usage.unshift({ url: req.url });
