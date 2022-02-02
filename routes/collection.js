@@ -59,6 +59,37 @@ router.post('/api/collection/add/:id', apikey, auth, async (req, res) => {
 	}
 });
 
+// Delete a bourbon from an existing collection
+
+router.delete('/api/collection/delete/:id', apikey, auth, async (req, res) => {
+	const user = await req.user;
+	if (!user) {
+		return res.status(404).send({ message: 'User not found...' });
+	}
+	const _id = req.params.id;
+	const { bourbonId } = req.body;
+	try {
+		const collection = await Collection.findOne({ _id });
+		if (!collection) {
+			return res.status(404).send({ message: 'Collection not found...' });
+		}
+		if (collection.user.id.toString() !== user._id.toString()) {
+			return res.status(401).send({ message: 'Unauthorized...' });
+		}
+		const bourbonIndex = collection.bourbons.findIndex(
+			(bourbon) => bourbon.bourbon_id.toString() === bourbonId
+		);
+		if (bourbonIndex === -1) {
+			return res.status(404).send({ message: 'Bourbon not in collection...' });
+		}
+		collection.bourbons.splice(bourbonIndex, 1);
+		await collection.save();
+		res.status(200).send(collection);
+	} catch (error) {
+		res.status(400).send({ message: error.message });
+	}
+});
+
 // Get a user Collection by ID
 
 router.get('/api/collection/:id', apikey, auth, async (req, res) => {
@@ -73,6 +104,31 @@ router.get('/api/collection/:id', apikey, auth, async (req, res) => {
 			return res.status(401).send({ message: 'Unauthorized...' });
 		}
 		res.status(200).send(collection);
+	} catch (error) {
+		res.status(400).send({ message: error.message });
+	}
+});
+
+// Delete an entire user Collection by ID
+
+router.delete('/api/collection/:id', apikey, auth, async (req, res) => {
+	const user = await req.user;
+	const _id = req.params.id;
+	try {
+		const collection = await Collection.findOne({ _id });
+		if (!collection) {
+			return res.status(404).send({ message: 'Collection not found...' });
+		}
+		if (collection.user.id.toString() !== user._id.toString()) {
+			return res.status(401).send({ message: 'Unauthorized...' });
+		}
+		const userCollectionIndex = user.collections.findIndex(
+			(collection) => collection.collection_id.toString() === _id
+		);
+		collection.delete();
+		user.collections.splice(userCollectionIndex, 1);
+		await user.save();
+		res.status(200).send(user.collections);
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}

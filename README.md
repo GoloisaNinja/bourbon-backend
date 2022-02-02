@@ -130,6 +130,117 @@ The /user POST route will create a new user in the database. The /user route exp
 
 If successful - your request will generate a status code 201 and return the user object in the response to be used in your frontend.
 
+### /user/login
+
+- POST
+  - /user/login
+
+The /user/login route, if provided with a valid user email and password will generate a user jsonwebtoken and store that token on the user object. The generated token can later be used to load a user if the token still exists in the user's token array. An example request to this endpoint looks like:
+
+- /user/login?apiKey=abcdefuandyourmomandyoursisterandyourjob
+  - request body looks like:
+
+```
+{
+  "email": "tommygun01@hotmail.com",
+  "password"; "pAyUrTaxEs!"
+}
+```
+
+If successful - your request will generate a status code of 200 and return both the user and the token in the response to be used in your frontend.
+
+## /collection
+
+### /collection
+
+- POST
+  - /collection
+
+The /collection route requires a "name" to be sent in the request body and will create a collection with that name. An example of the collection schema:
+
+```
+{
+    "user": {
+        "id": "abcdefghijklmnopqrstuvwxyz",
+        "username": "Capone"
+    },
+    "name": "tommygun bourbons #1",
+    "_id": "a1b1c1d1e1f1YouWon",
+    "bourbons": [],
+    "__v": 0
+}
+```
+
+Note the empty bourbon array at collection creation - there is a corresponding post route that will allow us to start filling our collection with bourbons. The collection also contains a user reference for easier server validation to ensure that only the user that owns the collection can make changes to it. The server also creates a corresponing/companion collection record on the user object under the collections array.
+
+```
+[
+  {
+      "collection_id": "a1b1c1d1e1f1YouWon",
+      "collection_name": "tommygun bourbons #1",
+      "_id": "xxccddvv1122"
+  }
+]
+```
+
+We don't want to store all the collection data (bourbon data, etc) on the user object, however, it is useful to keep the collection names and id's on the user object for quick access to basic collection data on the front end using just the user object data.
+
+An example request to the /collection endpoint looks like this:
+
+- /collection?apiKey=abcdefuandyourmomandyoursisterandyourjob
+  - request body like:
+
+```
+{
+  "name": "tommygun bourbons #1"
+}
+```
+
+A successful request will result in a 201 status code and the return of the newly created collection object in the response.
+
+### /collection/add/:collection_id
+
+- POST
+  - /collection/add/:collection_id
+
+The collection/add/:collection_id route will add a bourbon to a user's collection. The :collection_id request parameter should contain a vaild collection id and the collection should belong to the authenticated user that is making the request. In order to add a bourbon to a collection the request body needs to contain a "bourbonId" and a "bourbonTitle". After successfully adding a bourbon to a collection, the collection will like:
+
+```
+{
+    "user": {
+        "id": "abcdefghijklmnopqrstuvwxyz",
+        "username": "Capone"
+    },
+    "name": "tommygun bourbons #1",
+    "_id": "a1b1c1d1e1f1YouWon",
+    "bourbons": [
+        {
+            "title": "1792 Full Proof",
+            "bourbon_id": "aabbccddee11",
+            "addedToCollection": "2022-02-01T20:21:37.972Z",
+            "_id": "ssddff123345"
+        },
+    ],
+    "__v": 3
+}
+```
+
+The collection now contains a bourbon! The bourbon object will contain the name and the bourbon id, as well as an "addedToCollection" property that reflects when the bourbon was added to the collection.
+
+An example request to the /collection/add/:collection_id endpoint looks like this:
+
+- /collection/add/a1b1c1d1e1f1YouWon?apiKey=abcdefuandyourmomandyoursisterandyourjob
+  - request body like:
+
+```
+{
+  "bourbonId": "aabbccddee11",
+  "bourbonTitle": "1792 Full Proof"
+}
+```
+
+A successful request will result in a 200 status code and the return of the collection object in the response.
+
 ### More endpoints are coming soon and will be documented as they are created. It should be noted that this is a personal project and is hosted via free resources and as such cannot be expected to the most performant API. Please don't expext to be able to field 1000's of responses per second 😂
 
 Coming soon...
