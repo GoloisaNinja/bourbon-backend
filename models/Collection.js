@@ -18,6 +18,11 @@ const CollectionSchema = new Schema({
 		type: String,
 		required: true,
 	},
+	private: {
+		type: Boolean,
+		required: true,
+		default: true,
+	},
 	bourbons: [
 		{
 			title: {

@@ -7,6 +7,8 @@ import connectDB from './db/db.js';
 import bourbonRoute from './routes/bourbons.js';
 import userRoute from './routes/user.js';
 import collectionRoute from './routes/collection.js';
+import wishlistRoute from './routes/wishlist.js';
+import reviewRoute from './routes/review.js';
 
 // prep work for deployment
 
@@ -33,6 +35,8 @@ app.use(cors());
 app.use(bourbonRoute);
 app.use(userRoute);
 app.use(collectionRoute);
+app.use(wishlistRoute);
+app.use(reviewRoute);
 
 // create our fallback for production if deployed as combined project
 // architecture

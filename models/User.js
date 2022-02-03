@@ -54,11 +54,28 @@ const UserSchema = mongoose.Schema(
 				},
 			},
 		],
+		reviews: [
+			{
+				review_id: {
+					type: mongoose.Schema.Types.ObjectId,
+					ref: 'Review',
+					required: true,
+				},
+				review_title: {
+					type: String,
+					required: true,
+				},
+			},
+		],
 		wishlists: [
 			{
-				watchlist_id: {
+				wishlist_id: {
 					type: mongoose.Schema.Types.ObjectId,
 					ref: 'Watchlist',
+					required: true,
+				},
+				watchlist_name: {
+					type: String,
 					required: true,
 				},
 			},

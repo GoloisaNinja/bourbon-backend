@@ -149,7 +149,9 @@ The /user/login route, if provided with a valid user email and password will gen
 
 If successful - your request will generate a status code of 200 and return both the user and the token in the response to be used in your frontend.
 
-## /collection
+## /collection & /wishlist
+
+## IMPORTANT! collection routes and wishlist routes are identical given the similarity in schema design, as such you can simply replace "collection" with "wishlist" in the routes below to create/read/update/delete wishlists
 
 ### /collection
 
@@ -165,13 +167,14 @@ The /collection route requires a "name" to be sent in the request body and will 
         "username": "Capone"
     },
     "name": "tommygun bourbons #1",
+    "private": true,
     "_id": "a1b1c1d1e1f1YouWon",
     "bourbons": [],
     "__v": 0
 }
 ```
 
-Note the empty bourbon array at collection creation - there is a corresponding post route that will allow us to start filling our collection with bourbons. The collection also contains a user reference for easier server validation to ensure that only the user that owns the collection can make changes to it. The server also creates a corresponing/companion collection record on the user object under the collections array.
+Note the empty bourbon array at collection creation - there is a corresponding post route that will allow us to start filling our collection with bourbons. The collection also contains a user reference for easier server validation to ensure that only the user that owns the collection can make changes to it. There is private flag on the collection object that defaults to true. When creating a new collection you can pass a boolean to req.body.private to set private to false if you would like your collection to be available for other users to view. Other users may only view a collection that is a: created by them, b: has a private flag set to false. Users may only modify collection objects that were created by them. The server also creates a corresponing/companion collection record on the user object under the collections array.
 
 ```
 [
@@ -213,6 +216,7 @@ The collection/add/:collection_id route will add a bourbon to a user's collectio
     },
     "name": "tommygun bourbons #1",
     "_id": "a1b1c1d1e1f1YouWon",
+    "private": true,
     "bourbons": [
         {
             "title": "1792 Full Proof",
@@ -241,6 +245,77 @@ An example request to the /collection/add/:collection_id endpoint looks like thi
 
 A successful request will result in a 200 status code and the return of the collection object in the response.
 
+### /collection/:collection_id
+
+- GET
+  - /collection/:collection_id
+
+The collection/:collection_id GET route will retrieve a collection and return the collection in the response with a status code of 200. A user can query their own collections and any collection that has a "private" flag set to false.
+
+### /collection/delete/:collection_id
+
+- DELETE
+  - /collection/delete/:collection_id
+
+The collection/delete/:collection_id DELETE route will delete a bourbon from a specified collection. The request will be authenticated and the collection must belong the user that is requesting the deletion. The bourbon id of the bourbon you wish to delete must be included in the request body. An example request will look like:
+
+- /collection/delete/123456789abcdefg?apiKey=abcdefuandyourmomandyoursisterandyourjob
+  - request body like:
+
+```
+{
+  "bourbonId": "abcdef123456789"
+}
+```
+
+If successful the server will respond with a status code of 200 and will return the collection object with the requested bourbon now removed.
+
+### /collection/:collection_id
+
+- DELETE
+  - /collection/:collection_id
+
+The collection/:collection_id DELETE route will delete an ENTIRE collection. The request will be authenticated and the collection must belong the user that is requesting the deletion. An example request will look like:
+
+- /collection/123456789abcdefg?apiKey=abcdefuandyourmomandyoursisterandyourjob
+  - no request body needed
+
+If successful the server will respond with a status code of 200 and will return the user's collection objects with the requested collection now removed.
+
+### /collection/update/:collection_id
+
+- PATCH
+  - /collection/update/:collection_id
+
+The collection/update/:collection_id PATCH route will update a collection's private flag. The request will be authenticated and the collection must belong to the user that is requesting the patch. The request body must contain a boolean in the key "private". If the user collection private flag already matches the request, then the server will take no action and will respond with a status code 200 and message saying both states are equal. An example request will look like:
+
+- /collection/update/123456789abcdefg?apiKey=abcdefuandyourmomandyoursisterandyourjob
+  - request body like:
+
+```
+{
+  "private": false
+}
+```
+
+If successful the request will be executed and the server will respond with a status code of 200 and return the collection object with the updated "private" flag.
+
+## /review
+
+## review route documentation coming soon...
+
+Example review schema:
+
+```
+{
+    "bourbonName": "1792 Bottled in Bond",
+    "bourbon_id": "61ea5e11c6963461375bba7b",
+    "reviewTitle": "Bliss in Bond",
+    "reviewScore": "7",
+    "reviewText": "This smooth bourbon from Barton is a joy to drink and is not as expensive as you might think. I highly recommend this superb bourbon!"
+}
+```
+
 ### More endpoints are coming soon and will be documented as they are created. It should be noted that this is a personal project and is hosted via free resources and as such cannot be expected to the most performant API. Please don't expext to be able to field 1000's of responses per second 😂
 
 Coming soon...
@@ -251,7 +326,9 @@ Coming soon...
 - [x] add a USER Model/Schema
 - [x] add a COLLECTION Model/Schema
 - [x] add a WISHLIST Model/Schema
-- [ ] add corresponding User routes (auth)
-- [ ] add corresponding Collection routes (full crud)
-- [ ] add corresponding Wishlist routes (full crud)
+- [x] add a REVIEW Model/Schema
+- [x] add corresponding User routes (auth)
+- [x] add corresponding Collection routes (full crud)
+- [x] add corresponding Wishlist routes (full crud)
+- [ ] add corresponding Review routes (full crud)
 - [ ] integration into a frontend project that will allow for the building of digital bourbon collections and wishlists

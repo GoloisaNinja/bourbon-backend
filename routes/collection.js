@@ -21,6 +21,9 @@ router.post('/api/collection', apikey, auth, async (req, res) => {
 			name,
 		};
 		const collection = await new Collection(collectionObject);
+		if (req.body.private === false) {
+			collection.private = false;
+		}
 		await collection.save();
 		user.collections.unshift({
 			collection_id: collection._id,
@@ -28,6 +31,36 @@ router.post('/api/collection', apikey, auth, async (req, res) => {
 		});
 		await user.save();
 		res.status(201).send(collection);
+	} catch (error) {
+		res.status(400).send({ message: error.message });
+	}
+});
+
+// Update an existing Collection's private flag
+
+router.patch('/api/collection/update/:id', apikey, auth, async (req, res) => {
+	const user = await req.user;
+	const _id = req.params.id;
+	const isPrivate = req.body.private;
+	if (!user) {
+		return res.status(404).send({ message: 'User not found...' });
+	}
+	try {
+		const collection = await Collection.findOne({ _id });
+		if (!collection) {
+			return res.status(404).send({ message: 'Collection not found...' });
+		}
+		if (collection.user.id.toString() !== user._id.toString()) {
+			return res.status(401).send({ message: 'Unauthorized...' });
+		}
+		if (collection.private === isPrivate) {
+			return res
+				.status(200)
+				.send({ message: 'Collection private state already matches request' });
+		}
+		collection.private = isPrivate;
+		await collection.save();
+		res.status(200).send(collection);
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}
@@ -100,10 +133,14 @@ router.get('/api/collection/:id', apikey, auth, async (req, res) => {
 		if (!collection) {
 			return res.status(404).send({ message: 'Collection not found...' });
 		}
-		if (collection.user.id.toString() !== user._id.toString()) {
-			return res.status(401).send({ message: 'Unauthorized...' });
+		if (collection.private) {
+			if (collection.user.id.toString() !== user._id.toString()) {
+				return res.status(401).send({ message: 'Unauthorized...' });
+			}
+			res.status(200).send(collection);
+		} else {
+			res.status(200).send(collection);
 		}
-		res.status(200).send(collection);
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}
