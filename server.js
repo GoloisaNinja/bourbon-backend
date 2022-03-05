@@ -28,14 +28,8 @@ connectDB();
 
 // init middleware
 
-const corsOptions = {
-	origin: '*',
-	credentials: true,
-	optionSuccessStatus: 200,
-};
-
 app.use(express.json({ extended: false }));
-app.use(cors(corsOptions));
+app.use(cors());
 
 // define routes
 app.use(bourbonRoute);
