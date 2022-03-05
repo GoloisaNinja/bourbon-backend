@@ -159,12 +159,14 @@ router.delete('/api/wishlist/:id', apikey, auth, async (req, res) => {
 		if (wishlist.user.id.toString() !== user._id.toString()) {
 			return res.status(401).send({ message: 'Unauthorized...' });
 		}
+		wishlist.delete();
 		const userWishlistIndex = user.wishlists.findIndex(
 			(wishlist) => wishlist.wishlist_id.toString() === _id
 		);
-		wishlist.delete();
-		user.wishlists.splice(userWishlistIndex, 1);
-		await user.save();
+		if (userWishlistIndex !== -1) {
+			user.wishlists.splice(userWishlistIndex, 1);
+			await user.save();
+		}
 		res.status(200).send(user.wishlists);
 	} catch (error) {
 		res.status(400).send({ message: error.message });

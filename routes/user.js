@@ -26,7 +26,7 @@ router.post('/api/user', apikey, async (req, res) => {
 
 // Login existing user
 
-router.post('/api/user/login', async (req, res) => {
+router.post('/api/user/login', apikey, async (req, res) => {
 	try {
 		const user = await User.findByCredentials(
 			req.body.email,
@@ -40,9 +40,28 @@ router.post('/api/user/login', async (req, res) => {
 	}
 });
 
+// Logout user by updating user token array
+
+router.post('/api/user/logout', apikey, auth, async (req, res) => {
+	const user = await req.user;
+	try {
+		const token = req.token;
+		if (!user) {
+			return res.status(404).send({ message: 'Please authenticate...' });
+		}
+		user.tokens = user.tokens.filter(
+			(storedToken) => storedToken.token !== token
+		);
+		await user.save();
+		res.status(200).send({ message: 'Logout successful...' });
+	} catch (error) {
+		res.status(400).send({ message: error.message });
+	}
+});
+
 // Load an existing user
 
-router.get('/api/user/auth', auth, async (req, res) => {
+router.get('/api/user/auth', apikey, auth, async (req, res) => {
 	const user = await req.user;
 	try {
 		if (user) {

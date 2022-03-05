@@ -159,12 +159,14 @@ router.delete('/api/collection/:id', apikey, auth, async (req, res) => {
 		if (collection.user.id.toString() !== user._id.toString()) {
 			return res.status(401).send({ message: 'Unauthorized...' });
 		}
+		collection.delete();
 		const userCollectionIndex = user.collections.findIndex(
 			(collection) => collection.collection_id.toString() === _id
 		);
-		collection.delete();
-		user.collections.splice(userCollectionIndex, 1);
-		await user.save();
+		if (userCollectionIndex !== -1) {
+			user.collections.splice(userCollectionIndex, 1);
+			await user.save();
+		}
 		res.status(200).send(user.collections);
 	} catch (error) {
 		res.status(400).send({ message: error.message });

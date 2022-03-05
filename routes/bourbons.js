@@ -58,6 +58,9 @@ router.get('/api/bourbons', apikey, async (req, res) => {
 			case 'price':
 				sort = { price_value: sortDirection };
 				break;
+			case 'title':
+				sort = { title: sortDirection };
+				break;
 			case 'score':
 				sort = { 'review.score': sortDirection };
 				break;
