@@ -3,7 +3,6 @@ const router = express.Router();
 import auth from '../middleware/auth.js';
 import apikey from '../middleware/apikey.js';
 import User from '../models/User.js';
-import Bourbon from '../models/Bourbon.js';
 
 // Create a new User
 
@@ -20,7 +19,7 @@ router.post('/api/user', apikey, async (req, res) => {
 				errors.push(message);
 			}
 		}
-		res.status(400).send(errors);
+		res.status(400).send({ errors: errors });
 	}
 });
 
