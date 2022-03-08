@@ -108,6 +108,23 @@ router.get('/api/reviews/:bourbonId', apikey, async (req, res) => {
 	}
 });
 
+// Get all Reviews associated with the UserID they belong to
+
+router.get('/api/reviews/user/:userId', apikey, async (req, res) => {
+	const userId = req.params.userId;
+	try {
+		const reviews = await Review.find({ 'user.id': userId }).sort({
+			createdAt: -1,
+		});
+		if (!reviews.length) {
+			return res.status(404).send({ message: 'No reviews' });
+		}
+		res.status(200).send(reviews);
+	} catch (error) {
+		res.status(400).send({ message: error.message });
+	}
+});
+
 // Delete an existing Review
 
 router.delete('/api/review/:id', apikey, auth, async (req, res) => {

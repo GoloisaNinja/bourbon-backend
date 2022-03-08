@@ -16,7 +16,7 @@ const apikey = async (req, res, next) => {
 		next();
 	} catch (error) {
 		res.status(401).send({
-			error: 'You need to request a valid API Key to use this service...',
+			message: 'You need to request a valid API Key to use this service...',
 		});
 	}
 };
