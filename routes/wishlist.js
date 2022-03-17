@@ -1,7 +1,7 @@
 import express from 'express';
 const router = express.Router();
 
-import Bourbon from '../models/Bourbon.js';
+import { Bourbon } from '../models/Bourbon.js';
 import User from '../models/User.js';
 import Wishlist from '../models/Wishlist.js';
 import auth from '../middleware/auth.js';

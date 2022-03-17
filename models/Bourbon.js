@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 const { Schema, model } = mongoose;
 
-const BourbonSchema = new Schema({
+export const BourbonSchema = new Schema({
 	title: {
 		type: String,
 		required: true,
@@ -56,6 +56,4 @@ const BourbonSchema = new Schema({
 		},
 	},
 });
-const Bourbon = model('Bourbon', BourbonSchema);
-
-export default Bourbon;
+export const Bourbon = model('Bourbon', BourbonSchema);

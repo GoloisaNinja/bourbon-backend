@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import Bourbon from '../models/Bourbon.js';
+import { Bourbon } from '../models/Bourbon.js';
 import apikey from '../middleware/apikey.js';
 
 // Get all bourbons from DB

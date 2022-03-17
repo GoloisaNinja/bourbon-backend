@@ -70,7 +70,10 @@ router.patch('/api/review/update/:id', apikey, auth, async (req, res) => {
 		);
 		user.reviews[userReviewIndex].review_title = reviewTitle;
 		await user.save();
-		res.status(200).send(review);
+		const reviews = await Review.find({ 'user.id': user._id }).sort({
+			updatedAt: -1,
+		});
+		res.status(200).send({ review, reviews });
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}
@@ -97,7 +100,7 @@ router.get('/api/reviews/:bourbonId', apikey, async (req, res) => {
 	const bourbonId = req.params.bourbonId;
 	try {
 		const reviews = await Review.find({ bourbon_id: bourbonId }).sort({
-			createdAt: -1,
+			updatedAt: -1,
 		});
 		if (!reviews.length) {
 			return res.status(404).send({ message: 'No reviews' });
@@ -114,7 +117,7 @@ router.get('/api/reviews/user/:userId', apikey, async (req, res) => {
 	const userId = req.params.userId;
 	try {
 		const reviews = await Review.find({ 'user.id': userId }).sort({
-			createdAt: -1,
+			updatedAt: -1,
 		});
 		if (!reviews.length) {
 			return res.status(404).send({ message: 'No reviews' });

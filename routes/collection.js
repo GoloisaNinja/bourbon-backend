@@ -1,7 +1,7 @@
 import express from 'express';
 const router = express.Router();
 
-import Bourbon from '../models/Bourbon.js';
+import { Bourbon } from '../models/Bourbon.js';
 import User from '../models/User.js';
 import Collection from '../models/Collection.js';
 import auth from '../middleware/auth.js';
@@ -36,12 +36,12 @@ router.post('/api/collection', apikey, auth, async (req, res) => {
 	}
 });
 
-// Update an existing Collection's private flag
+// Update/edit an existing Collection private flag and title
 
 router.patch('/api/collection/update/:id', apikey, auth, async (req, res) => {
 	const user = await req.user;
 	const _id = req.params.id;
-	const isPrivate = req.body.private;
+	const { collectionName, isPrivate } = req.body;
 	if (!user) {
 		return res.status(404).send({ message: 'User not found...' });
 	}
@@ -53,11 +53,7 @@ router.patch('/api/collection/update/:id', apikey, auth, async (req, res) => {
 		if (collection.user.id.toString() !== user._id.toString()) {
 			return res.status(401).send({ message: 'Unauthorized...' });
 		}
-		if (collection.private === isPrivate) {
-			return res
-				.status(200)
-				.send({ message: 'Collection private state already matches request' });
-		}
+		collection.name = collectionName;
 		collection.private = isPrivate;
 		await collection.save();
 		res.status(200).send(collection);
@@ -74,9 +70,12 @@ router.post('/api/collection/add/:id', apikey, auth, async (req, res) => {
 		return res.status(404).send({ message: 'User not found...' });
 	}
 	const _id = req.params.id;
-	const { bourbonId, bourbonTitle } = req.body;
-	const bourbonObject = { title: bourbonTitle, bourbon_id: bourbonId };
+	const bourbonId = req.body.bourbonId;
 	try {
+		const bourbon = await Bourbon.findById(bourbonId);
+		if (!bourbon) {
+			return res.status(404).send({ message: 'Bourbon not found...' });
+		}
 		const collection = await Collection.findOne({ _id });
 		if (!collection) {
 			return res.status(404).send({ message: 'Collection not found...' });
@@ -84,7 +83,7 @@ router.post('/api/collection/add/:id', apikey, auth, async (req, res) => {
 		if (collection.user.id.toString() !== user._id.toString()) {
 			return res.status(401).send({ message: 'Unauthorized...' });
 		}
-		collection.bourbons.unshift(bourbonObject);
+		collection.bourbons.unshift(bourbon);
 		await collection.save();
 		res.status(200).send(collection);
 	} catch (error) {
@@ -141,6 +140,23 @@ router.get('/api/collection/:id', apikey, auth, async (req, res) => {
 		} else {
 			res.status(200).send(collection);
 		}
+	} catch (error) {
+		res.status(400).send({ message: error.message });
+	}
+});
+
+// Get all (public & private) user Collections by UserId
+
+router.get('/api/collections', apikey, auth, async (req, res) => {
+	const user = await req.user;
+	try {
+		const collections = await Collection.find({ 'user.id': user._id }).sort({
+			updatedAt: -1,
+		});
+		if (!collections) {
+			return res.status(404).send({ message: 'No Collections...' });
+		}
+		res.status(200).send(collections);
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}

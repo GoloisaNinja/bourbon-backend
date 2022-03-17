@@ -1,46 +1,54 @@
 import mongoose from 'mongoose';
+import { BourbonSchema } from './Bourbon.js';
 
 const { Schema, model } = mongoose;
 
-const CollectionSchema = new Schema({
-	user: {
-		id: {
-			type: mongoose.Schema.Types.ObjectId,
-			ref: 'User',
-			required: true,
-		},
-		username: {
-			type: String,
-			required: true,
-		},
-	},
-	name: {
-		type: String,
-		required: true,
-	},
-	private: {
-		type: Boolean,
-		required: true,
-		default: true,
-	},
-	bourbons: [
-		{
-			title: {
+const CollectionSchema = new Schema(
+	{
+		user: {
+			id: {
+				type: mongoose.Schema.Types.ObjectId,
+				ref: 'User',
+				required: true,
+			},
+			username: {
 				type: String,
 				required: true,
 			},
-			bourbon_id: {
-				type: mongoose.Schema.Types.ObjectId,
-				ref: 'Bourbon',
-			},
-			addedToCollection: {
-				type: Date,
-				required: true,
-				default: Date.now(),
-			},
 		},
-	],
-});
+		name: {
+			type: String,
+			required: true,
+		},
+		private: {
+			type: Boolean,
+			required: true,
+			default: true,
+		},
+		bourbons: {
+			type: [BourbonSchema],
+		},
+
+		// {
+		// 	title: {
+		// 		type: String,
+		// 		required: true,
+		// 	},
+		// 	bourbon_id: {
+		// 		type: mongoose.Schema.Types.ObjectId,
+		// 		ref: 'Bourbon',
+		// 	},
+		// 	addedToCollection: {
+		// 		type: Date,
+		// 		required: true,
+		// 		default: Date.now(),
+		// 	},
+		// },
+		//],
+	},
+
+	{ timestamps: true }
+);
 
 const Collection = model('Collection', CollectionSchema);
 export default Collection;
