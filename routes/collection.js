@@ -56,7 +56,10 @@ router.patch('/api/collection/update/:id', apikey, auth, async (req, res) => {
 		collection.name = collectionName;
 		collection.private = isPrivate;
 		await collection.save();
-		res.status(200).send(collection);
+		const collections = await Collection.find({ 'user.id': user._id }).sort({
+			updatedAt: -1,
+		});
+		res.status(200).send({ collection, collections });
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}

@@ -28,23 +28,6 @@ const CollectionSchema = new Schema(
 		bourbons: {
 			type: [BourbonSchema],
 		},
-
-		// {
-		// 	title: {
-		// 		type: String,
-		// 		required: true,
-		// 	},
-		// 	bourbon_id: {
-		// 		type: mongoose.Schema.Types.ObjectId,
-		// 		ref: 'Bourbon',
-		// 	},
-		// 	addedToCollection: {
-		// 		type: Date,
-		// 		required: true,
-		// 		default: Date.now(),
-		// 	},
-		// },
-		//],
 	},
 
 	{ timestamps: true }
