@@ -15,13 +15,13 @@ router.post('/api/collection', apikey, auth, async (req, res) => {
 		return res.status(404).send({ message: 'User not found...' });
 	}
 	try {
-		const name = req.body.name;
+		const { name, isPrivate } = req.body;
 		const collectionObject = {
 			user: { id: user._id, username: user.username },
 			name,
 		};
 		const collection = await new Collection(collectionObject);
-		if (req.body.private === false) {
+		if (isPrivate === false) {
 			collection.private = false;
 		}
 		await collection.save();
@@ -41,7 +41,7 @@ router.post('/api/collection', apikey, auth, async (req, res) => {
 router.patch('/api/collection/update/:id', apikey, auth, async (req, res) => {
 	const user = await req.user;
 	const _id = req.params.id;
-	const { collectionName, isPrivate } = req.body;
+	const { name, isPrivate } = req.body;
 	if (!user) {
 		return res.status(404).send({ message: 'User not found...' });
 	}
@@ -53,7 +53,7 @@ router.patch('/api/collection/update/:id', apikey, auth, async (req, res) => {
 		if (collection.user.id.toString() !== user._id.toString()) {
 			return res.status(401).send({ message: 'Unauthorized...' });
 		}
-		collection.name = collectionName;
+		collection.name = name;
 		collection.private = isPrivate;
 		await collection.save();
 		const collections = await Collection.find({ 'user.id': user._id }).sort({
@@ -96,34 +96,40 @@ router.post('/api/collection/add/:id', apikey, auth, async (req, res) => {
 
 // Delete a bourbon from an existing collection
 
-router.delete('/api/collection/delete/:id', apikey, auth, async (req, res) => {
-	const user = await req.user;
-	if (!user) {
-		return res.status(404).send({ message: 'User not found...' });
+router.delete(
+	'/api/collection/delete/:collectionId/:bourbonId',
+	apikey,
+	auth,
+	async (req, res) => {
+		const user = await req.user;
+		if (!user) {
+			return res.status(404).send({ message: 'User not found...' });
+		}
+		const { collectionId, bourbonId } = req.params;
+		try {
+			const collection = await Collection.findOne({ collectionId });
+			if (!collection) {
+				return res.status(404).send({ message: 'Collection not found...' });
+			}
+			if (collection.user.id.toString() !== user._id.toString()) {
+				return res.status(401).send({ message: 'Unauthorized...' });
+			}
+			const bourbonIndex = collection.bourbons.findIndex(
+				(bourbon) => bourbon._id.toString() === bourbonId
+			);
+			if (bourbonIndex === -1) {
+				return res
+					.status(404)
+					.send({ message: 'Bourbon not in collection...' });
+			}
+			collection.bourbons.splice(bourbonIndex, 1);
+			await collection.save();
+			res.status(200).send(collection);
+		} catch (error) {
+			res.status(400).send({ message: error.message });
+		}
 	}
-	const _id = req.params.id;
-	const { bourbonId } = req.body;
-	try {
-		const collection = await Collection.findOne({ _id });
-		if (!collection) {
-			return res.status(404).send({ message: 'Collection not found...' });
-		}
-		if (collection.user.id.toString() !== user._id.toString()) {
-			return res.status(401).send({ message: 'Unauthorized...' });
-		}
-		const bourbonIndex = collection.bourbons.findIndex(
-			(bourbon) => bourbon.bourbon_id.toString() === bourbonId
-		);
-		if (bourbonIndex === -1) {
-			return res.status(404).send({ message: 'Bourbon not in collection...' });
-		}
-		collection.bourbons.splice(bourbonIndex, 1);
-		await collection.save();
-		res.status(200).send(collection);
-	} catch (error) {
-		res.status(400).send({ message: error.message });
-	}
-});
+);
 
 // Get a user Collection by ID
 
