@@ -30,7 +30,7 @@ router.post('/api/collection', apikey, auth, async (req, res) => {
 			collection_name: name,
 		});
 		await user.save();
-		res.status(201).send(collection);
+		res.status(201).send({ collection, user_collections: user.collections });
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}
@@ -59,7 +59,15 @@ router.patch('/api/collection/update/:id', apikey, auth, async (req, res) => {
 		const collections = await Collection.find({ 'user.id': user._id }).sort({
 			updatedAt: -1,
 		});
-		res.status(200).send({ collection, collections });
+		const userCollectionIndex = user.collections.findIndex(
+			(usercollection) =>
+				usercollection.collection_id.toString() === collection._id.toString()
+		);
+		user.collections[userCollectionIndex].collection_name = name;
+		await user.save();
+		res
+			.status(200)
+			.send({ collection, collections, user_collections: user.collections });
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}
@@ -73,7 +81,7 @@ router.post('/api/collection/add/:id', apikey, auth, async (req, res) => {
 		return res.status(404).send({ message: 'User not found...' });
 	}
 	const _id = req.params.id;
-	const bourbonId = req.body.bourbonId;
+	const { bourbonId } = req.body;
 	try {
 		const bourbon = await Bourbon.findById(bourbonId);
 		if (!bourbon) {
@@ -86,9 +94,17 @@ router.post('/api/collection/add/:id', apikey, auth, async (req, res) => {
 		if (collection.user.id.toString() !== user._id.toString()) {
 			return res.status(401).send({ message: 'Unauthorized...' });
 		}
+		const userCollectionIndex = user.collections.findIndex(
+			(usercollection) =>
+				usercollection.collection_id.toString() === collection._id.toString()
+		);
+		user.collections[userCollectionIndex].bourbons.unshift({
+			bourbon_id: bourbon._id,
+		});
+		await user.save();
 		collection.bourbons.unshift(bourbon);
 		await collection.save();
-		res.status(200).send(collection);
+		res.status(200).send({ collection, user_collections: user.collections });
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}
@@ -124,7 +140,18 @@ router.delete(
 			}
 			collection.bourbons.splice(bourbonIndex, 1);
 			await collection.save();
-			res.status(200).send(collection);
+			const userCollectionIndex = user.collections.findIndex(
+				(usercollection) =>
+					usercollection.collection_id.toString() === collection._id.toString()
+			);
+			const ucBourbonIndex = user.collections[
+				userCollectionIndex
+			].bourbons.findIndex(
+				(ucbourbon) => ucbourbon.bourbon_id.toString() === bourbonId
+			);
+			user.collections[userCollectionIndex].bourbons.splice(ucBourbonIndex, 1);
+			await user.save();
+			res.status(200).send({ collection, user_collections: user.collections });
 		} catch (error) {
 			res.status(400).send({ message: error.message });
 		}

@@ -52,6 +52,14 @@ const UserSchema = mongoose.Schema(
 					type: String,
 					required: true,
 				},
+				bourbons: [
+					{
+						bourbon_id: {
+							type: mongoose.Schema.Types.ObjectId,
+							ref: 'Bourbon',
+						},
+					},
+				],
 			},
 		],
 		reviews: [
