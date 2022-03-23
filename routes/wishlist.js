@@ -15,13 +15,13 @@ router.post('/api/wishlist', apikey, auth, async (req, res) => {
 		return res.status(404).send({ message: 'User not found...' });
 	}
 	try {
-		const name = req.body.name;
+		const { name, isPrivate } = req.body;
 		const wishlistObject = {
 			user: { id: user._id, username: user.username },
 			name,
 		};
 		const wishlist = await new Wishlist(wishlistObject);
-		if (req.body.private === false) {
+		if (isPrivate === false) {
 			wishlist.private = false;
 		}
 		await wishlist.save();
@@ -30,18 +30,18 @@ router.post('/api/wishlist', apikey, auth, async (req, res) => {
 			wishlist_name: name,
 		});
 		await user.save();
-		res.status(201).send(wishlist);
+		res.status(201).send({ wishlist, user_wishlists: user.wishlists });
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}
 });
 
-// Update an existing Wishlist's private flag
+// Update/edit an existing Wishlist private flag and title
 
 router.patch('/api/wishlist/update/:id', apikey, auth, async (req, res) => {
 	const user = await req.user;
 	const _id = req.params.id;
-	const isPrivate = req.body.private;
+	const { name, isPrivate } = req.body;
 	if (!user) {
 		return res.status(404).send({ message: 'User not found...' });
 	}
@@ -53,20 +53,27 @@ router.patch('/api/wishlist/update/:id', apikey, auth, async (req, res) => {
 		if (wishlist.user.id.toString() !== user._id.toString()) {
 			return res.status(401).send({ message: 'Unauthorized...' });
 		}
-		if (wishlist.private === isPrivate) {
-			return res
-				.status(200)
-				.send({ message: 'Wishlist private state already matches request' });
-		}
+		wishlist.name = name;
 		wishlist.private = isPrivate;
 		await wishlist.save();
-		res.status(200).send(wishlist);
+		const wishlists = await Wishlist.find({ 'user.id': user._id }).sort({
+			updatedAt: -1,
+		});
+		const userWishlistIndex = user.wishlists.findIndex(
+			(userwishlist) =>
+				userwishlist.wishlist_id.toString() === wishlist._id.toString()
+		);
+		user.wishlists[userWishlistIndex].wishlist_name = name;
+		await user.save();
+		res
+			.status(200)
+			.send({ wishlist, wishlists, user_wishlists: user.wishlists });
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}
 });
 
-// Add a bourbon to an existing Wishlist
+// Add a bourbon to an existing wishlist
 
 router.post('/api/wishlist/add/:id', apikey, auth, async (req, res) => {
 	const user = await req.user;
@@ -74,34 +81,12 @@ router.post('/api/wishlist/add/:id', apikey, auth, async (req, res) => {
 		return res.status(404).send({ message: 'User not found...' });
 	}
 	const _id = req.params.id;
-	const { bourbonId, bourbonTitle } = req.body;
-	const bourbonObject = { title: bourbonTitle, bourbon_id: bourbonId };
-	try {
-		const wishlist = await Wishlist.findOne({ _id });
-		if (!wishlist) {
-			return res.status(404).send({ message: 'Wishlist not found...' });
-		}
-		if (wishlist.user.id.toString() !== user._id.toString()) {
-			return res.status(401).send({ message: 'Unauthorized...' });
-		}
-		wishlist.bourbons.unshift(bourbonObject);
-		await wishlist.save();
-		res.status(200).send(wishlist);
-	} catch (error) {
-		res.status(400).send({ message: error.message });
-	}
-});
-
-// Delete a bourbon from an existing Wishlist
-
-router.delete('/api/wishlist/delete/:id', apikey, auth, async (req, res) => {
-	const user = await req.user;
-	if (!user) {
-		return res.status(404).send({ message: 'User not found...' });
-	}
-	const _id = req.params.id;
 	const { bourbonId } = req.body;
 	try {
+		const bourbon = await Bourbon.findById(bourbonId);
+		if (!bourbon) {
+			return res.status(404).send({ message: 'Bourbon not found...' });
+		}
 		const wishlist = await Wishlist.findOne({ _id });
 		if (!wishlist) {
 			return res.status(404).send({ message: 'Wishlist not found...' });
@@ -109,19 +94,67 @@ router.delete('/api/wishlist/delete/:id', apikey, auth, async (req, res) => {
 		if (wishlist.user.id.toString() !== user._id.toString()) {
 			return res.status(401).send({ message: 'Unauthorized...' });
 		}
-		const bourbonIndex = wishlist.bourbons.findIndex(
-			(bourbon) => bourbon.bourbon_id.toString() === bourbonId
+		const userWishlistIndex = user.wishlists.findIndex(
+			(userwishlist) =>
+				userwishlist.wishlist_id.toString() === wishlist._id.toString()
 		);
-		if (bourbonIndex === -1) {
-			return res.status(404).send({ message: 'Bourbon not in wishlist...' });
-		}
-		wishlist.bourbons.splice(bourbonIndex, 1);
+		user.wishlists[userWishlistIndex].bourbons.unshift({
+			bourbon_id: bourbon._id,
+		});
+		await user.save();
+		wishlist.bourbons.unshift(bourbon);
 		await wishlist.save();
-		res.status(200).send(wishlist);
+		res.status(200).send({ wishlist, user_wishlists: user.wishlists });
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}
 });
+
+// Delete a bourbon from an existing wishlist
+
+router.delete(
+	'/api/wishlist/delete/:wishlistId/:bourbonId',
+	apikey,
+	auth,
+	async (req, res) => {
+		const user = await req.user;
+		if (!user) {
+			return res.status(404).send({ message: 'User not found...' });
+		}
+		const { wishlistId, bourbonId } = req.params;
+		try {
+			const wishlist = await Wishlist.findOne({ _id: wishlistId });
+			if (!wishlist) {
+				return res.status(404).send({ message: 'Wishlist not found...' });
+			}
+			if (wishlist.user.id.toString() !== user._id.toString()) {
+				return res.status(401).send({ message: 'Unauthorized...' });
+			}
+			const bourbonIndex = wishlist.bourbons.findIndex(
+				(bourbon) => bourbon._id.toString() === bourbonId
+			);
+			if (bourbonIndex === -1) {
+				return res.status(404).send({ message: 'Bourbon not in wishlist...' });
+			}
+			wishlist.bourbons.splice(bourbonIndex, 1);
+			await wishlist.save();
+			const userWishlistIndex = user.wishlists.findIndex(
+				(userwishlist) =>
+					userwishlist.wishlist_id.toString() === wishlist._id.toString()
+			);
+			const uwBourbonIndex = user.wishlists[
+				userWishlistIndex
+			].bourbons.findIndex(
+				(uwbourbon) => uwbourbon.bourbon_id.toString() === bourbonId
+			);
+			user.wishlists[userWishlistIndex].bourbons.splice(uwBourbonIndex, 1);
+			await user.save();
+			res.status(200).send({ wishlist, user_wishlists: user.wishlists });
+		} catch (error) {
+			res.status(400).send({ message: error.message });
+		}
+	}
+);
 
 // Get a user Wishlist by ID
 
@@ -141,6 +174,23 @@ router.get('/api/wishlist/:id', apikey, auth, async (req, res) => {
 		} else {
 			res.status(200).send(wishlist);
 		}
+	} catch (error) {
+		res.status(400).send({ message: error.message });
+	}
+});
+
+// Get all (public & private) user Wishlists by UserId
+
+router.get('/api/wishlists', apikey, auth, async (req, res) => {
+	const user = await req.user;
+	try {
+		const wishlists = await Wishlist.find({ 'user.id': user._id }).sort({
+			updatedAt: -1,
+		});
+		if (!wishlists) {
+			return res.status(404).send({ message: 'No Wishlists...' });
+		}
+		res.status(200).send(wishlists);
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}

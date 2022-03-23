@@ -123,7 +123,7 @@ router.delete(
 		}
 		const { collectionId, bourbonId } = req.params;
 		try {
-			const collection = await Collection.findOne({ collectionId });
+			const collection = await Collection.findOne({ _id: collectionId });
 			if (!collection) {
 				return res.status(404).send({ message: 'Collection not found...' });
 			}

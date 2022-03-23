@@ -82,10 +82,18 @@ const UserSchema = mongoose.Schema(
 					ref: 'Watchlist',
 					required: true,
 				},
-				watchlist_name: {
+				wishlist_name: {
 					type: String,
 					required: true,
 				},
+				bourbons: [
+					{
+						bourbon_id: {
+							type: mongoose.Schema.Types.ObjectId,
+							ref: 'Bourbon',
+						},
+					},
+				],
 			},
 		],
 		tokens: [

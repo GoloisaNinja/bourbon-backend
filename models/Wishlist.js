@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import { BourbonSchema } from './Bourbon.js';
 
 const { Schema, model } = mongoose;
 
@@ -24,23 +25,9 @@ const WishlistSchema = new Schema(
 			required: true,
 			default: true,
 		},
-		bourbons: [
-			{
-				title: {
-					type: String,
-					required: true,
-				},
-				bourbon_id: {
-					type: mongoose.Schema.Types.ObjectId,
-					ref: 'Bourbon',
-				},
-				addedToWishlist: {
-					type: Date,
-					required: true,
-					default: Date.now(),
-				},
-			},
-		],
+		bourbons: {
+			type: [BourbonSchema],
+		},
 	},
 	{ timestamps: true }
 );
