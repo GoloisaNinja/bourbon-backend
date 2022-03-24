@@ -172,15 +172,13 @@ router.get('/api/collection/:id', apikey, auth, async (req, res) => {
 			if (collection.user.id.toString() !== user._id.toString()) {
 				return res.status(401).send({ message: 'Unauthorized...' });
 			}
-			res
-				.status(200)
-				.send({
-					collection,
-					meta: {
-						title: `hello bourbon | ${collection.name}`,
-						description: `${collection.name} user collection page`,
-					},
-				});
+			res.status(200).send({
+				collection,
+				meta: {
+					title: `hello bourbon | ${collection.name}`,
+					description: `${collection.name} user collection page`,
+				},
+			});
 		} else {
 			res.status(200).send(collection);
 		}
@@ -197,7 +195,7 @@ router.get('/api/collections', apikey, auth, async (req, res) => {
 		const collections = await Collection.find({ 'user.id': user._id }).sort({
 			updatedAt: -1,
 		});
-		if (!collections) {
+		if (!collections.length) {
 			return res.status(404).send({ message: 'No Collections...' });
 		}
 		res.status(200).send(collections);

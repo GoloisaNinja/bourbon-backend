@@ -170,15 +170,13 @@ router.get('/api/wishlist/:id', apikey, auth, async (req, res) => {
 			if (wishlist.user.id.toString() !== user._id.toString()) {
 				return res.status(401).send({ message: 'Unauthorized...' });
 			}
-			res
-				.status(200)
-				.send({
-					wishlist,
-					meta: {
-						title: `hello bourbon | ${wishlist.name}`,
-						description: `${wishlist.name} user Wishlist Page`,
-					},
-				});
+			res.status(200).send({
+				wishlist,
+				meta: {
+					title: `hello bourbon | ${wishlist.name}`,
+					description: `${wishlist.name} user Wishlist Page`,
+				},
+			});
 		} else {
 			res.status(200).send(wishlist);
 		}
@@ -195,7 +193,7 @@ router.get('/api/wishlists', apikey, auth, async (req, res) => {
 		const wishlists = await Wishlist.find({ 'user.id': user._id }).sort({
 			updatedAt: -1,
 		});
-		if (!wishlists) {
+		if (!wishlists.length) {
 			return res.status(404).send({ message: 'No Wishlists...' });
 		}
 		res.status(200).send(wishlists);
