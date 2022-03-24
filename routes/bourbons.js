@@ -91,7 +91,15 @@ router.get('/api/bourbons', apikey, async (req, res) => {
 		if (!bourbons.length) {
 			return res.status(404).send({ message: 'No bourbons found...' });
 		}
-		res.status(200).send({ bourbons: bourbons, total_records: totalRecords });
+		res.status(200).send({
+			bourbons: bourbons,
+			total_records: totalRecords,
+			meta: {
+				title: 'hello bourbon | bourbons page',
+				description:
+					'The hello bourbon bourbons page will help you find your next obsession.',
+			},
+		});
 	} catch (error) {
 		res.status(500).send(error.message);
 	}
@@ -134,7 +142,14 @@ router.get('/api/bourbons/:id', apikey, async (req, res) => {
 		if (!bourbon) {
 			res.status(404).send({ message: 'Bourbon not found...' });
 		}
-		res.status(200).send(bourbon);
+		res.status(200).send({
+			bourbon,
+			meta: {
+				title: `hello bourbon | ${bourbon.title}`,
+				description: `The details page for bourbon ${bourbon.title}`,
+				image: bourbon.image,
+			},
+		});
 	} catch (error) {
 		res.status(400).send({ message: error.message });
 	}

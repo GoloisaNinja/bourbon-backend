@@ -170,7 +170,15 @@ router.get('/api/wishlist/:id', apikey, auth, async (req, res) => {
 			if (wishlist.user.id.toString() !== user._id.toString()) {
 				return res.status(401).send({ message: 'Unauthorized...' });
 			}
-			res.status(200).send(wishlist);
+			res
+				.status(200)
+				.send({
+					wishlist,
+					meta: {
+						title: `hello bourbon | ${wishlist.name}`,
+						description: `${wishlist.name} user Wishlist Page`,
+					},
+				});
 		} else {
 			res.status(200).send(wishlist);
 		}

@@ -172,7 +172,15 @@ router.get('/api/collection/:id', apikey, auth, async (req, res) => {
 			if (collection.user.id.toString() !== user._id.toString()) {
 				return res.status(401).send({ message: 'Unauthorized...' });
 			}
-			res.status(200).send(collection);
+			res
+				.status(200)
+				.send({
+					collection,
+					meta: {
+						title: `hello bourbon | ${collection.name}`,
+						description: `${collection.name} user collection page`,
+					},
+				});
 		} else {
 			res.status(200).send(collection);
 		}
